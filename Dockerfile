@@ -14,7 +14,7 @@ RUN apt-get update && \
 USER alexandria
 WORKDIR /home/alexandria
 
-COPY --chown=alexandria:xpvx . .
+COPY --chown=alexandria:alexandria . .
 
 RUN python -m pip install --upgrade pip --no-cache-dir && \
     pip install --no-cache-dir -r requirements.txt
