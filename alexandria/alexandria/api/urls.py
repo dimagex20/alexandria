@@ -8,6 +8,7 @@ router = routers.DefaultRouter()
 
 urlpatterns = [
     path('', include(router.urls)),
+    re_path(r'^file/$', views.FileUploadViewSet.as_view()),
     re_path(r'^test/$', views.TestViewSet.as_view()),
     re_path(r'^test/(?P<name>[0-9a-zA-Z_-]+)', views.TestViewSet.as_view())
 ]

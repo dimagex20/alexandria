@@ -14,3 +14,14 @@ class TestViewSet(APIView):
 
     def get(self, request, name=None):
         return Response({"name": name, "GET":request.GET})
+
+class FileUploadViewSet(APIView):
+    """docstring for FileUploadViewSet."""
+
+    def __init__(self):
+        # todo
+        pass
+
+    def post(self, request):
+        # todo
+        return Response({"todo": "todo"})
