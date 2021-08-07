@@ -11,3 +11,7 @@ cd alexandria
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+
+docker build .
+docker-compose build
+docker-compose up
