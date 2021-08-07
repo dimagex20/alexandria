@@ -1,6 +1,7 @@
 # alexandria
 
-added something
+Usage - api endpoints:
+  - api/test
 
 Run these commands to install.
 
