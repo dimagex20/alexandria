@@ -1,0 +1,100 @@
+
+
+00:00:07
+Hello? Hi. I got a... All right. Just a minute. Okay. I'm trying to take... I don't know. Mm-hmm.
+00:01:18
+Hi, Garen. Hi, I'm here. So one of the team members. Okay. Meanwhile, does the reports of running causing any errors? I'm sorry. So what the team member is mentioning is they ran 862 during.
+00:01:51
+Yep. And after that, it is failing? Or how many of them were failing for you? Well, I don't really know. I don't know the exact count. I would have to go into the servers and look into the logs and generate some statistics about what percentage we're failing. So here's my issue. Do you guys have a technical limit? Why is there even rate limiting to begin with?
+00:02:26
+Because of the limit, because of the number of pulls happening, causing the system to break down. That's the reason. System-wide? You mean company-wide for all of Verizon or whoever dependents are on your system? It's a company-wide. Sure. Okay, so let me ask another question here. So you have Verizon and you have XLPT's services. There are an N number of...
+00:02:57
+Of pulls happening every day. And of those N number of polls, your division decided that you needed to start implementing a rate-limiting service to try to manage the load on the servers, which they are failing because they can't meet the demand. So I understand that when you have a server and you have an N number of demand on it, people will consume as much as they want.
+00:03:31
+I understand that. The demand side is infinite. The supply side is finite. So you guys are trying to manage the bandwidth or throttle of the output on the supply side so that you can increase your uptime and reduce problems and load failures, correct? Yeah. Meanwhile, we are trying to increase to you guys. we can know that who are using we can limit it to you guys to thousand like that so if if the limit.
+00:04:09
+is still reaching more than thousand then uh i think i need to talk to syed about that and uh get that uh fixed actually but harika meanwhile harika and fan you are here right so looks like uh what if it was a thousand uh you are saying that it can only be an issue right yeah currently it won't be any issue until the rest of yeah yeah could you please provide us the report.
+00:04:50
+um yeah here let me so um i guess let me uh, Hold on one second. I'm not the best at Slack. So I just posted it. So I just pulled you into a thread. Can you, this is what I saw for three different curl calls. Like I guess my question is can you guys on your screen see the reports that I do have? Do you guys have a history of all the reports that are under my account?
+00:06:00
+Yeah, I can, yeah. Sorry? I don't have any idea about that. Yeah, we have no idea. I mean, I recently joined Verizon.
+00:06:35
+So that's, you know, I'm not, you know, so long story short, VPT is a venue performance tool, and we use this data to keep track of hardware uptime at NFL stadiums and NBA stadiums, okay? Our product was, this product has been around for like five to ten years, probably closer to ten years. And it's built on PHP and the tech stack is just completely old and outdated and it's.
+00:07:06
+diminishing returns. So it was already decided that my product is going away by March of next year. And they let go everyone that was building the product for the last five years except me because I'm a contractor. So I inherited this product four months ago and it's my job to maintain all of this until March of next year. The reason why I'm saying that is because I will need help in terms of querying all.
+00:07:40
+of the old reports that are so far a record of this because I've been told that these reports don't exist. Now I will admit that I can make a mistake and not know about these reports but we've been using this service for over a decade. Over two years successfully and then all of a sudden I wake up. And I'm told that there's a rate-limiting change, and now my entire system doesn't have 5G data. And then I'm told that the reports that I'm using don't exist, but it's like, well, we've been running the reports just fine for two years overnight without any problems across very big, you know, over the Super Bowl.
+00:08:18
+So something's not there. I see one bpt underscore samson underscore. I can provide you what all they are under your username. Can you please provide your username, the reports we can provide you? I can, and you guys please take care of their health and see if there are reports that are not there, like why it was not there, and try to help resolve that issue. We don't know if the report has been deleted by some other person that we will not get to know.
+00:08:53
+Oh, okay. Currently, we will show whatever reports that are there. So who deleted my reports?
+00:09:38
+Okay, so can you, okay, you said in the Slack that there were 860 reports that were successful. No, no, no, I understand the reset, but you, so you just mentioned that the report limit will reset after one hour, you said currently the user S-I-V-V-P-M-O, so you said that it ran 862 reports in one hour, what were the URLs for those reports?
+00:10:29
+There's no record of that on the server? Okay, see, so, okay, so my problem is I'm going to need a history of the reports this account has had for the last, I don't need all the reports ran, I need to know, you know, what templates are under this account and have been under this account for the last six months, and then I need to know,
+00:11:00
+you know some of the URLs at this 862 reports ran because this is on an automated server and I'll need to look through that.
+00:11:41
+okay because here's here's how I see it I literally just woke up one day two weeks ago and there's rate limiting throttle I haven't made a single change at all.
+00:12:13
+Okay, I guess I just need to know what you guys see on your screen for this account. What do you see on your end? That's my question. No, for this account, there must be a dashboard, right? So, when you go in and change this account's rate limit, what is all the information you.
+00:12:46
+see for this account? There's obviously a setting for the rate limit, but what else do you see? Because you're also able to see how many reports are in. So, I want to know, I'm trying to understand, like, what... What does your dashboard look like for this user? It's not a dashboard. Or database? No, in the DB. I'm trying to understand why everything was working just fine, and then you guys make a change for the rate limit, and now we're not getting our data anymore.
+00:13:25
+And then I'm being told that the reports don't exist. These reports have existed for two years. These reports have existed for two years, so how did they get deleted? That we are not sure whether this report is there or not, because until I know this, this is the one where there will be the number of reports that have is the limit. This is the one.
+00:13:55
+In this table, we'll just have the record of this particular user. And what are the details that particular user gave in the user preferences. Like this is our portal right. Like this is our excel pt. When someone logins. When the user logins. But whatever he gave the details in this particular preference page. Those details will be there here. Apart from extra. These he cannot give right. I mean what are the details here.
+00:14:26
+That will be maintained in this table. And also few more columns like this limits. And these will be common for all. But this limit will be changed. Like the common limit is like for 60. 60 per hour. But based on like if some users raise exception in the health channel. We are increasing this limit. That's the only thing we modify. The rest of all are like default one.
+00:14:58
+But the reports that you are offering. Okay, well, so hi, Fan. I see that you're here. I think there was a... I don't know if I understand what you were saying the last two, three days. I don't know if you can hear me, Fan.
+00:15:30
+You were saying that the reports aren't there. Well, then, what reports are listed for this account? These are the reports that we can see, like, most... Well, I was asking Fan, because he's... Those are web services. You can open the UI. We have a quick check from the UI side. I can go to the UI. Okay, so A, that's a very... Okay, hold on. I'm sorry. This dog is barking. I don't know if you can hear that.
+00:16:06
+Okay, so you're saying these reports don't exist. Well, what reports do exist? Okay, one more. We are checking for you. Okay, this is what I need to see. Yeah, this is Samsung. So 5G Samsung. No, no, 5G Samsung. Okay. Oh, 5G Samsung you are checking for? Right. This is a web service that shows it. 5G and I see Samsung Keyword in there. Hi, this is the one that I was looking for. I see there is Ericsson in the report now.
+00:16:44
+Yeah. One second. I'll be right back. Yeah, and there's this one and this is Ericsson. Oh. But in DB, I do not see that report at all. Oh, okay. Let's check Ericsson. Yes, I see there's something called the cell group, airport, Samsung. I think only a few are there, three, four, five, six.
+00:17:20
+There's six reports out there. I can correct this. I will take a screenshot. What? And also check other windows. Oh, we didn't have... This web service goes through all the windows. Okay, so... Yeah, that's okay. I'm just trying to understand what all...
+00:17:52
+So nothing... In my opinion, for the next week, until I understand... I think I do.
+00:18:45
+since in your report it shows the 5G PT Ericsson RLE-C, so we thought it's a 5G Ericsson vendor but in your stereo group selection, you select the stereo group, but you put. I inherited this product and everyone that built this has been fired or removed from the company. This product is being decommissioned and I'm the only contractor maintaining BPT. So I am in no position to edit or create or change a single report. So whatever is there is going to have to stay there because I didn't build these and there's a knowledge gap.
+00:19:40
+I just need to know what reports have been there for two years and I just need to make sure they stay running for the next six months. Does that make sense? There's no budget for this product anymore. So that's where the only thing I care about is leaving everything. the same. If it isn't broke, don't touch it. The only thing that I have an issue with right now, honestly, is the rate limit. And so, I see that we ran 862 reports, which was.
+00:20:16
+very close to the limit. That's an average day for us. So, I'm thinking we might need 2,000. Is that going to be an issue? We can change the limit. Okay. I think for right now, then, let me share my... So, two points. I need the rate limit to be 2,000 because we're going into the NFL season. And then I think I don't want to change any of these reports. I just need to know what reports are there for this account. Oh, one more thing. Can I double check? So, like, if there's... Are you running those.
+00:20:49
+web services report by some script or... Everything is a cron job with many... With a lot of scripts. Right. On PHP. I mean, if that's important. Well, I didn't change these scripts either. Well, yeah, I don't necessarily think they're not working per se. I think, so on my dashboard, I'm still seeing some data.
+00:21:26
+I think I need today, tomorrow, and Friday to get some more data to see how well this is running. So, I guess I need to be made aware of every report under this user account. I just need to know, so are these the only reports for that entire user in this UI? Can we confirm that in the database? Just because it's a UI doesn't mean those are all the reports, right? Because the UI is a filter. So, can we see the raw table for this user in the database?
+00:22:02
+So if it's in the database, then it's going to show it to you. Yeah. Assuming that the UI is correct. Right, it's correct. Okay. So these are for 5G vendors, and you can check, like, here, like, what all selections are there and everything. So if you want to change vendor, you can go and check, like, what all the reports are.
+00:22:33
+there under this vendor. You can go here, and you can give the user name, and you can check. These are the reports that are there under this vendor. Okay. Can you, can you log, okay, can you share your screen, and can you log in, so that it will, we can show you, like, where exactly you can check the details. Okay.
+00:23:06
+So this is what I see.
+00:23:42
+I have no interest in just ours for now because you have to understand I don't really understand this system. I'm a full stack software engineer. I'm not a radio engineer. I don't come I come from a finance background. I don't come from a radio background. So. Okay, so thank you for being helpful. This is very helpful. You guys are great. I just might need to step through this a little bit to understand.
+00:24:12
+So you're telling me that there's this report owner, and each owner has a list of reports for this vendor. Is that correct? And these are all the reports for this vendor, for this user, for this owner? Okay, and that's it? It's just these? Yes. Okay, so then if I go to... I don't want to create anything, to be honest. I just want a read-only right now,
+00:24:43
+because I don't want to make a single change to any of this stuff. I'm in no position to make any changes to this, because I don't even know how these are configured. I just need to know what user has what reports for each vendor. You can change that and you can do the same thing, you can get the report and you can check all the details within that report.
+00:25:54
+Okay, so I guess I don't want to take up too much of your time, I have two asks. rate limit again to 2000 today because this 800 reports is very normal for us. This is an average day and going into the NFL season and going into the playoffs for the MLB, I want to just get rid of this rate limit problem today and go with a big number that is acceptable for your guys' bandwidth, is that okay?
+00:26:25
+And then that's the first thing I want to have done and then the second thing is I need some more time to study this UI and the actual reports we have and then I need to go back over the cron scripts and study them more and then I need to go back over and study the logs of these reports being ran during this week so that I have more information to help you. Is that okay? Yes. Fan, can you update other limit to 2000? So I...
+00:26:56
+Okay, thank you Fan. So I have a question. Do you guys even care about... limit like if I ask for 10,000 is that okay like what yeah so I'm just kind of curious what is considered a lot for you guys just I just want to know what my ceiling is 2,000 should be fine I'm just trying to understand.
+00:27:34
+not two thousand then that's okay I just wanted to know what the general ceiling is before a request has to be made to escalate it 2,000 is fine yes. It's going to take a lot of memory or the servers to use that.
+00:28:05
+How do you know that? And your throttle for how many users you can have on this system.
+00:28:38
+I'm just asking what the number is. I don't know what the number is. I just want to know what an average request limit is, and I just want to know what a higher-end request limit is, just so I know what I have to work with. Okay. I mean, this 800 reports is an average. If we're looking at like October or November during the MLB season, we might peak at like 1,500 requests per hour, maybe one to three days a month. Does that make sense?
+00:29:19
+I already changed to 2,000 for a year. Okay. Well, thank you, guys. You guys have been very helpful. This was actually more help than I could have hoped for, and I really appreciate all of you coming in on this meeting quickly for a WebEx. I think I have some homework to do. I think I need to study how this system works a little bit better, and then I need to maybe have the system run for a week and get some more data, and then I'm going to need a follow-up with you guys probably the start of next week. So I have more information.
+00:29:53
+Yeah, you can think. You can ping me anytime, or you can put a message in the slide. channel so that you know we can we can come back to you and okay thank you you guys have been great um i think it's a little bit of a learning curve for me too um but as long as the requests have been changed to 2000 that should be more than enough and then i need to study how this works a little bit more and then um follow up with you in a couple days thank you okay okay thank you.
+00:30:25
+guys you've been great thank you yeah thank you so much bye thank you bye
