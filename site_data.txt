@@ -1,0 +1,327 @@
+Tower sale
+
+
+Speaker 1 00:00:10
+Hello.
+Speaker 2 00:00:13
+Morning.
+Speaker 3 00:00:14
+Hi, Jacob.
+Speaker 2 00:00:17
+Hi there. How are you. 
+Speaker 3 00:00:19
+Pretty good.
+Speaker 2 00:00:23
+Where do you sit, Gerald. 
+Speaker 3 00:00:26
+I'm in New York City, so I'm in Brooklyn. I was in Florida, but now I'm back in New York City where I was to begin with, so life's pretty good. A little busy, a little tough, but it's good.
+Speaker 2 00:00:38
+Good deal. I was just curious. I've never interacted with you. I have no idea what you're doing on our team. I'm sure they've found plenty for you, but Sean has, well, Sean Modgen. Rick even have directed me to do some tasks and Sean said that I am to use you to accomplish them so okay I don't know if Sean mentioned it to you who you.
+Speaker 2 00:01:14
+usually are working with who are you usually working with are you working.
+Speaker 3 00:01:18
+with the Wi-Fi guys or what no it's a good question so um and I'm happy to help I was a part of what so there's a tool for the reporting of venue performance at self for cell towers at baseball stadium baseball fields and football stadiums called menu VPT venue performance tool and yeah I know VPT okay well I'm the main guys maintaining it until it is retired next year I got.
+Speaker 2 00:01:52
+yeah all right so you're the VPT guy that's your role. That's true. It's our main responsibility to keep VPT.
+Speaker 3 00:02:00
+and running. I got it. That's true. So whenever you use it, that's me keeping it open.
+Speaker 2 00:02:06
+All right. Well, thank you for that. I do think it's important. I used to rely on it a lot more when I was in the market. And apparently we're going to be looking at it a lot more because we've just been assigned to do design reviews again like we used to. So PPT is going to become more used by our team again. That's great. All right. So yeah, just because we got to review the designs the markets are doing and see, you know, yada yada. So we're, you know, if we're.
+Speaker 2 00:02:37
+doing designs for venues, we're going to be interested in how's the venue performing today, which is a good thing. The only bad part is we don't have the time or bandwidth to do it. But hey, what's new, right? Right. That's how it goes. So let me, let me explain to you what I have going on for which Sean has told me that you will be helping. and see what you think, okay? It's kind of a big, there's a lot of things happening,
+Speaker 2 00:03:08
+but at a really high level, the situation is that we network in building, right? Only talk about in building here, right? We're not going to talk about anything outside of in building. In building, went to sales. Me personally, I went to sales a couple years ago now almost and said, hey, we have all these in-the-life RAN systems like DOTS, for example, and we are going to spend network money to upgrade them,
+Speaker 2 00:03:43
+and we wanted to afford you the opportunity to go after these, in that case, where it started, a couple hundred, a few hundred sites. Like here's 300 sites. They're going into life, not just into life, into support, meaning they will no longer work. They'll have some sort of issue and not function in a couple years. So we're going to spend capital to upgrade these. But before we do that, we would like for you to see if you can sell them, right? Sell the customer something because we put something in, say, 10 years ago.
+Speaker 2 00:04:16
+They've been enjoying the service this whole time. And now we'd like to sell them something instead of us pay for it, because that's kind of a new direction in the enterprise side. So anyway, we give them the list. They don't do squat with it, but it opens up this conversation where sales says, hey, we would like to see more stuff we can sell. So I provided them all kinds of different lists. And at the end of the day, they said, hey, don't just give me all these small lists of old stuff.
+Speaker 2 00:04:47
+Will you give me your entire portfolio. 
+Speaker 3 00:04:53
+So I think you cut out a little bit. I think you were saying portfolio there. And let me know if you can hear me. We might have a connection issue real quick.
+Speaker 3 00:05:28
+So I'm able to see your screen still, but I do now have some, I just can't hear your audio.
+Speaker 2 00:06:08
+Gerald, you there. 
+Speaker 3 00:06:09
+Oh, yes. Yeah. Sorry.
+Speaker 2 00:06:12
+I don't know what happened. I just got kicked off here.
+Speaker 3 00:06:15
+Okay.
+Speaker 2 00:06:15
+All right. Yeah, it looks like the whole office just got knocked off. Oh. Off line. Okay. I'm in Grand Rapids, Michigan, by the way. I don't know.
+Speaker 3 00:06:26
+Okay. Yeah, you had mentioned that.
+Speaker 2 00:06:27
+But at least we're both on Eastern time, right. 
+Speaker 3 00:06:32
+It makes it a lot easier.
+Speaker 2 00:06:34
+All right. So, sales wanted everything, our entire portfolio. I think that's where I was, right? So, we have in Fuse, which is my key source data, which I assume you would say the same, right? The key for everything in building, I assume macro as well as Fuse, right, by site ID. That's where we get our data. So, I gave sales what they wanted, which was a product. Approximately 17,000 sites that were in building sites right infuse live sites.
+Speaker 2 00:07:06
+They took that data and they they did something weird. They looked by, Latin long and address instead of site ID right to compile a list of, Customer information that they could actually find apparently they can't use a few site ID You find a customer ID and then a customer and then like a customer name and phone number something I don't know why they did it that way or what this means right, but they couldn't match their sales data by site ID.
+Speaker 2 00:07:42
+They did it by address. Okay, so at the end of the day, they came up with a list of. 4500 ish. Customer bites that they could go after okay, and that's the list I'm about to share So basically they, Taking $17,000, they've come up with 4,500 sites that they're calling their opportunity list. Now, these are not all end-of-life sites, unfortunately.
+Speaker 2 00:08:12
+Some are brand-new sites that we might have built yesterday, right? Okay. So they're trying to call on all these customers and sell them something, I guess, just based on they know who they are. So what I was asked to do was to bump this sales opportunity list up against our EOR list and see if there's any overlap. And if there is, we either got to tell sales, don't go after this because we're networks doing something with it, or the other way around, right?
+Speaker 2 00:08:50
+So we have to know if there's that overlap. So that's one thing I've been asked to do. I don't really know how to do that. I don't have my site ID, right? So, let me share my screen again. Sure. I'm not a coder.
+Speaker 3 00:09:10
+That's okay. I am. So, we can make something happen. We can split the difference.
+Speaker 2 00:09:17
+Yeah. Right. I can chart all this and do. I just, but I'm not going to be able to do. So, this is a copy.
+Speaker 1 00:09:28
+All right.
+Speaker 2 00:09:28
+So, you can do whatever you want with it. This is my copy. All these tabs allegedly roll up to this one combined data tab. So, this combined data tab, column T is the Fuse site ID, and that's where I find there's like 4,500. Right. So, this is 4,627. So, all these other tabs apparently roll into this combined data tab. So, this combined data tab is what they call their sales opportunity.
+Speaker 2 00:10:00
+list. This is the list that I need to make sure I bump up against other lists, I guess, is what I'm being asked to do to make sure that we don't overlap. So I'm hoping you can use column T, which is the FUSE site ID. I don't know why it says C site ID, but it's the FUSE site ID. And if I give you like our POR list, you can tell me if there's, you know, any overlap, assuming I provide you a FUSE site ID. Okay. That'll be easy enough.
+Speaker 3 00:10:35
+on that one. Okay, yeah, let me, I have one or two questions real quick. So when I, so you're saying 17,000 sites. Is that, is a site a cell tower or some installation that provides cellular service? Is that how that's being defined? Yes. Okay. So you have. 
+Speaker 2 00:11:00
+Let me get more specific. When I say a site, I'm talking about a Fuse site ID or a Fuse instance, instance in Fuse that has its own unique site ID, and it's on-air or live. It's not like some project that got canceled and never built, so it's live. And it has the category of in-building or venue, because we're only talking about in-building sites.
+Speaker 2 00:11:30
+We don't want to look at anything that's not in-building, meaning macros, small cells.
+Speaker 3 00:11:36
+Can you clarify real quick? So it's any cell tower that's not in a building. 
+Speaker 2 00:11:44
+Only in a building. No cell towers at all. No macro sites, no small cell sites. We don't deal in that world, right? You're doing VPT at venues, right? We don't deal with anything that's not a venue or an in-building site, right? We are the in-building and venue team, right? We don't care about macro sites. We don't care about small cell sites. And I'll show you an example of this, right? You're probably going to care about this.
+Speaker 3 00:12:13
+Yeah, I'm just trying to get a visual because just to clarify, even though I have been working and maintaining BPT for over two years now, my background is actually finance. So there's some language that I still don't understand sometimes. In terms of...
+Speaker 2 00:12:35
+I got you. No problem.
+Speaker 3 00:12:37
+So to me personally, I think Verizon cell towers or Verizon stadiums or Verizon... You get where I'm going with that.
+Speaker 2 00:12:50
+Yeah, that's right.
+Speaker 3 00:12:51
+I'm just trying to get a visual for what type of hardware this is that is letting people's phones make calls and send text messages.
+Speaker 2 00:13:01
+Yeah, so I can help with that. So let me circle back to that. From the perspective of FUSE, right, everything in FUSE has a site ID, right? So this is a CVS file done for FUSE. I'll show you the report in a second, right? So here's the site IDs over here in column A. Okay. Column H, site type, says in-building, right? Or it can say venue, right? There's only two selected here, in-building and venue.
+Speaker 3 00:13:29
+So what's the difference here. 
+Speaker 2 00:13:32
+Okay, so that means that it's like a cell site, a small cell or a macro, right? The radio, the baseband, the stuff that makes calls work.
+Speaker 1 00:13:42
+Okay.
+Speaker 2 00:13:43
+Similar to a small cell or macro, but it's propagating, broadcasting inside the building or venue. That's the only difference, right? We use lower power radios. We use DAS, right? But which is, we can get into that if you want. But the difference is, we're keeping our signal inside that venue, like the football stadium, right? Or we're keeping that signal inside the office building, inside the warehouse, right? Whatever it is.
+Speaker 3 00:14:11
+So it's pointed inward, where the people congregate or whatever. It's not like some tower off the side of the highway that stretches for miles.
+Speaker 2 00:14:23
+Exactly.
+Speaker 3 00:14:24
+That's just what I'm trying to visualize.
+Speaker 2 00:14:26
+We're trying to service the people under that roof, inside those walls, right? We keep our signal inside. Now, sometimes it bleeds out, but not a lot, especially if you think of a venue, right? Think of a racetrack, right? There's some inside areas with antennas inside, above your head. There's also small holes with antennas broadcasting out to the bleachers. But we're still trying to keep it inside the circle of that motor speedway, right?
+Speaker 2 00:14:56
+As soon as you walk outside the gate of the motor speedway. Then you jump on the small cell macro site, right? So there's a handoff there, right? So that's the difference.
+Speaker 3 00:15:05
+Okay. That makes sense so far.
+Speaker 2 00:15:09
+Yeah. So the equipment's really the same, right? It's radios, right? It's just the difference of how we contain it. Because there's a lot of people inside the football stadium, right? So we have to provide multiple, you know, macro site radios, for example, inside that stadium to service all those people under that one roof at one time or else they wouldn't have enough capacity, right? It's not an issue of coverage. It's an issue of capacity. That's why we exist. Right.
+Speaker 2 00:15:39
+Okay. So when we look at the FUSE perspective, right, you'll see macro sites as a site type, small cells as a site type, you know, maybe a switch, a hub, all kinds of stuff, right? But for us, we're only interested in the site type in buildings and the site type venue. Hence this list I've shown you right here, right? We have this list. I don't know. Is it going to show me in here? This is just a CSV file, but,
+Speaker 2 00:16:12
+and this is the problem that I get into, right? There's, there's going to be like 17,000 sites on this list. Yeah. It's difficult for me to maintain this much data. So, and this could change, right? Tomorrow we might decomm this Femto site. A Femto is a, you know what a Femto is? Like a little, a little box, like kind of like a, kind of like having wifi at your house. It's just what we provide for self service. Yeah. All right.
+Speaker 2 00:16:45
+I wouldn't get run down.
+Speaker 3 00:16:48
+When I'm thinking of a Femto, I'm thinking of like a physics problem or something, but okay. So it's like a tiny little box that is like a micro service box.
+Speaker 2 00:17:00
+Exactly. Yeah, exactly. It's like you plug it into your ISP service at your house, right? And then you've got Verizon Self Service. That's all it is. So don't get run down in that. All right. So we're talking about in-building and venue only. There's about 17,000 sites. Where was I saying? Oh, today we could decom this site, right? Meaning we take it off air and it no longer exists. And then today also we might turn up a new in-building site, right? So one Fuse site ID went away and one got added, right? So that's the kind of thing we got to deal with, right?
+Speaker 2 00:17:40
+We can take a snapshot from Fuse at any moment in time. But that's going to ebb and flow, right? So that's another difficulty we got to think about. So I need to ask, do you have access to Fuse? If not, I can just dump this file for you.
+Speaker 3 00:17:57
+Well, let me take a look. While you were talking, I did. go and load, I did go to views.verizon.com and I was able to log in. So the question would be, so I mean I can also share my screen if it helps and maybe you can show me where I need to go. Though I would say it's helpful for me to be able to go to views and have the data in a file also just in case. Because I don't know how to use this website. This.
+Speaker 2 00:18:27
+is the first time I've visited it. Yeah exactly. So what I was going to do here is already have a tracker created which is just a report out of views that's already grabbing all the in building and venue sites that are live on air. So you don't have to create this. I can share it with you now. I don't know. We'll see what happens I guess. Let me share it with you and see if you can access it. I guess that's a good place to start. Let's.
+Speaker 3 00:18:58
+try that. as long as I have the data I can constructively do something so this. Gerald Gale GALE that's Gerald dot Gale at Verizon I think yeah that's it and you're here cool okay so hopefully I get a notification grants permission.
+Speaker 2 00:19:21
+I'll give you edit access I don't see why not I wouldn't know whatever I do is just to read and download it so date tracker well so edit is only here if you want to add additional fields which at the end of the day I don't think you're gonna care about anything but that site ID okay because that's our key that's the key that we use right the site ID all right so I added you to that tracker.
+Speaker 2 00:19:55
+you should be able to edit it so so like in my mind you know one one, task, right? There's others. One task is to just take that 17,000 and, uh, well, that's a different task. One task is to take this 4,500 and bump it up against a POR list, which I don't have yet. Okay. Um, which I'll provide, that'll be a smaller list. Another task. And the reason I'm bringing up this entire site list is they, I don't even know what they want yet. They want me to do,
+Speaker 2 00:20:30
+they want me to take the 17,000 sites, remove these 4,500 that I'm showing you here. Okay. Get rid of those or, or, you know, make a new column and call them sales opportunity. Right. And we kind of separate those, right. So we can filter them out, filter out these 4,500 out of the 17,000 and then everything that's left over, which is almost everything still, it's 13,000 out of 17,000. Sean wants me to,
+Speaker 2 00:21:01
+categorize or something so I don't I don't know what that means yet but he wants me to do something with that I'm following are you editing this no I it's.
+Speaker 3 00:21:15
+just view it's open I haven't clicked on anything I think I just did something change I sure hope not so I still combined on wonky it's or I can make another copy so I see combine data it's locked for me I can't do anything and I do see what you see with the ref I don't know if you do a control Z or maybe.
+Speaker 2 00:21:43
+something got bumped yeah okay so I know let me see if we can restore it yeah so.
+Speaker 3 00:21:54
+I see that that's this this page is where I was that's the only place the strategic kilmer.
+Speaker 2 00:22:01
+Error. Why is there an error? What did I do? I didn't do anything. All right. Let me Control-Z a couple times. Again, this is a copy. I can make another copy. That's the reason I'm not using their list. So, assuming I get this data back, all this is brought in from those other tabs, right? So, you're not going to be able to work off of this. You probably need to make a copy of this combined data sheet, right?
+Speaker 2 00:22:32
+Just copy the data only, right? The numbers only and paste them over because this is a bunch of queries, right? Which screws me up. I don't understand what happened here.
+Speaker 3 00:22:45
+Is there a history? What does it say? It should have actions and changes.
+Speaker 2 00:22:51
+Let me go back to September 3rd. Let me restore this version. I have no idea what I did. I wasn't trying to edit this stupid thing at all.
+Speaker 1 00:23:18
+Did I do it. 
+Speaker 3 00:23:20
+Well, it's too late. Unfortunately, no. It still says pound ref.
+Speaker 2 00:23:37
+All right. All right. Hold the phone. Let me make a new copy and share it with you.
+Speaker 3 00:23:45
+I don't understand. Well, I do see it loading now. I do see it loading now. Okay. I see 3,000, 4,000 data points loaded now. If you go to combine.
+Speaker 2 00:23:59
+data oh okay look I have it filtered on into live okay select all all right here it's back all right we're back so what I would recommend I need this unlocked for you first of all right I'm the owner I made the copy how do I unlock it well.
+Speaker 3 00:24:41
+either way as on another way you mean you download it that's I can write an.
+Speaker 2 00:24:47
+Excel locally let me make a new sheet here real quick, Put it at the front. I don't know how you deal with this much data. Do you use, like, servers or something. 
+Speaker 3 00:25:14
+Yeah, servers, databases, and you just let the computer remember it. And then it's more like, it's not that I remember the data per se, it's that I remember where to look and what type of data was maybe there. So your brain kind of gets good at clumping patterns together. But it is a pain. It's difficult. It's always difficult.
+Speaker 2 00:25:40
+Well, one thing I was concerned about is if I could even do queries like a VLOOKUP between, you know, 5,000 and 17,000 rows on my computer, right. 
+Speaker 3 00:25:56
+Well, so here's where I can help. I can create custom software programs that are able to do all of this that your computer might be slow or not able to do in Google Sheets. So that's the one of the bigger value adds I can do is I can download this and I can create a custom computer script that does what you need it to do for the sorting and the filtering. So you knowing that's probably very helpful. And that's literally what I do for a living. So that's a normal task for me. So where I'm going with this is, okay, so I see a table and there's 17,000 rows. 4,000 of those rows need to be looked at and split into a sell, do not sell list. Is that true. 
+Speaker 2 00:26:49
+Correct. Make a column, I guess, and call them sales.
+Speaker 3 00:26:55
+opportunities or something. Well, it's kind of more like we can build them all out. It's kind of available. for sale versus not available for sale. So like what I'm thinking of is literally a garage sale and someone's telling me, hey, I got a bunch of junk in the garage. Half of this garage we can sell, the other half I have to keep because it's my dad's. So.
+Speaker 2 00:27:18
+Yeah, I guess that makes sense.
+Speaker 3 00:27:20
+At a very simple level. The reason is. I know it's more complicated than that. That's right. So we have 17,000. Of the 17,000, we need to look through 4,000 of them. And in the 4,000, we need to split them. Available for sale, not available for sale. So what I'm thinking in my head is what metric or what function can go through each row and what column and what value will determine it is available for sale or it isn't.
+Speaker 2 00:27:52
+Well, that's easy. The site ID.
+Speaker 3 00:27:55
+Okay.
+Speaker 2 00:27:55
+All right, so if you take the 17,000 site IDs you have. Yeah. everything, right, that you're looking at the table, and then you go to row T here, this, the 4,500 sites in column T of this spreadsheet are for sale, so we can't, we want to make sure that we don't do network projects.
+Speaker 3 00:28:19
+Well, I'm curious, because, so I'm looking at the combined tab, and maybe you can see my mouse here real soon move on your screen, so, okay, so you have all sales up, let me go to all sales up.
+Speaker 2 00:28:36
+Yeah, I did that just to get rid of all those functions, yeah, I see, yeah.
+Speaker 3 00:28:40
+Okay, so, let me, I'm just going to scroll real quick, in this all sales tab, I see 4,600 and 200 rows, and you're saying that, okay, so, I see this, the fuse site ID, which is this stuff. So, what type of numbers? uh are available for sale and what type of numbers are not so everything in this list that you're.
+Speaker 2 00:29:08
+looking at that you've highlighted yep all these few site ids or sites i'll call them sites need to be tagged in the list of 17 000 and say these ones are for sale okay so how do i see it right.
+Speaker 3 00:29:25
+that's fine but like um how do i know this one's for sale this one isn't this one's for sale this.
+Speaker 2 00:29:32
+one isn't how do i determine that they're all for sale just because they're on this list okay.
+Speaker 3 00:29:40
+so then what needs to what what further processing needs to be done on this 4 000 it so if this list.
+Speaker 2 00:29:47
+already nothing oh nothing on this list okay this list we're using against the other list only right this is established already by sales okay so everything on this list.
+Speaker 3 00:30:00
+getting sold no matter what. Well, they're trying to sell it, so we're going to lay off of it. Okay, so everything on this list has a sticker on it, and it says for sale. Yep. Okay, and it's.
+Speaker 2 00:30:13
+going to be compared to what other list? The entire in-building venue portfolio that I just.
+Speaker 3 00:30:24
+shared in Fuse, the 17,000. Okay, so you're saying the Fuse list, so okay, so this is important. So right here on your screen in the Fuse website, the Fuse website doesn't know which ones are marked for sale. Correct. Okay, how do we mark, how do we download all seven, how do you do that? How do you mark 17,000 items in here, or how do you mark fourth?
+Speaker 3 00:31:00
+out of the 17,000 items in here for sale do you have to do it yeah that's the.
+Speaker 2 00:31:05
+question so so I've downloaded the 17,000 in this excel file right which.
+Speaker 3 00:31:11
+is the report that I shared with you okay that's the easiest way is to just download them and then I can create a program that does it automatically and and intersects the ones that need to be sale from the entire list that's the.
+Speaker 2 00:31:28
+easiest thing I can do I go if yeah so that's helpful now let me take a make, this more complicated for a second but stay right where you're at should we be using the actual sales opportunity sheet instead of my copy I guess I can ask sales to them they say that list is finite right they're not going to add more sites that they're going to put a for sale sticker on however eventually.
+Speaker 2 00:31:58
+they might say, we didn't sell this one so we're taking the sticker off of it and it's no longer for sale.
+Speaker 3 00:32:05
+but i i don't know let's not get into that yet i think right now i think right now um at least for today it would be helpful for me to understand what you're working on and then i provide a an additional solution that helps you move this forward and then we see what they say okay so.
+Speaker 2 00:32:23
+here's here's what we need then so here's the 17 000 right uh and it needs to be downloaded right out of fuse yeah i add a column that says for sale and if it matches one on that list of four thousand it says yes all right if it doesn't it's it's blank or it says no right and that'll allow.
+Speaker 3 00:32:43
+me to filter those out okay um i can create a program that does that today and i can get this if you send me this exact file in my email um i can take you, the list in All Sales Op in the Google Sheet and download that as well and I can create a program that goes through that and does all of this automatically and I can send you back. So the file that you see on your computer right now, in about two hours you will see.
+Speaker 3 00:33:17
+another email sent back to you and that column B will have yes and yes or no on it for all of these.
+Speaker 2 00:33:24
+Perfect. That's a great start.
+Speaker 3 00:33:27
+That I can do today.
+Speaker 2 00:33:28
+Okay.
+Speaker 3 00:33:29
+So.
+Speaker 2 00:33:31
+Alright. So let's start with that. I'll send you this, I'll download the latest file, right, because something could have been added or removed, right? So I'll run that report. I'll send you this latest file. I want to tell you, so that's number one thing to happen, right. 
+Speaker 1 00:33:48
+Okay.
+Speaker 2 00:33:48
+But then after that, basically you'll want to maintain this sheet, right? You're going to use it. I'm going to use it. There's other things, right? So then we'll have this. for sale, yes or no, and then Majid, my ED, right, that works for Sean, he wanted yesterday, he said, hey, bump that list up against the Nokia sales list, right, and see if there's any overlap, right, so we could almost add another column here that says, I mean, I don't.
+Speaker 2 00:34:24
+know the best way to do this, right, do we just put Nokia list, yes or no, and do the same thing here, I mean, because we need to know if it's for sale, yeah, so both columns.
+Speaker 3 00:34:38
+need to say yes or no, one, we need to know if it's for sale, and then we need to know.
+Speaker 2 00:34:42
+is it Nokia hardware or not, well, it's not Nokia hardware, it's basically a list of sites Nokia's trying to sell, too, right, and we want to make sure that our sales people aren't trying to sell it, and Nokia is trying to, you know, do something with it, right? So if we see yes here, and then we see yes here and C as well, if it says yes in B and in C, I need to notify Magid that you need to remove it.
+Speaker 2 00:35:14
+from your Nokia list, right? So either way, at the end of the day for you, it's yes or no.
+Speaker 3 00:35:19
+Okay, that's fine. But how do I know the site ID is in the Nokia list or not. 
+Speaker 2 00:35:28
+Yeah, that's the next thing.
+Speaker 3 00:35:32
+That's okay. Okay, let's try column B for today and see how you like it and let's see it work first. And then once we have a process that's working for the data that you need, then we can go on the next thing. Cause technically you can add as many. Okay, you can add as many, you can add a Nokia list, Samsung list. I don't care, you can add 10 of them. That doesn't matter to me. But for right now, I just wanna make sure that I have the right. data and that the initial process is what you need to have applied to it okay well that sounds good.
+Speaker 2 00:36:09
+we've got to start somewhere right they want so much different stuff right yeah there's a lot of.
+Speaker 3 00:36:14
+other things to be done but this will be a good start yeah um that's this demand is infinite i want an infinite number of houses i want an infinite number of mustangs and vacations yeah.
+Speaker 2 00:36:28
+yeah you're telling me i'm trying to get out of some of the things right these first couple steps make sense some of the other ones they're asking for uh we can't literally do not yet because they want they want like all these categories charted well guess what they're not populated here, so your charts are going to be full of not available unknown anyway i'll get to that later so right now what you want for me is just the latest csv file so is that all i need to do.
+Speaker 2 00:36:59
+i can export.
+Speaker 3 00:37:00
+this right now? I need two files. I need a CSV of the 17,000 sites, and then I need another CSV of the 4,000 sites that are available for sale. Okay, so you want that one too. All right, that's not a problem. Yeah, I'm going to want them in a hard CSV file format. I know it's available in the Google Sheets, but I want it available in the .csv file format, because that's what my program is going to use to work, because my program is going to be a custom program. It.
+Speaker 3 00:37:35
+doesn't use Google Chrome or Google Sheets at all. It's going to be custom. So when I get this file, actually, all you need to do here is go to file, download, and that's it, CSV. Okay. 
+Speaker 2 00:37:55
+and you don't care, like all these other tabs. I don't know what this is going to look like.
+Speaker 3 00:38:00
+but you'll deal with that I guess yeah so yeah if you go to that download tab that's all I need is that file and the other one that has 17,000 in it okay.
+Speaker 2 00:38:10
+I'll run that one now and I will email them over to you great yeah I need or do.
+Speaker 3 00:38:19
+you want with filters or without well nothing right nothing everything all in.
+Speaker 2 00:38:23
+export all CSV okay all right I'll send these over just ping me if you need something maybe I'll set up another meeting for next week yeah what delivery.
+Speaker 3 00:38:38
+date there's more expectations are they looking to have this delivered today this week next week I'll get it done today it doesn't matter I'm just trying to understand what their expectations are yeah this isn't the deliverable what.
+Speaker 2 00:38:55
+we're doing today right this is just the first step module would like to, I would like to see the Nokia list bumped up against the sales list this week, I'm sure.
+Speaker 3 00:39:09
+You can set another meeting with me tomorrow if you want, but that's assuming you have that.
+Speaker 2 00:39:15
+Okay, yeah, let me look for another time Thursday, even Friday.
+Speaker 3 00:39:19
+Actually, Thursday and Friday are good for me if you need some time for that.
+Speaker 2 00:39:23
+Okay, yeah, tomorrow is super busy for me. Yeah, so I'll find another time just for this week, but I'll try to reoccur meetings maybe on Tuesdays just to keep chipping away stuff so we can tell Sean we're making progress in the larger scheme, which I'll explain more about later.
+Speaker 3 00:39:41
+Okay, real quick, I have one final question.
+Speaker 2 00:39:43
+Fair enough.
+Speaker 3 00:39:43
+Yeah, that's fine. I have one final question. So when I get the email and I see the two files, one has 17,000 and one has 4,000. Is it the list that has 4,000? Are there some records that I add the column yes or no to? and do I go through the 4,000 list and check if it's so do I go through each fuse ID and check if it's in the 17,000 list or vice versa no correct yeah.
+Speaker 2 00:40:16
+vice versa I think you started on you got to take the list of 17,000 that's going to be the list that we actually look at use take the list of 4,500 compare it to the 17,000 wherever it occurs and the list 17,000 say yes.
+Speaker 3 00:40:30
+wherever it doesn't say no okay so the sheet that has the yes or no column is the 17,000 and all I want to know correct okay and all I need to know is that it is or is not in the list of 4,000 yes okay that makes complete sense that is let me write this down as my assignment get an assignment for me to date so 17 K verse 4k. List comparison, yes, no, and the logic of it is, is this FUSE ID in list of 4K?
+Speaker 3 00:41:16
+If yes, mark yes in list of 17K. Okay, done. Yeah. Makes sense.
+Speaker 2 00:41:31
+Yeah, I call it, the language I'll use sometimes is like tagging, right? I'm like, hey, tag the sites, the sales list sites on the entire list sites, right? I know that maybe that doesn't make sense. I'll try to use my language.
+Speaker 3 00:41:46
+I mean, all I need is those two files. Yeah, all I need is those two files, and it'll be very obvious which one has 17,000 and which one doesn't. I'll create a custom program, and then you will receive an email. reply with an edited 17,000 list with the added column. Yes, no. Perfect. I'll probably put that.
+Speaker 2 00:42:11
+into, we're going to have to figure out something about how we work inside and outside of Google Sheets. Just something to think about, right? Because the first thing I'm going to do is put it in Google Sheets so I can look at it and use it. But anyway, we can cross that bridge later.
+Speaker 3 00:42:28
+I'm sending these over. Just ping me if you need me. Okay, so I'll see them in like 5-10 minutes. 
+Speaker 2 00:42:37
+Yep, I'm attaching them now. I assume they'll have to go through something to get sent over. And if we have a problem, I'll start a folder, right? I don't think we will because they're CSV files. So just let me know. Okay. If you don't get them, I'll see it and I'll create a folder if I have to.
+Speaker 3 00:42:53
+No, this is good. I'm happy to help. I can help with this for sure. Cool. Thank you very much.
+Speaker 2 00:43:01
+Thank you.
+Speaker 3 00:43:01
+Absolutely. No problem. Nice to meet you as well. Have a good day. I'll see you online. Okay. Bye for now. I'll see you. Bye.
