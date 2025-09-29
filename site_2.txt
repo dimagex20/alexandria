@@ -1,0 +1,120 @@
+Speaker 1 00:00:12
+Hello? Hey Darryl. Hey. How's it going. 
+Speaker 2 00:00:25
+Pretty good.
+Speaker 3 00:00:31
+Alright. Did you by any chance get access to Fuse or start the request. 
+Speaker 2 00:00:38
+Oh, you know I don't think I, well I have Fuse but not entirely. Can we maybe go over that so I can submit that? So when I go into Fuse it logs in but I think there were some areas where I might not be able to and I guess maybe since our last meeting I assumed Sean put those requests in but that could be inaccurate.
+Speaker 3 00:01:02
+Yeah, that's what I wanted to meet early, because the next piece of this is going to be fuse related.
+Speaker 2 00:01:08
+Uh-huh. Okay, well, let me, you know, I can share my screen.
+Speaker 3 00:01:16
+This is going to be important.
+Speaker 2 00:01:17
+Okay, well, I don't have anything, like, this is my only focus, so however long we need to go over this, we can.
+Speaker 3 00:01:28
+Yeah, so the point is, I need you to get, use access, right, because so much of this is going to be going back before it tweets you. Like, there's no reason for someone like you to have to go through me to get a fuse data. It's just going to slow everything down. You're like the master. Excuse me. So, here's the list.
+Speaker 4 00:02:00
+of privileges and i don't what's weird is i don't know what all you need you don't need to be able to do pos right there's a bunch of po stuff here i think this is what you need. is spm user old class ds probably not that one but i feel like those at some point they're gonna ask.
+Speaker 3 00:02:44
+and it's always easier to just say you copy someone else's uh profile yeah for the permission.
+Speaker 2 00:02:54
+you don't need there's like a category yeah exactly that.
+Speaker 3 00:03:01
+what they call that privileges but you're saying you you don't even know if you do it might be a Sean that does it right well I mean can we maybe go over.
+Speaker 2 00:03:18
+the AYS ticket that's required for it can we find that ticket and then I can apply on my own that way I have something to go to Sean with you know I have proof of work that I tried and all I really need help with is finding the AYS ticket because searching through the interfaces is intuitive but sometimes I just don't know the technical definition for the specific ticket yeah.
+Speaker 1 00:03:45
+I'm trying I'm open on my other screen so. I've got your service, why isn't it loading, all right, here it is.
+Speaker 4 00:04:48
+Conquest STM module, this is what you need.
+Speaker 3 00:05:07
+Alright, so did you get this far, or no. 
+Speaker 2 00:05:10
+Alright, I'm just observing this. Let me open it up on my end. Let me split the screen so I have both side by side.
+Speaker 3 00:05:21
+Yeah, I think this is what you need.
+Speaker 2 00:06:18
+So I have the module ticket loading right now, but it didn't select it. Well, new request SPM user business justification, that seems pretty simple. So maybe we can go over what we'll work on today, and I can submit it with the justification.
+Speaker 2 00:06:55
+I can enter the business justification once we go over the actual job. So I have it loaded so I can enter it in near the end of the month.
+Speaker 3 00:07:08
+Yeah, I mean, justification, obviously, is you're working with the data, but you're just pulling reports, basically, is what I'd say. Just make sure when you do it to put in that you need all submarkets or national access because you work for the headquarters team, right, headquarters planning team. And so you need access because a lot of times they'll only give you access to your submarket. So that's the big thing that we need to worry about. We can worry about uploading and editing data later if we need to add something,
+Speaker 3 00:07:43
+but as long as you're a user with all markets, then you should end up in good shape. Like they'll even say your local market, but I don't think. All right. I think that's the main thing I wanted to get to. right? For us to move forward with a lot of this, we got to get that done, right? Because the other option is going back to force. So right now. No, it's a good thing because it enables me.
+Speaker 2 00:08:12
+to have access to it. And it helps me develop further in the team structure, just getting stuff done. So if in the future there's an option for me to work full time on this, then this is a.
+Speaker 3 00:08:24
+good thing for me to do. Yeah, I mean, it'll open the door to other stuff we're working on. 
+Speaker 2 00:08:31
+like I said before. Yeah, and I like the word, this is fine for me. I know some people chuckle when I say that, but I mean it. I mean, I've kind of already committed to working in software for my lifetime. So, you know, to me, this is just another project. So I just kind of try to find.
+Speaker 3 00:08:52
+something I like about it and learn about it. Yeah, because I got a couple issues here. can help with. I can't pull all the spider cloud sites because it only let me put in so many at a time. This is one thing I wanted to help with. If I do this software, this is just a report. I selected all the different pieces of data I want. Let's do this quick filter. It allows you to do 1,000. Does not contain limited to 500. I don't know what.
+Speaker 3 00:09:31
+that means. It does not contain. I'm not doing that. All I'm saying is equals a site ID. I can't pull 500, let alone 1,000 and get the report. I don't know why. I'm trying to get a report and I don't know how to get it. Maybe I'll open up a ticket. This is just an example. Let's focus on before I get too far. I'll just shake. All right, so if we go back to the problem we had the other day, right, you re-ran all this stuff, you found there's 3,481 of these end-of-support sites, the list I gave you.
+Speaker 2 00:10:15
+Yeah, that are unique.
+Speaker 3 00:10:17
+Yeah, and you went and matched that against the 19,000 IBV sites. Correct. But it only found half of them, right? It only found this 1,500. So, I need this one, right, but I also need a second list. I need a list of all the sites it didn't find.
+Speaker 2 00:10:44
+Okay, well, I guess that's kind of already included in the code because it's the not list. I guess, do you want, so you want a separate file of that. 
+Speaker 3 00:10:55
+Yeah.
+Speaker 2 00:10:55
+Okay.
+Speaker 3 00:10:56
+Yeah, I need a second file. that just says, you know, not found EOS hardware, and I just need the site IDs.
+Speaker 2 00:11:07
+Makes sense to me.
+Speaker 3 00:11:12
+And then this is the part that, you know, that'll be easy for you, right? Once that's done, if you had access to Fuse, you could do this next piece, right, which is I got to take that not found list, I got to go to Fuse, wherever it went, and I got to go to an SPM report now with Fuse Tracker, right, which is why you need access to this. I need to take all those site IDs and, you know, let's say,
+Speaker 3 00:11:48
+it doesn't matter, like, take any random report, right? I just need the details. I take this, and again, I do the quick filter. thing, and of course there's 1,500 of these, right? I got to get those sites, right? If I go here and say view site ID, and I paste all those in, and there's 1,500, so maybe I got to do it twice because I can't get it all at once, right? It takes a thousand at a time. I got to find all.
+Speaker 3 00:12:20
+those site IDs, and I got to get all these same details that we're talking about on these files, right? The same details that we're working with, right? The key is the site ID. They're not found. Then I'll have the site ID name, the site name, and all this stuff, but then I'll also have the site submarket, and I'll be able to take those sites, organize them, you know, filter it by the submarket, and share it with each submarket, and say, hey, submarket, this site type for this.
+Speaker 3 00:12:53
+in-building site within the hardware says it's a small cell. It says it's a micro. And I need you, market, to tell me, is it really a macro or a small sale site? If it is, it shouldn't be in our list, and we shouldn't be paying for it with in-building money. If it is, which most of them probably are, they're just labeled incorrectly here, and that's why we're not picking them up in our 19,000 list, we need to update those site IDs and views to say they are in-building sites, right?
+Speaker 3 00:13:28
+But I've got to confirm that with the market, right? So you could do the first piece of this, which is to get all those site IDs collected. You're going to do that anyway in your report. Then if you had access to views, you could make this list for me in views, and then I'll take that to the market. And then we'll have to see what happens after that. We'll have to see what they say, right? They'll need to confirm that it is or it's not. Or maybe there's some other reason we're missing these sites. I doubt it, right?
+Speaker 3 00:13:58
+But we have to. I've got to get the list first from you to see if this is really the problem. I almost guarantee this is the problem. It's the problem for most of them. That's where we're at because my intention is to get all of these recoded, one, as in building, and then we'll have to run your tool again and get them to match, right? And then I can chart what they are because I don't want to do a chart and, you know,
+Speaker 3 00:14:30
+graph it and present it with only half of them found. Or on the other hand, if they really are macro or small cell sites, then I can remove them from my list because we in building should not be paying to upgrade macro and small cell sites, right? So one of those two things has to happen. We've got to change the site type and bring them into our list, or we have to remove them from my list that things we're paying to upgrade, and I can't resolve that yet.
+Speaker 3 00:15:00
+follow me? Yep. Now, if the markets respond, oh, all these are in building sites, right, we could, if you had another access, right, or like Milton has, and maybe even I have, I could actually take a form, there's like a little CSV file spreadsheet thing, where if you put the site ID, and you put the new in buildings, or I'm sorry, the new site type in column H here, and I just put in building.
+Speaker 3 00:15:33
+instead of macro or small cell, I can upload that, and it will overwrite all thousand at the same time and views, right, with one file push. Now, I don't want to do that unless I get, you know, feedback from the market, I have to see what it is, right, but that's one option. The other option is ask the markets to go update them all. The other option is I go update them all manually, right, we'll cross that bridge later, but that's the kind of thing I'd like to do. to get to, right, because you know how to pull the reports down. We know all this data needs.
+Speaker 3 00:16:05
+updated. We know what the data should be, and you're able to run the update file, right? That's the ultimate long-term goal. You could update the data. Okay. For now, I don't know that we can do, anything else, right? So I wanted to get the meeting called early. Okay. So you're at least requesting the views access. That's working through, and you're running the report of the missing sites, right? I think that's, I think we're at a stopping point until we resolve those.
+Speaker 2 00:16:40
+That's okay. Well, I'll get all that. I'll get the ticket requested today. I'll get the not list built today. I'll get that sent to you today, and then we'll have things, we'll have stuff prepared and ready to work on them all morning at 9 15. Yeah. Yeah. I guess we might not be able to go.
+Speaker 3 00:16:57
+far, but. We can at least meet and I'll. Sample some of the, you know, missing sites. Yeah.
+Speaker 2 00:17:02
+I mean, I know sometimes.
+Speaker 3 00:17:03
+That's it.
+Speaker 2 00:17:04
+That's fine. I know there's probably a lot of days where you can't meet. For me personally, you know, if it's a quick meeting for like 10, 15 minutes that iteratively moves the ball forward, I don't care. That's fine with me. Because sometimes it's helpful to just get that information in each other's brain and then we can just go back to just getting it knocked out.
+Speaker 3 00:17:26
+So from your side, do you see Sean needing to push your ticket or do anything or do you think we're good on that piece. 
+Speaker 2 00:17:37
+I mean, probably not yet until I see a response saying I don't have approval. I mean, I can send him the ticket. I can put him on the ticket. I think under initial details, once it's submitted, I can update the ticket with that. So I'll probably do that just in case.
+Speaker 3 00:17:56
+I just don't know how it works. It's like. When you're a contractor, like if I request something, Sean gets notified for his approval. I assume it works the same.
+Speaker 2 00:18:06
+So it's similar. Yeah, so it's a good question. I don't think it's automatic. I think I have to add him because I'm not necessarily, like I know I'm under him in the org chart, but it's not across all systems. Every time I've created a ticket so far, I've had to add his email manually to connect him with me. So that's probably the case here. Either way, it's by default now. I just do it every time, no matter what.
+Speaker 3 00:18:37
+Only bringing that up because I don't want it to get held up.
+Speaker 2 00:18:40
+No. All right, well, that's all I've got for now. Okay. Yeah, this will all get done today, this afternoon, and then I'll send you an update in a couple hours, and then I'll be ready for tomorrow morning.
+Speaker 3 00:18:50
+Okay.
+Speaker 2 00:18:51
+Yeah.
+Speaker 3 00:18:51
+Well, we'll check in tomorrow morning, see if anything changed. We'll sample a couple sites. It might be short again, but we can get at least that far.
+Speaker 2 00:18:58
+That would be great, yeah. Okay, cool. I'll see you tomorrow. Thank you. I'll see you then. Mm-hmm. Bye

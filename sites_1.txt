@@ -1,0 +1,504 @@
+Speaker 1 00:00:00
+So let's just take a look. So let's go, I guess let's start from the beginning. So we have the master list, and let's just take a look at the last email I sent you. Because I added two columns. One was marked for sale, and one was end-of-life support. Those were the only two columns that I added. So there isn't a third column or metric. I think you said there could be more metrics added later in the future, but I think we could... We removed the Nokia ones.
+Speaker 2 00:00:36
+Yeah, forget about Nokia. That was a one-time thing. I'm done with that. It's a waste of time. I gave it to Mod, and he didn't even respond.
+Speaker 1 00:00:46
+Yeah.
+Speaker 2 00:00:46
+All right. So I sent you a list, right? End-of-support site ID list for Gerald. Okay, so this is what I gave you, right? So this has, so you used column B and matched the site IDs and said yes.
+Speaker 3 00:01:08
+Yep.
+Speaker 2 00:01:09
+And you found them all. And you found 373 that matched sales. But there's actually, there's a lot more, right? There's like 6,000 sites here, site IDs, right, which I can go check against there. But, yeah, what we need is this, right? If you find, there's duplicates here. Right? That's why there's so many. There's really not that many. There's duplicate site IDs. So we need to get rid of those.
+Speaker 2 00:01:41
+But anyway, so if you find the site ID, say yes, that's done. But we need to make one more step. Like you said, we need this column E that says if it's this one, you need to put in DUS41, right? All of them are now.
+Speaker 1 00:02:02
+Are any of them different? Yes.
+Speaker 2 00:02:08
+There's multiple ones, right. 
+Speaker 1 00:02:10
+I think I remember, yeah.
+Speaker 2 00:02:14
+I need that here, right? I need this column populated. That's the thing I need as the next one because that will allow me to do a couple things. We can talk about pushing it in the field, but at minimum I can at least chart and graph different stuff, which is one of the things. If I match this 1521, which is probably because of duplicates.
+Speaker 2 00:02:48
+Let's see, how do I do this? Am I smart enough to do this? Beta, get rid of duplicates. Well, if I only wanted to do it on column A. I'm not calling A. No, just calling A. No, just calling A.
+Speaker 4 00:03:06
+I don't know how to do that. I hate this. I'm not good.
+Speaker 2 00:03:22
+Well, if I do this, then I lose the other data. I can do this, and then I can say, clean up and remove duplicates. Hey, so something's weird, right? Something's weird with the number 5 ID still, right? There's how many columns here. How did you only match, if I'm looking at this right, 1,500 subs? Oh, that's one thing I'm wondering about.
+Speaker 1 00:03:57
+Let's take a look. So whatever this list... Well, two things. Whatever was in this list for the count, that's however many should only be in, well, yeah, I guess you could go by unique, but it's really the count. Because if there's duplicates in the master list, then a duplicate here would also still be found. Yeah, 300-something. No, 3,000-something. So there's 3,000. I guess we could just take a look at the bottom. How many rows are there?
+Speaker 1 00:04:28
+Can you tell me that? Well, if you do control, if you click on like A3, yeah, all the way down there. Yeah, so there's 6,200 rows. But the other thing that I would say is, I'm not saying you made a mistake or anything, but one thing to keep in mind is I'm going off of the raw files from the email.
+Speaker 1 00:05:00
+So sometimes with Google Sheets, I myself will kind of miscopy, I don't know, like Google Sheets because it's cloud-based, sometimes it's not always a raw copy of the actual number. So if we're seeing duplicates here, or uniques, just something to keep in mind. You're probably more skilled at using Google Sheets than me, but we would have to review the...
+Speaker 2 00:05:27
+I doubt that.
+Speaker 1 00:05:28
+Oh, okay. Well, I remember some, it was some 1,000 amount. It was a fair amount.
+Speaker 2 00:05:36
+1,371, yeah, it was like 1,400, 1,500, right? That means half of them, there's some problem, right? My point is, every one of these views, site IDs, should show up in the master list of 19,000 sites.
+Speaker 1 00:05:57
+100% of them should. 
+Speaker 2 00:06:00
+Yes, 100% of them should show up over here. Now, there are a couple, right? If we miss a few, not a big deal, right? Again, maybe this site's being decommed, right? Maybe there's 100 sites that are being decommed and those fall out. That's okay, right? Not the end of the world. Maybe there's a couple that are labeled a small cell or something, right. 
+Speaker 1 00:06:29
+Yeah, so let's take a look.
+Speaker 2 00:06:30
+We shouldn't miss that number.
+Speaker 1 00:06:32
+That's okay.
+Speaker 2 00:06:33
+That's way too many of them, man.
+Speaker 1 00:06:34
+That's okay. Can we take a look at the email I sent real quick? Because there's a summary right here, yeah. Let's just take a look at the numbers. So it's saying sites marked for sale was 4,400. The sites marked with EOS hardware, end of life or whatever, that's 1,500. Does this make sense? Yeah. So then there's an overlap. analysis there's 370 something where they're both for sale and end of service.
+Speaker 2 00:07:06
+yeah that part makes sense all right that's what I just did here all right, it's there because this is what I got to share with sales right the remark for sale and they're on the list right there's 373 that's all great the problem is the first part right which is we should have like 3,400 and you only managed 1,500 only match half of the other duplicates well we have to look at.
+Speaker 1 00:07:38
+what I have well we have to we have to review the the file I had that the program used and that's not the same file as what's in the cloud so where I'm going with that is that there could be a discrepancy between the data in the cloud versus the file that I had to use at the time that I bet it ran, So yeah, this is, it should be that one because that's what I used. I downloaded it and then ran it. Yeah, so let me open it with Google Sheets. That's what I thought I just opened. Alright. And how many are in here? How many rows? Where does it end at the bottom? And maybe, maybe I did a remove duplicate and screwed it up. So let's, yeah, let's see. Yeah, let's just go to the bottom and see. Okay, so 6,000. So I guess there's half of them are duplicates. So I mean, take a look. Well, there are duplicates. Take a look at.
+Speaker 1 00:08:39
+rows 13 and 14. Or right here. Yes, there's duplicates. Totally agree. There's duplicates. There's 6,252, but there's 3,000 and some unique sizes. Well, hold on. Yeah, let's take a look at 6,242, 6,243, 6, Some of them, there's 10 or 20 instances of the same one.
+Speaker 2 00:09:06
+Yep.
+Speaker 1 00:09:07
+So that's your issue there. That's why it only funnels down to 1,500.
+Speaker 2 00:09:16
+No. No, I disagree.
+Speaker 1 00:09:18
+Well.
+Speaker 2 00:09:19
+Not right.
+Speaker 1 00:09:21
+Well, these are duplicates right here.
+Speaker 2 00:09:23
+You can count unique. You can count unique on this.
+Speaker 1 00:09:26
+What does unique say. 
+Speaker 2 00:09:28
+1,500, right? If there's a better way to do this, let me know.
+Speaker 1 00:09:34
+No, no, no. No, I like this. I like this thought. Let's continue with this. Let's work this through. So you have A2 to A whatever. I think we need to call them.
+Speaker 2 00:09:46
+That's what I just did on the other sheet. The same sheet. 3,481. So maybe, I mean, I wish I would have.
+Speaker 1 00:10:00
+I mean, I mean, yeah, so why would half of these not be in the master list? Or is that not possible. 
+Speaker 2 00:10:09
+Okay, yeah, so I don't think this is possible. There are reasons they wouldn't be in the master list. But I think half of them is crazy, right? The reason they wouldn't be in the master list would be, for example, they're not an in building type, right? The site type isn't in building or venue.
+Speaker 1 00:10:32
+Remember, we didn't even have BBG before, we just added that. Yeah, that's possible. Hold in a few more. But it could be small cell, or something else. Right? I mean, it was automated. So where I'm going with this is it was automated. Not all the time, but nine times out of 10, when it's automated, it's typically not the program's fault per se, it can be. And also, it could be my fault but a lot of times it can commonly be a revealing of some.
+Speaker 1 00:11:07
+other issue somewhere else or it can be an error in the data or it can be an error in me making a mistake in comparing the two wrong files there's three or four things yeah it's it's there's a disconnect somewhere oh yeah.
+Speaker 2 00:11:24
+I just had an idea what what if this project number or this site ID is the dust 41 but then we happen to find it down below as a well that you know we found it below as a 52 16 would it just override it then well if it's not in.
+Speaker 1 00:11:49
+this list it wasn't in the count so the I guess it would have to come down to the.
+Speaker 2 00:11:57
+below all right maybe there's two.
+Speaker 1 00:12:14
+Yeah, when I wrote the program, I'm just trying to think this through. When I wrote the program, it was matching on column A, on just the ID. It wasn't considering DUS 41 or yes. Because there are, you know.
+Speaker 2 00:12:28
+Yeah, find it, it says yes.
+Speaker 1 00:12:30
+All it was, are there any no's in here. 
+Speaker 2 00:12:35
+No.
+Speaker 1 00:12:36
+That's what I thought.
+Speaker 2 00:12:37
+There shouldn't be any no's.
+Speaker 1 00:12:38
+Yeah. I can go, let me open the program and read through the code again. But, so desktop, site tower.
+Speaker 2 00:12:49
+I guess I need to know. So what we need to do, if there's no mistake, which I find it hard to believe, I guess it's not impossible. I only found half of these. means that half of these, half of them, half of our in-building sites on our in-the-support upgrading list are not, don't have a site type of in-building or venue.
+Speaker 1 00:13:12
+In this list.
+Speaker 2 00:13:14
+Meaning they say, hey, it's a macro or a small field site, right, which is how we get this list, right? What we could do, because this is just 19,000 sites, right? It's 19,000 sites because of column K. Okay, we're taking every in-building and venue site in the whole database, as long as it's on air, not VCOM, V and DCOM. If it's on air and it's these site types, we yank it out. That's how we got to 19,000. If we included site type of macro and small cell and like pub and like other stuff in.
+Speaker 2 00:13:51
+the network, this list would be, you know, 100,000 sites lost. All right? Or more, right? Maybe 500,000 sites. So I need some examples, kind of like we did before, right? It's almost like I need the examples of the ones that didn't, and I've got to go look at them, right? Which is half of them, which is scary to me. But I also need column E, which I guess we can wait on if we want to figure this out first. But I need to see which ones didn't match, and I need to go look them up and say,
+Speaker 2 00:14:25
+what the hell, why didn't it show up, right? Is it not in building? This is what I suspect.
+Speaker 1 00:14:31
+Well, can we do, can we try to, I mean, if it's half of them, and we should be able to do that now, because statistically if it's half, that's 50-50 chance. So if we go to the original list with the 3,000 or whatever, you know, I will admit there could be an issue with my code. I could run it again to confirm, but I'm just, you know, I'm looking at the code right now. What it's doing is it's grabbing the... number it's checking to make sure it's a real number.
+Speaker 1 00:15:03
+and then uh... it's it's adding a unique site so it's only comparing a unique one so if there's duplicates it's not, comparing it. uh... which makes sense, so far, so if we go to that uh... the the site id we showed that you have in the email that has the three thousand four hundred or so of them.
+Speaker 2 00:15:36
+why can't i get on the freaking vpn, i gotta get on the vpn to get into fuse and then i can look at some of these sites. uh... you have access to fuse you do right, that's what yeah, if we keep going with this you're gonna have to get access to fuse.
+Speaker 1 00:16:00
+No, no, I'm so far so good. Yeah, let's keep going with what we had. So can we open on the second tab? I know these computers get bogged down, and then they get hot, and then they're slow. Let's first take a look at the second tab, the first sheet that's in your browser. Yes, so let's copy 34 to 34.
+Speaker 1 00:16:35
+Let's put a 46 in a notepad, and then let's search all 10 of those in the master list and see if any of them are missing. Because that would mean some of them are not in the master list. Yeah, because if half of them aren't in there, 50-50 chance if we go through 10 of them, one of them should probably. Unless there's a clustering of types or a clump that's... So we need to manually search all 10 of these or whatever in the master list.
+Speaker 1 00:17:10
+and see if a couple of them don't show up. If that's the case, that means the master list doesn't have those sites.
+Speaker 2 00:17:18
+All right, guys, do you want to look at the search here. 
+Speaker 3 00:17:21
+Yeah, because that's... Otherwise, I'll have to read the numbers again. 1,500 is a lot.
+Speaker 1 00:17:34
+That's a structural problem. That's either a logic problem in the code or that's a structural problem on the source of this data because that's a lot.
+Speaker 3 00:17:44
+Yeah, that's big. That's 5% smear. See, that one's not there. Oh, there you go. Well, let's take a look. Let's look some more. So we have two hits that are not... That's not a good start.
+Speaker 2 00:18:01
+Yeah, so I'm wondering, we're sampling this one right now. We should all sample 630s. And I say that because 41, its old life type, didn't exist.
+Speaker 4 00:18:22
+So that's a huge debate.
+Speaker 2 00:18:47
+Well, now you're talking. I don't think I'm going to fix it. But this is the problem I always have. We're always trying to find posted and it's all missing. Hey. 
+Speaker 1 00:19:05
+There you go. That's good. What was different about this? What could possibly be. 
+Speaker 3 00:19:12
+I told you what I think it is. It's probably a report. We're only filtering out. These are terrible.
+Speaker 1 00:19:33
+Well, that's a special issue.
+Speaker 2 00:19:36
+Yeah. These are old sites that got brought over from another database to another database and then a third time ended up in FUSE from 10 years ago. So probably if I can get into FUSE, I'll show you. Right? Yeah. Because we already have examples. I already have examples. We said no to the first few. I need to go look at those and see.
+Speaker 2 00:20:37
+I was able to, I do have access to Fuse. Just search one of these five items, any of these first three to say no, I can walk you through it. need help but that's it's as simple as go to fuse go to site and put that number in the search bar and hit go i'm sure it'll pop up the question is what's it going to say it is do you want to.
+Speaker 2 00:21:14
+share your screen i just need to confirm that that's what's going on and then i got to figure.
+Speaker 1 00:21:21
+out what to do about it well yeah let's take a look here one second uh let me go into webex.
+Speaker 2 00:21:29
+like the question is going to be is it really an in-building site so my only question is um what um is it an e-femto that i'm at the e-femto site uh all right here i see you guys.
+Speaker 2 00:22:00
+Um, so go to, uh, third on the top three over site management. Sorry, I couldn't log into view. Oh shit. You don't have access. Okay. But you could get to the SPM report on Sean, but you can't get in this site. So I think, let me ask Sean, if you're allowed to get access to this, you don't even need,
+Speaker 2 00:22:32
+you don't even need to be able to edit. Right.
+Speaker 1 00:22:34
+I should not have the last thing I need is an email saying, Hey, you broke everything. We can't do anything. I should just have read access.
+Speaker 2 00:22:46
+Yeah, that's, that's all I'm going to suggest. Read only because, and the reason for that is you see where I'm going, everything we're doing starts with you. right yeah like I'm wondering if I should be like yanking the whole the, entire Verizon list but then you go from 19,000 sites to deal with a couple hundred thousand I mean that's crazy I don't want to do that care but at the.
+Speaker 2 00:23:18
+same time the ones that aren't found it's like what really needs to happen is I need to identify those sites and go turn them into in-building sites I mean that's the long and short of it if it says a macro I need to go change or have Milton change it one of the other Coder games hmm all right so I can't I can't do this can you you got a minute for me to restart my machine I can.
+Speaker 2 00:24:25
+All right, sorry, I didn't mean to drop. I thought I'd keep on my phone. Restart my machine. So we've got to figure that out, because my whole, I guess what I can report to leadership is, okay, Sean's asking me why not full access to Fuse? And you're saying because you don't want to be responsible for overwriting. 
+Speaker 1 00:24:44
+Well, I guess I don't care if it's full access. I'll just have to be more careful. We're kind of just asking. If I get full access, I'm able to help more. Which is good for me, because I am looking to be. converted full-time I am trying to find a team to work so if you want to work.
+Speaker 2 00:25:05
+full-time yeah I have this is the project right this is the golden source project is overarching not just my team yeah but the home the whole in building group HQ group under a corn be a couple levels up okay everybody is interested in this and this is exactly what we're talking about if you could go in yeah and upload upload dust 41 52 16 the things that I'm talking about having you put into that sheet yeah into fuse if you could also identify these missing sites that.
+Speaker 2 00:25:39
+we're looking for right yeah and turn them into in building sites instead of a macro or a small cell that is the kind of stuff that needs to be done that we know is a problem yeah but nobody has time and access and the ability to complete the golden source action, activity that needs to be complete well that's kind of.
+Speaker 1 00:26:00
+I am good at that because the code is very powerful at removing mistakes. And I am, so I'm contracted. Technically, Sean put me under his contract after they decommissioned VPT. So I'm working in New York City out of the 1095 building on 6th Avenue. I am looking for a salary soon. So, you know, if there's interest there, I would take a look at it. And I, you know, anyways.
+Speaker 2 00:26:28
+Not up to me.
+Speaker 1 00:26:28
+No, I get it. I get it.
+Speaker 2 00:26:30
+But I think it's a really good, if you pitch that to Sean, I bet he can get you on because it's a huge deal.
+Speaker 1 00:26:37
+Well, that would be cool. Well, I would say, I guess I'm interested in doing the work and doing a good job over the next month or two before, you know, presenting that idea to Sean. I would, if that's the case, I would probably just go with full access and let me just, I'll just be careful and I'll learn the system. And I'll help iteratively where I can right now.
+Speaker 2 00:27:01
+For now, you won't need it. For now, we don't need the edit cues. We only need it so you can download to the list.
+Speaker 1 00:27:08
+Yeah, but if Sean's offering to have full access, I guess, why not? Because then it just saves us from having to ask twice.
+Speaker 2 00:27:18
+All right, request made. He's got to put it into the system.
+Speaker 1 00:27:23
+I can't do that.
+Speaker 5 00:27:27
+All right, so let's see if I can get out of the VPN this time.
+Speaker 2 00:27:31
+First thing, then we'll get back to this. Yeah, I would love for you to get on full time and work this deal.
+Speaker 1 00:27:42
+That would be cool. It is interesting to me, and it's an interesting problem.
+Speaker 2 00:27:48
+I can help you do it because I know what needs to be done. I just don't know how to make it happen.
+Speaker 1 00:27:57
+I'm just thinking, yeah, I guess I'm just. I'm starting to think about code now. About how you can look at it. Which is what I do. Think about code all day. And system solutions.
+Speaker 2 00:28:11
+That sounds a little dry. But hey, whatever you like.
+Speaker 1 00:28:22
+It can be. I guess I'm built for it. I like it. I like the work.
+Speaker 2 00:28:29
+I like solving problems. Alright, I got on the VPN. Getting into Fuse. But I gotta get back in the meeting so you can see what's going on.
+Speaker 1 00:28:54
+Do you know who built Fuse. 
+Speaker 2 00:28:57
+No. Okay. A team, a giant team of coders that I don't, I don't know. I know we have, have you ever spoken to Milton Herrera. 
+Speaker 1 00:29:11
+No.
+Speaker 2 00:29:13
+He is our one on our larger team, right? You would be like the second if we did it. We have one coder guy on our team, right? All this, a lot of the stuff that you do, he can do, but he has, he has responsibility of integrating stuff into Fuse, updating the tools in Fuse so they work with other in-building stuff. He is aware of the golden source project, but he has no, he has zero time to work on it, right?
+Speaker 2 00:29:46
+But he could probably answer questions for you about that kind of stuff. All I know is that Fuse was launched like five years ago, six years ago, something like that. And before we had Fuse, we had Cytara. Before we had Cytara, we had some other thing, right? And that's my point. All these sites have moved from one database to another to another and ended up in Fuse, where in that first database, we didn't even have site type and subtype and stuff like.
+Speaker 2 00:30:17
+that, right? It was just a site. So a lot of that stuff didn't exist. So when things got moved over, it wasn't required. Now when you build a site or modify it, that's required. It's required information, but there's a lot of missing data because it moved over from old databases a couple times. That's my point. All right, I can't open my freaking calendar from Gmail. Can't seem to load. Try again later or go to the Google Projects. All right, so it's going to take a second. While that's working, let me try to, oh, I.
+Speaker 2 00:30:53
+can't open the spreadsheet either. So that's helpful. Let me open the original email. It, come up. It just takes a second. I don't know why it's so slow. I'm working from home today, so I'm working off my Starlink, which is always great. I never have any issues with it, but I'm not in the office, so I have to deal on VP.
+Speaker 1 00:31:14
+Yeah, I get that. Yeah, I'm on the, I'm remote. I was at the office yesterday, and I'm remote today.
+Speaker 2 00:31:22
+You, uh, back to the three days a week deal, just like the rest of us now. 
+Speaker 1 00:31:27
+Yeah, I think so. It's not a requirement, but I'm, I just got the badge approved, so I will be doing that, yeah. It's just a good for me to get back into the rhythm of things, and, you know, I do want to network at that office, and I do want to try to find a salary, personally somewhere on a team. Um, and I, I, I mean, we've been working from home now for like four or five years with COVID, and it's about time for me to get back part of the week, so I like the social connectivity. It's, it's healthy.
+Speaker 2 00:31:59
+Yeah, I don't mind one or two days a week. I don't like being told I have to be there the third day.
+Speaker 1 00:32:05
+Three kind of gets, yeah, three can get a little tough. That's a lot.
+Speaker 2 00:32:11
+I've got to drive an hour to get there.
+Speaker 1 00:32:13
+Oh, that is a lot. Yeah, I don't have that issue. I have a 35-minute commute, not an hour.
+Speaker 2 00:32:19
+An hour and 15 if you count the days I drop my head off, which is every day that I have, which is all three days I have to go.
+Speaker 1 00:32:28
+That's a lot. That is tiring.
+Speaker 2 00:32:32
+But I've got to drop them off at school because the bus doesn't come out this far.
+Speaker 1 00:32:35
+Oh, okay, yeah.
+Speaker 2 00:32:40
+All right, so I'm trying to share, but in the meantime, I'm trying to look up. I don't understand why my calendar is so ridiculous. Can you slap me one time? those? No. Okay, let's see. So what do you need on the Slack? The site ID, one of them that we.
+Speaker 1 00:33:07
+didn't find. Oh yeah, well, yeah, let's take a look real quick. So let me, let this fuse, I think I.
+Speaker 2 00:33:15
+have this one, one attachment. I got fuse up, I got my email up, but I can't get my sheets up yet. 
+Speaker 1 00:33:25
+and I can't get my calendar up yet. No, that's not the right, it's this one. And you just need.
+Speaker 2 00:33:36
+an example of one of them? Yeah, just one for now, just give me one. I just want to see if it comes back and building or not. That's the whole purpose of this. Just copy the site ID, paste it in the Slack.
+Speaker 5 00:34:04
+Looks like I could do a Webex over here. Probably can't. Uh, yeah, I can. How do I join the Webex? This is gonna be so difficult.
+Speaker 2 00:34:28
+You're already in this meeting on another device. Okay, move the meeting in here. It's fine.
+Speaker 1 00:34:38
+So this one's, uh...
+Speaker 2 00:34:45
+What do you know how to, uh...
+Speaker 1 00:34:48
+So this one... Oh, that's because it's a duplicate.
+Speaker 2 00:34:52
+Bear with me, I'm coming. Alright, came over. So, taking the screen away from you.
+Speaker 1 00:35:15
+Oh, that's fine.
+Speaker 2 00:35:16
+Alright, okay, so here we are.
+Speaker 1 00:35:20
+Okay.
+Speaker 2 00:35:20
+Here it is. I just need a site ID. I can't open my speech yet.
+Speaker 1 00:35:28
+Yeah, so this 201 is not found. So there's already a couple that are not.
+Speaker 2 00:35:34
+Hey, you know, does this ever do this to you? Look, I can't open my email. I did not have that issue. I can't open any.
+Speaker 1 00:35:41
+So, I wonder if it's a data screen share constraint on your system that I don't have. I don't have that. I haven't seen that error before.
+Speaker 2 00:36:04
+Did you send me a site. 
+Speaker 1 00:36:06
+That's not in the master list. 
+Speaker 2 00:36:10
+Yeah, put it in black.
+Speaker 1 00:36:13
+Okay, so this one, hold on. Yeah, I get it. So this one, not in master list.
+Speaker 4 00:36:23
+Yeah.
+Speaker 1 00:36:24
+Hold on.
+Speaker 4 00:36:25
+So you have it now.
+Speaker 2 00:36:38
+All right. Yep. All right. So I got nothing filtered up here, right? So here it is. And look, it says it's in building, and it says it's live.
+Speaker 1 00:36:50
+Okay, so let's go back to the master list.
+Speaker 2 00:36:52
+So why in the world. 
+Speaker 1 00:36:53
+So, yeah, take that number and search for it in your master list and confirm that. Okay, so that means I searched it correctly with the one that I had.
+Speaker 2 00:37:21
+So we have, oh, wait.
+Speaker 1 00:37:25
+Unless we're looking at the same sheet.
+Speaker 2 00:37:26
+I don't know.
+Speaker 1 00:37:29
+Okay, no, it's not there.
+Speaker 2 00:37:38
+So all I'm doing is, yeah, which is, all right, so I'll go back here. All right, this is a data thing that can help work. So this is the main thing that I'm filtering whenever I dump or report out a few. In-building, the in-building dash of EVG, which I didn't do before. That's kind of a newer thing. That means it's a sales project that's relatively new. All right. Only those three.
+Speaker 2 00:38:08
+The only other thing I have is that it's like an on-air site. So maybe I missed something. So we know here if we go to the site information, right, that it's an in-building site. The subtype is spoke, which means nothing. That's garbage from the old database. And we know it's on-air or else it would, you know, say something else. Like I'm trying to figure out if there's anything else I can glean from just.
+Speaker 2 00:38:40
+looking at this here. What else can we figure out? Right? Status is live, right? If it's decommed, it won't show up, which is why we have some missing in sales, right, if they're decommed. That's not the issue. This is not the issue. So if I go to Fuse Track. Which, this is another reason to have the views, right? This is what I shared with you. The, basically, just the IVV site.
+Speaker 2 00:39:12
+I think I used the sites for sales when we first talked. I don't remember. I think I shared this with you. We edit the tracker. Yeah, I put your name on here. So, if you look down here, all I'm doing is saying the site type is one of those three, which are all the three in-building things we use. Number two is the status, live or primary, right?
+Speaker 2 00:39:43
+We said that that one said live because the other options would be, like, decon or off-air, not on-air, you know, like, right? Most of them are just live. It also included primary because I had an issue before. Right? That's it. So, there's no reason. But that site shouldn't get captured in this tracker as far as I can see, right? Why would I – it's live and it's in building.
+Speaker 2 00:40:15
+Why in the world is that site not in that list? This site is live and it's in building pipe. So what the hell am I missing? Why is this not on the list in 19,000? Why? I don't understand. Again, site ID, control find, control V.
+Speaker 2 00:40:51
+How is this not here? 201-5432, that's seven digits, right? Yeah, that's only...
+Speaker 1 00:41:16
+Yeah, on the count for the size of the number? Yeah, that's interesting. There could be a logic there.
+Speaker 2 00:41:24
+201-5430, and it goes to 38, right. 
+Speaker 4 00:41:29
+Mm-hmm.
+Speaker 2 00:41:33
+So, did I do something wrong when I exported that list? What if I export this list right now? Export the CSV. I'm very confused.
+Speaker 1 00:41:56
+Yeah, well, I have a fair amount of time I can lend on this. I don't mind... Sitting with you and going over this, now's a good day for me to help with this. Yesterday was busier for me than today. So we can just type, you know, just plug and chug.
+Speaker 2 00:42:15
+Okay, now I found it.
+Speaker 1 00:42:17
+Now how did that happen? So is this in a different file. 
+Speaker 2 00:42:22
+Yeah, I just exported the file again to a CSV.
+Speaker 1 00:42:26
+From Fuse. 
+Speaker 2 00:42:29
+Straight from Fuse.
+Speaker 1 00:42:31
+Okay, and then what's the...
+Speaker 2 00:42:32
+There's 1,916 sites, which is the same number, I thought, that I had in this thing that we were looking at.
+Speaker 1 00:42:41
+Well, yeah, something's different in the configuration of that Fuse download then. There must be something in these sites where there's a filter that... One filter is more accurate than the other.
+Speaker 2 00:43:05
+19,756 sites.
+Speaker 1 00:43:10
+Right.
+Speaker 2 00:43:10
+Right? And then here, it's saying 19,816.
+Speaker 3 00:43:17
+Okay.
+Speaker 2 00:43:17
+Which sort of makes sense, right? Maybe a couple sites went on here in the meantime.
+Speaker 3 00:43:22
+Right.
+Speaker 2 00:43:22
+Right? But it's in this list. It's in this list. It's a Carolina, Tennessee site. But when I search here, wait. Now I found it. Did I just have this filter? What the hell is going on? Did it just take that long to find it? Here, it is here.
+Speaker 1 00:43:47
+Well, where I'm thinking there could be an issue, there could be a lag.
+Speaker 2 00:43:53
+Wait, is this one that you marked? Or is this one that you meant? Well, I want to look at these. Yeah, there's something going on.
+Speaker 1 00:44:15
+I think there could be something going on. I think there could be something going on with the Google Sheets. You know, we can do a hard search for the CSVs and compare the two CSVs in Excel locally on the computer. I think that is... Sometimes Google Cloud might, when we're filtering on the marked yes or no, the find might be skipping over it.
+Speaker 2 00:44:39
+Well, hold on. This is one that you did find. This is a yes. So that's a bad example. Give me another example. Look, this one's a match. You found this one.
+Speaker 1 00:44:52
+Well, so that one's supposed to not have been found.
+Speaker 2 00:44:58
+That's what I'm saying. Mark for EOS. It says yes. It doesn't make sense, but it says yes, wherever it was.
+Speaker 3 00:45:10
+Yeah, I have to think about this.
+Speaker 2 00:45:11
+Let's see if I say, when I did this initially, and then hit here, Control-Find, Control-V, oh, there it is, yes. So give me another one.
+Speaker 1 00:45:25
+Okay, so that's still a little disconcerting because I didn't find it on the list.
+Speaker 2 00:45:36
+So something's going on, right? So maybe you want to start over. 
+Speaker 1 00:45:40
+Well, you can give me that new master list and I can run it again.
+Speaker 2 00:45:47
+All right, so let me do that first.
+Speaker 1 00:45:56
+I think maybe this might be something where, give me... I'll take more, I'll spend more time on it this time and I'll think more deeply about what could be going on and I'll try to think of, I'll look at the logic for the code from last time and I'll try to, now that I've seen the issue with my eyeballs, I'll try to think through and be a little bit more diligent on this pairing.
+Speaker 1 00:46:26
+However, I would say I am functioning off of the EOS underscore, let me send you the, what I'm going to do is I'm going to download the sheet I'm referencing and put it in the Slack and it'd be helpful if you can confirm to me right now that this is the right file.
+Speaker 1 00:46:56
+Just so I make sure that I'm using the right file. Um, let's see. Yeah, because, yeah, this is, um, emailing and sharing, you know, sheets and throwing around, it can be problematic. So, in Slack.
+Speaker 2 00:47:21
+I don't understand why I can't open Sheets.
+Speaker 1 00:47:23
+Um, I also, with this sheet that I'm about to give you in Slack, I do recommend opening it in Excel, because it doesn't have Google, um, Drive, and then I see you sent me a new email just now, and this is the new master list, which I am going to download. So, what I'm going to do is, I'm going to post both of these files in Slack right now, just so we can confirm these are the two I need to work on.
+Speaker 1 00:48:01
+If these are both the right files I need to do the pairing with again, I'll do that.
+Speaker 5 00:48:11
+Alright, so I need to look at...
+Speaker 2 00:48:16
+You're sending me a sheet or something.
+Speaker 1 00:48:19
+Yeah, so both of them are in Slack now.
+Speaker 4 00:48:24
+Alright, so the question is...
+Speaker 1 00:48:34
+So this is the new master list. 17588. So let's just open this one in Excel.
+Speaker 2 00:48:45
+Oh, this won't be the new one. 17... The new one has 19 files. The BBG files will be missing out of this file.
+Speaker 1 00:48:56
+Well, this was the new master list. So... One minute ago, you sent me, here's the new master list. Can you give me a list of any unmatched sites as well. 
+Speaker 2 00:49:08
+Yeah, that should have 19,000, not 17,000.
+Speaker 1 00:49:11
+How many. 
+Speaker 2 00:49:12
+1,000, 19,000, 8,000, that's the one you just sent me and I opened.
+Speaker 1 00:49:17
+And is this correct? Is that the right count. 
+Speaker 2 00:49:20
+Yep.
+Speaker 1 00:49:21
+Okay, so this is the correct master list.
+Speaker 2 00:49:26
+Yep, this is the latest master list, right? Again, the master list changes.
+Speaker 1 00:49:30
+Yeah, I get it.
+Speaker 2 00:49:31
+Day to day.
+Speaker 1 00:49:32
+Yeah, which makes sense.
+Speaker 2 00:49:33
+Yeah, it's a big company.
+Speaker 1 00:49:36
+I mean, it services the world.
+Speaker 2 00:49:40
+We added 2,000 sites-ish, right, when we added this other site type too. That's the other thing. We went from 17 and change to 19 and change when I realized this BBG site type was missing. sites will be relatively new for nonetheless so yeah that this is that's correct the one i just sent you and you sent back good the latest master okay and then the um the mark for sale or end of.
+Speaker 1 00:50:15
+life service that one in slack is correct for you as well because that's the one i'm referencing if we can take a look at that mark first not mark for sale end of service. or end of support yeah so that's the one just above it right here and eos site id list for.
+Speaker 4 00:50:38
+gerald that's uh they open their own one again that one.
+Speaker 2 00:51:00
+This one, this one has 6,252 rows.
+Speaker 1 00:51:08
+Okay, and so you want me to run this, and we're hoping to see more than 1,400 in the master list. Are we trying to see most of these in the master list. 
+Speaker 2 00:51:29
+Yes.
+Speaker 1 00:51:30
+Okay.
+Speaker 2 00:51:30
+That's right. We should see all of them, right? I'm sure there'll be some missing.
+Speaker 1 00:51:36
+I'll find out. I'll run this code in the next hour or two, and I'll get you an update around 4.30, 4.40.
+Speaker 2 00:51:50
+Yeah, I don't need it right now.
+Speaker 1 00:51:53
+Maybe tomorrow morning. But I mean, I should be able to, I might as well do it now because it's... It's hot on my mind, and I do have the time to do it.
+Speaker 2 00:52:05
+I can't do count unique here.
+Speaker 1 00:52:08
+Not in there? Count unique? Is that not in Excel. 
+Speaker 2 00:52:13
+I guess not. It does it in...
+Speaker 1 00:52:16
+It's probably a different name.
+Speaker 2 00:52:17
+And here's the thing.
+Speaker 1 00:52:17
+What is equals unique? What if it's just equals unique? There's got to be a unique in here. Google, yeah, right there. So unique, yeah. Excel is older than Google Sheets. They would have thought of that in the 1990s.
+Speaker 2 00:52:33
+Oh, so that gave me a different list.
+Speaker 1 00:52:38
+Let's take a look at this list. How long is this one? Oh, much shorter. Yeah, that's only 3,000-something.
+Speaker 2 00:52:57
+Yeah, which is what I did when I did the count unique.
+Speaker 1 00:53:02
+Yeah, that means it's the same one.
+Speaker 2 00:53:04
+So, if you know how to remove duplicates, right. 
+Speaker 1 00:53:09
+My code, yeah, I was just reading the code. The code is already removing duplicates. But for some reason, there's only 1,400 that's matching in the master list at the time that I tried it. So, I'll redo it just on end of support, and I'll get you an update today in a couple hours at the latest.
+Speaker 2 00:53:31
+Once you figure out that, right, what I really want to do is add this other column, right, and put what it is there, right? That's 41, these other things, right? I'll add that, too. There's like five or six different ones. And then I can chart it, right? Then I can say, hey, right, here's, you know, at least what we know, right? This is how many of these and that. what market and all this crap, that would be very helpful.
+Speaker 2 00:54:03
+I could give them a report. And I could say, here's the missing ones. I could go start doing the same thing, looking at the missing ones and figuring out why they're missing. Again, I'm going to be quite tight, but I've got to demonstrate that. Cool. All right, man.
+Speaker 1 00:54:27
+Well, great. Great, Jacob.
+Speaker 2 00:54:28
+Let me know if you need something else.
+Speaker 1 00:54:29
+No, this is great. I'm really excited about this project. And it is interesting. And I like it. So let me help you with this today. And you'll see something in an hour or two. And we'll go from there.
+Speaker 2 00:54:51
+Cool. All right. Thanks. I'll talk to you later. Have a good one.
+Speaker 1 00:54:54
+Yep, yep. I'll see you. Bye.
