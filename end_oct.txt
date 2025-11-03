@@ -1,0 +1,382 @@
+Site cudu 30
+
+
+
+00:02:21 Speaker 1 
+Hello.
+00:02:24 Speaker 2 
+What's happening. 
+00:02:25 Speaker 1 
+Hey. Not much.
+00:02:30 Speaker 2 
+I've got some good news. I think I just talked Ponzi into uploading this data that I want to use.
+00:02:39 Speaker 1 
+That's great. Okay, yeah, let's take a look because I got up to this file. I downloaded this file and studied it a little bit. So I'm prepared to learn more about it today. And then I sent you the updated CUDI 30 yesterday.
+00:03:00 Speaker 2 
+Yeah. Yeah, we can start with this real quick. So let me just give you a quick background on this. So this is where we're trying to go in order to, I mean, we'd make a huge impact and it would be very valuable if we could do, this kind of stuff. What we're looking at is first columns here. These are from the tool called Site Portal. Site Portal, which is run by C-Squared, it's a company, not Verizon's.
+00:03:34 Speaker 2 
+company. They have a system that we use with several servers, at least one in each market, maybe sometimes two or three. Their C-Squared software monitors our remotely. So there's a digimodem or something hooked up on every DAS. You use the Lucas Oil Stadium, example. There's a digimodem there, got a bunch of connections to the DAS head end.
+00:04:06 Speaker 2 
+It's all set up for alarms and port forwarding and logins. So I can sit at home. or at my desk at work and i can i can get the ip address and i can log in, to the dapps at lucas oil stadium or just to hop anywhere right a hospital enterprise site, and i can make changes i can check on see what's up and down right i can make it just at the same time it's also capturing any alarms on that and feeding them to network assurance.
+00:04:38 Speaker 2 
+via iop right it's like hey we lost a remote hey the whole radio went down because the data is not getting any any uh input right similarly the radios are giving alarms right but that's a separate system the that's the phone system that stands alone all it does is receive, signal from our radios and repeats it right so if anything goes wrong with the dash, the radio doesn't always know it comes right if you lose the whole bass.
+00:05:10 Speaker 2 
+you know the radio is going to say hey there's no users that's weird, so we know there's a problem but if we just lose a remote in an area of the hospital or something like that the radio doesn't know right that the dap had a problem so anyway the point is, all the deaths that we own and maintain and monitor are done through site port so they can interrogate every one of the sites that we're monitoring and give us information like what that is what platform right so we get this sort of information so i took that entire report last.
+00:05:48 Speaker 2 
+year and i had the market populate all this data that we needed views it's missing right because these are old sites these views fields didn't even exist when they created the site we didn't ask them what kind of building it was we didn't ask them what that distribution or source that we ended was right that stuff didn't exist it was just a fight, predicated on macro info fields right there are no special fields for a build so i filtered that.
+00:06:20 Speaker 2 
+entire report just on in the life maps because that was what i was focusing on so this report's only in the life that means there's a bunch of other gaps out there that are not in the life for which i have not collected information i would like to do that in the future and upload it to fuse um assuming we can get this up one but that's a different step right so the point is i have all this data in column i column j column k this is probably most of this is not abuse right if we go.
+00:06:53 Speaker 2 
+to any site id here and we go look at this stuff we'll probably find it's a bunch of blanks and views so we need to get this uploaded to views sanjay's going to do that good so sanjay's going to help with that i've been waiting almost a year so when he says we'll see if he does, I was hoping you could do it, but we'll take whatever help we can get. If he knows that that's fine.
+00:07:17 Speaker 1 
+Well, he might understand the history of Verizon more in that sense, you know. He might be faster just because he understands the hardware a little better. But, I mean, I'm happy to do it too, but I don't know.
+00:07:38 Speaker 2 
+But he does know how to do it. He said you have to create an active service ticket to do it.
+00:07:44 Speaker 1 
+Oh, I wouldn't know how to do that.
+00:07:45 Speaker 2 
+Right. And he does know how to do that. And they'll take it from him because he's been a developer for a while. So, anyway, that's that piece, right? That's what we're trying to do, get more data into FUSE, right, which was the point of some of the charts and graphs that you made for me. So let's get back to when is the latest file used? That's what I want.
+00:08:23 Speaker 2 
+this is mine all right so do you have an updated file like this that includes cpu 30 now.
+00:08:38 Speaker 3 
+yeah it's a new email i don't want to work off of this one anymore.
+00:09:46 Speaker 2 
+Alright, I see a problem already. We need it to bind. Alright, so we got 1162 sites we found with CD30. If I look at your email here, you tell me what I'm going to add, which is how many visits did we miss. I gave you 1296 and you matched 1162.
+00:10:12 Speaker 1 
+Yeah, and the statistics are in the email.
+00:10:20 Speaker 4 
+What's that. 
+00:10:21 Speaker 1 
+The statistics are in the email.
+00:10:22 Speaker 4 
+Yeah, so you need match rate 5.86. Wouldn't that be the unmatched rate. 
+00:10:45 Speaker 1 
+Probably, uh, that might have been, um, no, no, that's out of the, no, that's the, that's the match rate out of the 19.815.
+00:10:56 Speaker 2 
+Oh, okay, yeah, well, this is what I was wondering, right? Uh, I gave you 12.96, you only found 11.87, right? So, I would bet the reason we didn't find those other ones is because they're labeled as macro, small cell, or they have decommissioned, right? They have a slight, so, you know, I'm not going to worry about those, I think, because it's 5 or 6%, well, no, that's not, I don't know what the difference is.
+00:11:29 Speaker 2 
+It's not that many, right? It's like, uh, 100 out of 1,000, like, less than 10%, do, so what I think, what I'd like to see, though. If I need this combined with the other one that you did, I don't think it's worth finding out those 100 sites. They say Samsung mostly. They should all say Samsung. They don't, but this is the kind of stuff we can upload, right? If it has a CD30, we know it's a Samsung site.
+00:12:08 Speaker 1 
+Well, that could be changed right here. Well, I mean, yeah, this is going to become tricky because, you know, do you mark it here on the Excel spreadsheet or do you mark it in Fuse. 
+00:12:23 Speaker 2 
+Well, that's the point. We can't mark it in Fuse. That's the problem. That's what Sanjay's doing, like that kind of an upload. So don't worry about that yet. This is a Fuse field, like you said. We don't want to mess with that. These are not Fuse.
+00:12:46 Speaker 3 
+What's network priority? Is that the other one. 
+00:12:59 Speaker 2 
+All right, so network priority, did you find any of those? Have we not. 
+00:13:07 Speaker 1 
+Well, what is it being compared with? So network priority.
+00:13:16 Speaker 2 
+It's just a fuse field.
+00:13:18 Speaker 1 
+Well, I mean.
+00:13:19 Speaker 2 
+There's no comparison.
+00:13:22 Speaker 1 
+That would mean, let's take a look at all the columns here, because I'm trying to keep up. But let's just kind of, you know, I don't think. All right. Like, I guess. Mark for sale. Yep.
+00:13:48 Speaker 2 
+Let me unfilter, and nothing's filtered right now. So if we start with, these are fused fields we're not messing with. Mark for sale, that's the first one that we look at. Yes, $44.91. It's the same, great. Because again, remember, what I want to get to is the everything else, right? So I would filter no, but let's not do that. I'm just going to keep everything. Network priority.
+00:14:18 Speaker 1 
+Where would this information come from, is my question.
+00:14:24 Speaker 2 
+Fused, network priority comes from fused.
+00:14:27 Speaker 1 
+Well, I marked, I mean, I did the changes in fused, like you had mentioned, to add the, so you sent me in Slack, I have Slack open right now. You sent me, if we review Slack, you sent me this. Additional column to add which I did and that's the network priority location.
+00:14:59 Speaker 1 
+So if you see at least in that photo for at least the 20 sites that are in that photo all of them are blank So the question is is that the correct column to go off of for network priority, and you should be able to open my, fuse filter.
+00:15:20 Speaker 2 
+Yeah.
+00:15:22 Speaker 1 
+In the user course you yeah network priority field so a you should be able to see my filter B You should be able to confirm, Whether or not they are empty.
+00:15:53 Speaker 1 
+I think I last modified it this week. I created it several weeks ago.
+00:16:09 Speaker 3 
+Gerald did that. You should only have one.
+00:16:18 Speaker 1 
+In theory. Let's see. I don't know if that... maybe it just takes time.
+00:16:27 Speaker 3 
+Oh, I missed it. Damn it! I found it and it changed.
+00:16:36 Speaker 2 
+Alright, so the point is, we should get this from Fuse. You shouldn't have to do anything with this field. It should just spit it out.
+00:16:50 Speaker 3 
+Yeah, it's right there. Network priority location.
+00:16:52 Speaker 1 
+Yeah, that's what I added. And then, um, I filtered all... And this is where you started. Yeah, so this one has 300-something thousand, and then I filtered it down to the three that you mentioned. In-building, I, you know, um, it was in-building, venue, in-building, BPG. Where is that? Right there. Um...
+00:17:14 Speaker 2 
+I see live.
+00:17:19 Speaker 1 
+Yeah, I added another one, so I went, so right there, um, I can try to open it on my end, but... You can see it. I added another filter, which was...
+00:17:36 Speaker 4 
+Yeah, but I don't see it.
+00:17:38 Speaker 1 
+The site type. So you add another filter on site type. So you select the field, and here, site type. You can type searching into it, so where you're so you're blinking, Well you have to add it first you no no, At the bottom sort order. Oh no you had it right. I think yeah add new row no.
+00:18:19 Speaker 1 
+Well this is here well anyway, yeah, I guess if you well there well this there's three hundred sites on my filter I had it down to the 19,000 which was the three that you you mentioned me to use in, building venue and in building BBG either way we can look through this one for ibv priority location And they're all we need to confirm whether or not they're all empty.
+00:18:50 Speaker 1 
+Well, that would be why there, if this is true here, that's why it's empty in the Excel spreadsheet.
+00:18:59 Speaker 2 
+Yeah. No, it's not empty here.
+00:19:03 Speaker 1 
+Well, then the question comes in, you know, this is out of, these are 1,300 items. What is the site location or what's the site type. 
+00:19:21 Speaker 2 
+In building, menu, and probably all that, there's probably nothing now. In building and venue.
+00:19:33 Speaker 1 
+Okay. So then I wonder where there would have been an issue. Unless I have the exact Excel file you have and it's the exact configuration.
+00:19:46 Speaker 2 
+I'm afraid you used the wrong. It doesn't have the report. The report I was looking at doesn't have the building and stuff. So you only just add it the priority location. Anyway. Is site type in there? Because it's under, so site type is under selected field. Yeah. But this is going to give you 19,000 sites. Not the 19,000 sites. This is going to give you all the macro and small cell sites. This report. I can open it on my end.
+00:20:35 Speaker 1 
+And share my screen and show you what I see. All right. Well, regardless.
+00:20:46 Speaker 2 
+Let's talk about what we... Yeah, there's 300,000 sites here. Your report has 300,000 sites. It's not filtering. So maybe you have another report. Maybe you have another version of this report. Maybe you got a different version. Regardless, if you got the right amount, that's fine. So we go back to this, right? This should come from Fuse.
+00:21:15 Speaker 1 
+It does.
+00:21:19 Speaker 2 
+Okay? This you're doing. This comes from Fuse. This you're doing. And that's the one I haven't given you yet. POR sites. Marks for end of support. Looks like it's the same. Great. then we have marked for in the support cd30 right yep that's the idea so what i'd like to do.
+00:21:58 Speaker 2 
+is combine these two things right so instead of having marked in the support cd30 it should all be under here right so basically if we say yes here and then we don't have column g and then under in the support equipment the cd30s need to come in under here so it's all in the same column.
+00:22:34 Speaker 2 
+is that a problem to do i know it's a different sheet, maybe i maybe we need to just combine the sheet the cd30 sheet with the this list, Ericsson hardware. You see what I'm saying? Because eventually I want to put, you know, this is just another piece in for hardware for me, right? I don't need a second, I don't.
+00:22:59 Speaker 1 
+need a second column for that. Which column has the CDU30? G. Okay, well we should mark just the CDU30s and see if it runs into the column you want for, so we should simulate that example. So you want marked EOS hardware, yes, and marked... Yep, so all these should.
+00:23:33 Speaker 2 
+say yes here in column F, and in column H, what's column H right now, should say CDU30. 
+00:23:42 Speaker 1 
+and column G should... So my, well, okay, yeah, so... Well, I mean, technically, the marked end of S hardware, no, is no. So, right now, the rows that you're looking at, the site IDs, are not marked as end of support hardware, but they are CDU30 hardware.
+00:24:07 Speaker 2 
+Which is end of support hardware. Yeah, I get it. I gave you two different lists, but it's the same thing.
+00:24:13 Speaker 1 
+Well, okay, so that would mean that the previous marked end of S hardware did not contain CDU30 hardware in it.
+00:24:27 Speaker 3 
+Yep.
+00:24:28 Speaker 1 
+So, you're saying that the marked EOS CDU30 is added on top of the marked end of support hardware previously. and that this 1600 okay and you're saying you want eos eqt to have the cdu 30 label on it, so you're saying so you're saying i need to run a script that finds all of the site ideas ids that.
+00:25:04 Speaker 1 
+are now marked cdu 30 i need to a convert those no's into yeses and then b i need to add that cdu 30 to the eos eqt column and then at the end of it delete g yeah or yeah or what so what i would.
+00:25:26 Speaker 2 
+have done in the beginning if i would have had it i didn't have it i didn't but yes what you said it's correct that's one way to do it, what i should have done is when i gave you the list of 52 15 that's 41 dot right all this stuff, i should have also had the cdu 30 in this initial list right and then you would have marked them yes.
+00:25:58 Speaker 2 
+and you would have put cdu 30 here in column h already the problem was i didn't know what this were because those are samsung sites and i'm eric's an expert i had to go find the cdu sites right so it wasn't in the initial list so my point is could you just append this list that we already have with the cdu 30 so you don't have to do this secondary thing it doesn't matter to me.
+00:26:31 Speaker 2 
+as long as i get the result but i mean i'd rather leave.
+00:26:36 Speaker 1 
+the EOS. So let's, I guess, let me try to help you. So I do want to give you some information that might be helpful. I don't, I gotta be, I'm going to get so much work funneled my way with what I'm about to say, but it'll make sense. So two things. I don't mind making as many changes as you want to this file. I can run 10 programs or 20 programs and I can change this 20 times.
+00:27:07 Speaker 1 
+It doesn't, it doesn't matter to me. B, the code doesn't care. So I'm more concerned about making sure that we have one sound. So let me also clarify, it looks to me like working with Fuse is problematic. And I want to make sure we have one sheet at all times where you and I can both, you know. both agree that it is correct because as soon as we have two or more.
+00:27:39 Speaker 1 
+sheets where we think they're correct it's going to become chaos so I'm more concerned about keeping this one specific sheet correct at all times A and B I don't mind making any changes like it's not hard for me to delete column G and then add the column F marked yes and the CDU 30 and then adding it to EOS EQT that's fine there's no real technical difficulty between it it makes no difference so I'd rather keep the EOS EQT there because it makes sense to me.
+00:28:15 Speaker 1 
+it's a good column to keep and we'll just add the 1100 some odd cdu 30s to that list that are there and then I'll just delete the G at the end of the program when it runs does that help, Okay, okay, because I want me okay result. All right. Yeah, Maybe I went around a long way to explain that but I want you to have confidence in my ability to you know You know rig this up. However, you need to that doesn't matter to me. That's my job.
+00:28:46 Speaker 1 
+I've I've been writing software for 10 years. So. Don't worry about it, I know Don't worry about it. If we have to make a lot in the game. That's fine If we have to make 20 changes, it doesn't matter to me. The code doesn't care I'm more concerned about you having the correct information you need every time you need it.
+00:29:13 Speaker 2 
+All right, so I'm good with that approach, You know what I want now, right? We just need to run this to me. It's all the same, 30s are into support, They're on the list to get upgraded, we're tracking them, and the CD830 ends up here, you get rid of G, and this will happen again, right, because some other piece of hardware is going to be in support, right, so.
+00:29:41 Speaker 1 
+Yeah, that's fine.
+00:29:42 Speaker 2 
+It is like a never-ending thing, right, every year there'll be something new. Alright, so that's one thing that we need to do, and we need to figure out, POR, that's just going to sit blank for now.
+00:29:53 Speaker 1 
+Okay, this network priority, though, is an issue, yeah, this network priority is an issue because, if I can share my screen real quick, and I can show you what I see for the fuse, so I'm going to share my screen, so this is what I see right now on the fuse, so the first answer I'll say is the filtering, because we had.
+00:30:32 Speaker 2 
+So your filter, you're seeing 19,000 sites, but did you filter it here already by site type, or did the report have it done initially. 
+00:30:46 Speaker 1 
+So you filtered it here. I filtered it here in building, I guess I didn't give you the correct, yeah I didn't know, my bad. So I filtered it here, in building, in building VBG, and then down here venue. So then it only shows up the 19,000s. I got it. So then if I filter here, we want yes, for priority location. 
+00:31:12 Speaker 2 
+Correct, yeah.
+00:31:16 Speaker 1 
+Now that's really strange. That's really strange that my... code, that's really strange that the Excel file I sent you didn't have this 1300 in it. It should have because I literally downloaded it straight from here. Literally all I did was click export CSV. That's all I did. So that's, I guess I'll have to run it again.
+00:31:48 Speaker 2 
+Yeah, this is new, right? The IBB network priority location is super fresh, right? It's a super fresh field. Maybe you ran it and they put a bunch of in, or maybe Milton deleted them and did it again, right? I can't answer it for sure, but if we look at, look at the site subtype, ODAD, it shouldn't matter, right? You're getting all the site types in building venue.
+00:32:19 Speaker 2 
+Well, let me see that's 1350. well that doesn't matter the same report so mine should be 350 also because i'm literally in your report i just didn't filter, your site type yeah i guess you're gonna have to run it again, uh unfortunately so so what we want to get to, right what i'm trying to get to is we have all the 19 000 sites, right we filter out the march for sale there goes 4500.
+00:32:52 Speaker 2 
+we filter out the network priority there goes 1350 not a lot but there they go we filter out the march into support hardware including the cvu 30 right there go another few thousand and then we filter out eventually which are not there yet the 2026 por sites right there goes another couple thousand right what we're doing is whittling down to all the sites that we have no plans for right that's the whole name of the game.
+00:33:23 Speaker 1 
+And you said no plans. 
+00:33:25 Speaker 2 
+Yeah.
+00:33:28 Speaker 1 
+Okay.
+00:33:28 Speaker 2 
+So everything that you're filtering, right, that we're capturing, and I'm giving you lists of network priority sites, we're always touching those. Marks for sales, sales is working. And the support stuff, I'm giving you lists because we're tracking them. The markets are creating projects and trying to upgrade them, right? So we're touching all that stuff. POR, that means it's in our plan of record that we plan to do a project on. Right? And maybe, I think when I give you the POR sites, by the way, I might give you the last couple of years POR instead of just this year.
+00:34:03 Speaker 2 
+But the point is these are all sites that we're doing stuff at, right? We're either touching them for sure or we're planning to touch them. Right? And what my VP is interested in is what about everything else that we aren't touching, that sales, because his opinion would be. Um, everything that we don't have a plan to touch, that's not a network priority site, sales should be selling that, working, right? But we're going to say, well, we filtered out those sales sites, or however you want.
+00:34:36 Speaker 2 
+to say it, filtered them in, filtered them out, right? Whatever, we're separating them. And at the end of the day, most sites, we're going to end up with like, what, 12, 14,000 sites that we have no plans for in the near future, right? Nobody's looking at it. And then he wants to take that list, and he wants us to say, what are these? You follow me. 
+00:34:59 Speaker 1 
+Yeah, yeah. That makes sense.
+00:35:03 Speaker 2 
+Which is why you were putting together those charts and graphs. Yeah, open up your charts and graphs real quick while we're talking about that, right? So we filtered out, or filtered in, what we, uh, what we have so far, right? Now you're adding new stuff, so we're going to have to do this again. but i didn't see a good trend i didn't see a good trend here right so do the do the first one eight.
+00:35:33 Speaker 2 
+nine we have um we have all our in-building sites right and then everything else the pie chart look.
+00:35:44 Speaker 1 
+exactly well they're similar but the value is not the same i tried to zoom in the uncategorized sites was 54.5 percent um with the ibv category populated it jumped to 55 uncategorized right i.
+00:36:04 Speaker 2 
+expected so my expectation is the everything else would have a higher percentage but i think it's.
+00:36:11 Speaker 1 
+just because it's so many right well it is a lot i mean if we yeah i mean if we go to the data.
+00:36:24 Speaker 2 
+We need to look at it a different way, or present it a different way, is my point, right? What if we need to present it a different way, like if, I know it's a lot, but it's because the sample is so large, right. 
+00:36:38 Speaker 1 
+Yeah, you can see that it, yeah, you can see it's over 12,000, over 10,000 for both. So it didn't really draw. So when EOS was marked no, that just means there aren't a lot of EOS marked yes in that. In this spreadsheet. It's not that many. It removed 1,000.
+00:37:05 Speaker 2 
+So here's what I'm thinking. Instead of doing everything, all sites and then the everything else, I'm thinking what I'd like to do is the two categories we're going to have. I'm going to call it classifications maybe. I don't know. and right now we have all sites and everything else right well all sites include the everything else right and there's no difference between the two and go through your other charts real quick i think we'll see the same sample right there's no there's not much difference right.
+00:37:39 Speaker 2 
+they all kind of look the same they're similar everything just kind of shifts on the story.
+00:37:44 Speaker 1 
+everything just kind of shifts downward um right well we're not telling a good story is my point so there's two ways to look at it um either well it's not either or it's really a um the the uh mothership or the main source of data um has a huge swath of sites that are just just don't have data to begin with.
+00:38:15 Speaker 1 
+So, the main data source has, right, so then it's like, well, the main data source doesn't already have a lot of detail, or half the data has no detail, or it's missing detail, and then the other half that does have detail, maybe we can look at it a little bit better to find more detail within it, but there isn't that much detail, there's only so many columns, so there's only so many ways we can look at it. I mean, we can look at it more and more, it's just, you know, it's a simple data set, is really where I'm going with this, it's actually really, from my experience, the data that's in this table is really simple data, so I don't know if we can, I mean, we can look at really creative ways to display unique patterns and information that we find, but there's only so much we're going to find.
+00:39:13 Speaker 2 
+because it's well listen to this yeah we're not telling a good story right i agree with what you're saying so instead of doing all sites and then everything else right because everything else is most of all fights right now right we're going to carve out some others we're going to have two groups basically right so let's separate the two groups it's going to be everything um sites that we have a plan for right which is everything we've been filtering filtering out filtering in whatever you want to call it and then the everything else so i want to have instead of.
+00:39:48 Speaker 2 
+all sites versus everything else i want to have sites that we have a plan for versus everything else and chart and graph that because what i want to what i'm trying to understand is, If we look at the site sales that's working, if we look at the POR sites as a group, right, all these as a group, if we look at the in-the-support sites, CU30s, Baseband, if we look at all that stuff together separate from everything else, do the charts look exactly the same, right?
+00:40:23 Speaker 2 
+Do the charts look exactly the same? We're still missing about half of everything, right? The categorizations are about the same, right? I'd like to understand that. Do you follow me? I'd like to see if there's a trend. I was hoping to find, like, for example, network priority sites, and we charted those. I would guess that those all probably have category information, right? We probably put that they're NFL stadiums and basketball arenas instead of just blanks. Maybe I'm wrong.
+00:40:54 Speaker 1 
+Well, yeah, okay, so you're saying we can kind of work, you're saying there might be some good ways to tell a story and look at the data in an interesting way by leveraging the IVV network priority and what differences are there for these type of sites. 
+00:41:15 Speaker 2 
+Well, I want, if you go back to your spreadsheet that I was looking at, so again, the idea is separate everything else that we're not touching, there's no plans for from the stuff we are touching, right? So all the... So what I want to do is take our 19,000 and get that number down as low as we can, which right now it's like maybe 14,000. So if you filter out column C for sale, column D, network priority that's not working right now,
+00:41:49 Speaker 2 
+column E that we don't have yet, POR sites, column F, support hardware, column G, CDU30s. If we take all those as a group and we chart that, then we have more data.
+00:42:04 Speaker 1 
+We have more granularity.
+00:42:06 Speaker 2 
+Than we do for the everything else.
+00:42:08 Speaker 1 
+We will have more detail. We will have more granularity, and we will have – it's like zooming in. We're zooming into the data, and we'll be able to find more interesting things.
+00:42:22 Speaker 2 
+I want to chart the same things, right? I want to chart the category, the site subtype, and the distribution OEM, right? I just want to see what it looks like. The charts we're doing now, they're not telling a good story.
+00:42:39 Speaker 1 
+Well, that's because half of them are being washed out with uncategorized sites. So the main thing, though, is you want to kind of redo these charts again, but you only want to do it on in-building venue one category sites that's not blank.
+00:43:08 Speaker 2 
+No, that's not true. We've got to include the blanks. What I'm hoping to find is... There are fewer blanks whenever we... whenever we consider the things that we're filtering, right? So, again, chop it into two halves, right? Here, let me show my screen here. I think you'll follow what I'm doing.
+00:43:33 Speaker 1 
+So, I guess, yeah, where this kind of goes is I'll kind of follow your, I'll need to follow your lead as to what are all of the different filters you want for the statistics to come from. Because I think you have a better idea of that than I do.
+00:43:51 Speaker 2 
+So, do, find my chart. We're on the right path, right? Yeah, yeah. There's no problem here. So, we need to keep working the data. That's the most important thing because we can't do anything else without that. I've got to close a million different things here. So, give me a second. Oh, there's so much going on, I can't find the presentation that I want, I'm going to skip the screen, and which screen, screen two, that's what the only one I found helpful, right, so just use this as an example, right, pretend like the CDU30s got in here, right, that you're about to do, yeah, okay, just this chart here, so now we added another thousand sites, which almost doubles this, I think, right, it's quite a few, CDU30s,
+00:45:08 Speaker 2 
+so, you know, say there's 2,500 sites total in this group, what I'd like to do is chart, um the the building categories you were just looking at right what are the what's the in building category at these at this subset of sites is it still going to be 50 percent or missing or are these ones actually going to be better right and like like you said maybe maybe i should.
+00:45:45 Speaker 2 
+do the uh network priority sites by themselves on a pie chart right just those thousand sites that'd be cool and do the in-building category right do the in-building category on just the thousand sites right because i bet those aren't blank right those probably are going to be populated so we'll still have a a piece of the pie that says we don't know what it is right it's in and we need to show that, right but i bet it's not 50 50 right and maybe this one is right i don't know if it is or not.
+00:46:18 Speaker 2 
+but i'd like to see that um this is let me take you to what i was gonna what i kind of was trying to explain to rick right so here's here's the way i explain it to my leadership team right, we're working on the fuse database right we're trying to give you some data so i explained him the database integrity which basically said hey we're missing a bunch of data i'm trying to get it uploaded collected right you get that part they're blank yeah this is what.
+00:46:52 Speaker 2 
+rick asked me to do rick the vp right he said define everything else, And, again, everything else, let's define what everything else is. I'm excluding the sales list, right, those 4,500 sites. I'm excluding the POR list for next year. Say that's 1,000 sites. I'm excluding the baseband list and CDU30. I'm excluding the priority sites.
+00:47:26 Speaker 2 
+And, eventually, I want to try to exclude network sites. Don't worry about that right now. But this is one group, right? This is a small group. This is the group of sites that we know what we're going to do, right? We have plans to do stuff, right? We have plans to work on them. This isn't done. So eventually it's network size and maybe this is just a note from me.
+00:47:56 Speaker 2 
+I just had an idea. So this is one subset of sites. Let's guess that it's 10,000. 10,000 out of 19,000, that's half, right? That means, hey, we're looking at, was it 19,000 our total. 
+00:48:15 Speaker 1 
+Yeah.
+00:48:16 Speaker 2 
+Five. If I do five, six, seven, eight, let's say it's 8,000. So if we have a group of 8,000 sites, right, chart the above 8,000 sites and compare that to everything else, which is going to be, what, 11,000 sites if we have a total of 19,000, right?
+00:48:49 Speaker 2 
+And what I want to do is see, do we have more data points for what the building category is, what the distribution DAS will be on these 8,000 sites compared to these everything else? I don't know the answer to that. I would hope that we do have more data points for this, that it's not as, it's not 45-55. We know this is 45-55. We know everything as a whole is 45-55, and actually guessing this number, it probably, maybe it is blank, and we're not going to learn anything. Maybe it's not worth doing.
+00:49:30 Speaker 2 
+But I know it's worth at least doing the network priority sites, right? I'm trying to figure out where are the holes in the data anywhere specific, right? Are the holes in the data on the sites that we don't touch, we don't care about, because they're enterprise sites, right? This data right here, distribution hardware, this is one of the most important things. We can't tell leadership how many and what kind of DAS we have out there, right?
+00:50:01 Speaker 2 
+And I'd like to chart this against these two groups, chart distribution data against these support sites, because most of these are going to have a DAS. These are just a source that we're looking at, and there's a DAS behind it, right? So, in fact, I'm going to add that. I don't know if you're following what I'm saying, but here's what I want to do. I want to chart the above for RAN OEM and just our DAS OEM.
+00:50:42 Speaker 2 
+But it's got to include the CDU30 after we get to CDU30. and i'm open to other suggestions right just to show what's going on here so i want to do that, this is a good point here this one's a good point right showing all the different assuming again we have the pdu 30 here i think this is a good data point it just shows the number of different support stuff so basically we're we're taking this group of data here and we're going to show.
+00:51:17 Speaker 2 
+the category of because that's what rick's interested in he's really interested in what what is the building type and the reason he's interested in the building type by the way is because what he really wants to get to is if we go over here to the building type these categories right some of these.
+00:51:48 Speaker 2 
+are network priorities, right? We know what those are. Some of these are network non-priority, but they're still network, right? And I can describe the difference. But the rest of them are enterprise. And I think where we're going, you know we got a new CEO, right? A bunch of people are about to get laid off. Like, you know, hopefully we're both still here in a month. There's going to be a bunch of people laid off. The budget's going to get slashed, right?
+00:52:19 Speaker 2 
+Usually we get $350 million. I know we're going to get less. I don't know what the dollar amount is. We're going to get less money. We already don't have enough money to do all the stuff that we need to do, right? If you remember, I showed you a chart. This is an old one. I showed you these kind of charts, right? Look how much money we need. We need $250 million a year for the next three years to deal with our end of support stuff.
+00:52:51 Speaker 2 
+And this isn't even counting the Super Bowl that costs $100 million and all the business as usual, all our commitments and contracts and everything else, right? We can't do this is the point.
+00:53:07 Speaker 1 
+Yeah, yeah.
+00:53:08 Speaker 2 
+So if our budget's going down, I think what Rick's getting to with the everything else needs to work by sales. What does he really want? I can tell you what he really wants. He doesn't know what he wants, but I think I do. He wants me to say he wants three categories here. It's going to, and I put it, in fact, I put it in the, I just, I didn't get a chance to present this to him because he had to figure it out. We didn't have our full meeting.
+00:53:40 Speaker 2 
+We had like five seconds. Right here, right? So everything we have, like 20,000 live sites, right? We're talking about excluding all this stuff, right, we just talked about. We know we have a plan for all this stuff, but then we have everything else, right? That's what we're trying to chart. But what I want to do is add a brand-new fuse field that doesn't exist, which means there's zero data right now.
+00:54:12 Speaker 2 
+We can immediately populate network priority, right? We have a yes or no field, right, so we can get those 1,500 off the top, so we have something. But basically, I want a new classification field, and that's going to be network priority. We know what those are already. We just got them in. We can steal them. The second classification will be network non-priority. So think of a small convention center, right, or a small amphitheater that doesn't get the network priority tag, right?
+00:54:46 Speaker 2 
+The small airports that aren't in the top 50, NCAA college stadiums that are not in the top 100, right? So we categorize those. So network priority, number one, we always touch those. We update them, upgrade them all the time, spend a boatload of money. One, network priority two, they're not priority network sites, but they're still network sites, meaning they're public, right? That's priority two. And then we have Verizon retail and Apple stores.
+00:55:16 Speaker 2 
+That's still a network site, but we have a whole sales division and retail store people with their own name that can take care of this stuff, right? And then we have enterprise. I think Rick is wanting to say the everything else. We need to figure out what everything else is, and most of it should be enterprise, and most of it should be worked by sales, and it should never get any capital money because we don't have enough money to do.
+00:55:48 Speaker 2 
+So I think if I could do this for him and say, hey, look, here's priority one, we spend capital. Priority two, we try to spend capital when we have it. Priority three, we don't touch it. VCG can take care of it because they have their own team and their own budget, and we don't need to pay for it. And number four, enterprise, we never touch it. We don't have money to touch it anyway. All those end of support, base bands, CDU30s that are at an enterprise site, like a warehouse down the road, a Coca-Cola, or you name it, right?
+00:56:23 Speaker 2 
+It doesn't matter what it is. It's a private company. We don't put money into that because we can't afford to. That becomes a sales problem, but we have to identify that and fuse. We need the building type. We need it to say it's a warehouse or manufacturing, and then we need to say that it's enterprise. And if we can do that, I think what we'll find is that 80% of everything we have is enterprise, right? Yeah. And we don't need to spend capital dollars on it, especially if our budget gets cut.
+00:56:57 Speaker 2 
+So this is where I'm going, right? This is what he's asking for, everything else. What are we doing with it? And this is what I'm trying to give him. Like, I'll show you some stuff on everything else. We'll do some charts and graphs. We'll show you the full holds. But here's what we really need to do is classify them like this. We'll still try to give you the category of the building so you can see if it's a warehouse, manufacturing, if it's an office or whatever. But at the end of the day, what you really want to know is if it's enterprise. And if it is, that's a sales problem from now on, not ours in that way, because we can't afford it.
+00:57:33 Speaker 1 
+Okay. Well, okay, so I'm listening intently.
+00:57:37 Speaker 2 
+That's the big picture.
+00:57:38 Speaker 1 
+Well, okay, so where I'm going with this is I think you need four or five really impactful charts. I don't think the charts I made are going to be very impactful. I think your slide 18 is very impactful, that chart. I think the easiest thing, if you can help me, if you can figure out four or five key charts that would really help everyone, and then all I need to know is what columns under what filters do you need me to run the statistics for,
+00:58:14 Speaker 1 
+and I'll create that data for you easily. Because otherwise, I'm going to look at this very generically. I don't have the insight that you have for what is going to be really impactful to help the business going through this layoff period. And I get it. I listened to the whole CEO presentation yesterday. He's ready to cut. So we have to just work better and smarter.
+00:58:44 Speaker 2 
+Yeah, so in lieu of not having enterprise sites, what I want to do is we need to get the CDU30 deal done, right, and the network priorities. Each of the list, right, before we chart anything. And then we can rerun this chart with CDU30, and I can do that, right? I just need to take care of the data. And then once we have the CDU30 there, right, we'll make this chart again, showing with the CDU30 stacked on top of it,
+00:59:14 Speaker 2 
+and then we're going to chart this same data. and show what's the distribution that's OEM, which a lot of it will be blank and that's okay, right? That justifies Sanjay working on what I have working on. And then we also need to chart the building category, because that's the only way to get to this, what's enterprise and what's not, right? Because we don't have an enterprise classification. That's what I'm recommending that we add. I'm already working to get this field added to Fuse.
+00:59:45 Speaker 2 
+That's in the works, I have the request. And then we're gonna do a whole new data set, which I should probably just make a new slide. Let's chart the network priority only.
+00:59:58 Speaker 3 
+Yep, okay.
+01:00:02 Speaker 2 
+And how do we want to chart network priority? I want to chart it by. that's just stroke OEM and then again by building category. Because, again, this is, in this case, it's not because we want to see what is enterprise. None of these are enterprise. That's why they're not priorities. But we'll see how many are football, airport, you know, convention center, transportation.
+01:00:34 Speaker 2 
+Okay. But we can talk about this later. Right now, we've got to do the spreadsheet. Let's go back. So you're going to figure out the network priority location deal, right. 
+01:00:52 Speaker 1 
+Yeah, that's, oh, yes, what you're saying.
+01:00:58 Speaker 2 
+Well, they just need to be included, right? There should be some here. But it needs to end up in dogs going crazy, guessing the kids are. All right. Let's go back here. Alright, so what's important? This master sheet, this is what's important. Network priority site, we know there's 1,350, right? Those need to end up here. So we can filter them and then chart them, right? That's got to get in here. Marked for sale is fine. Marked for end of support hardware and the equipment is fine. But then you need to merge the GDU30s like we talked about and get rid of column G.
+01:01:49 Speaker 1 
+You're going to include these in column F and H. You're good with that piece, right? Yep. Yeah, I really just need the list of columns and what values they need to be. That's all I need to know and I can work with that. Do you need me to slack it? If it's not slack, I'll mess something up, yeah. I really appreciate it, because I won't remember, I won't, if you write it down I can reference it and make sure I don't make a mistake.
+01:02:29 Speaker 3 
+So take the CDU30 list in column G and populate column E to yes, where there is a CDU30, right? That's step one.
+01:02:56 Speaker 2 
+Or should I say, if there is a CDU30 identified in column G. populate column E to yes instead of no, and populate column H with E to the third.
+01:03:40 Speaker 2 
+Once that is complete, you can remove column G altogether, right? Because we have taken what's in column G, we literally are taking what's in column G and putting it into H, but we're also changing column F from no to yes.
+01:04:05 Speaker 1 
+Yeah.
+01:04:12 Speaker 2 
+Okay, this will give us another...
+01:04:15 Speaker 1 
+This is great, thank you. This is very helpful.
+01:04:17 Speaker 2 
+I'm not going to worry about the ones that didn't match. They're probably in for decom. So I'm not going to worry about those decom sites. We don't need to be perfect, right? I'll worry about that later. We've got so many holes in the day. I'm not going to worry about being perfect. This is close enough to estimate money for, plan for. So that's number one.
+01:04:48 Speaker 2 
+Then we need to get the network priority bikes, which is basically just a yes or blank B.
+01:05:13 Speaker 4 
+And I'm sure this is just because you pulled it too early.
+01:05:36 Speaker 1 
+That's possible, yeah. That's probable. Or Milton changed it around, right? Yeah. That could be the case, too. Either way, my filter now has it, so I'll just pull it again and download it and it will be correct. And you saw my screen, so we confirmed that it's true.
+01:05:56 Speaker 2 
+Why would there be no's? Why would you put no? Which side meant so? You know why? It's because it's a field the market can type in. They're not supposed to put no. They're supposed to put yes or nothing. So you just pull everything that comes out, and you'll filter the yes, right? But then once you do that, I'll be able to go to the sheet that you made, and I can start making those charts, right?
+01:06:27 Speaker 2 
+I can make the chart based on network priority, and I can do some other stuff. So the most important thing for you is to do the data. Once you do the new sheet, your new code, we can talk later about making some new charts and graphs. All right, cool. I know we're over time. I don't think I have anything.
+01:06:55 Speaker 1 
+Well, thanks for informing me of this.
+01:06:57 Speaker 3 
+Any questions, comments. 
+01:06:59 Speaker 1 
+No, I've been writing notes and, you know, I now have the Slack, so you'll see me turn this around. I'll work on this this afternoon. I mean, the latest, tomorrow morning when you get in, you should have a complete list.
+01:07:17 Speaker 2 
+All right. If I have time, I'll try to schedule something for tomorrow afternoon.
+01:07:22 Speaker 1 
+Well, today's Friday.
+01:07:23 Speaker 2 
+I'll put something on the calendar either way. All right. Well, okay. Monday.
+01:07:28 Speaker 1 
+Okay. Well, yeah, early in, when you come into work on Monday morning, you should see a better Excel sheet. And we should be able to review it.
+01:07:41 Speaker 2 
+All right. Cool. Thank you. Have a good weekend. Good, Jacob.
+01:07:45 Speaker 1 
+Yeah.
+01:07:45 Speaker 2 
+We'll get this again later.
+01:07:46 Speaker 1 
+Okay. Well, that sounds great. Yeah, I'll be in touch. I'll work on this.
+01:07:51 Speaker 2 
+All right. Thanks for your help.
+01:07:52 Speaker 1 
+Yep, yep. No problem. Okay. I'll see you. Bye-bye. Mm-hmm.
