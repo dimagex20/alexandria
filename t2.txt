@@ -1,0 +1,57 @@
+T2
+
+
+00:00:09 Speaker 1
+Hello? Hello? So, I'm here. Let's see how the connection goes.
+00:00:25 Speaker 2
+Alright. So, what is it that you need to know.
+00:00:30 Speaker 1
+Well, so I am new to this position as of this week. So, I am not aware of the application or its name or its location. I studied the overall system the early half of this week. So, this is new to me. So, I kind of, I'm just kind of looking for, and let me know how much time you have. I'm kind of just looking for... Two or three websites that you use regularly where this application is being defined and then I can take a look at the code because once I see the website, I'll know what server it's running on and I can start studying the software so I can help you. This is my first week.
+00:01:17 Speaker 2
+Okay, good. Thank you for taking me out.
+00:01:21 Speaker 1
+Take your time. And this is VBG Funding.
+00:01:27 Speaker 2
+Yeah. So that's VBG Funding.
+00:01:31 Speaker 1
+Okay. Take your time. Yeah, I see. So in the tool, I see Budget, VBG Budget Summary, and then...
+00:02:09 Speaker 1
+I don't have a lot of time.
+00:02:21 Speaker 2
+Now, okay, let me ask you something. Now, do you have the permission or the ability to take away access and then give access again? No. Because I think that might fix it.
+00:02:37 Speaker 1
+Yeah, no. Right now I have developer access sometimes to make improvements, but I don't have the authority to add or remove permission.
+00:02:52 Speaker 2
+Right.
+00:02:53 Speaker 1
+And then the other thing I see is, so this is on a server that I have not worked on before. and on the browser so I may not be able to even make any changes I at best I might be able to read yeah so well let's figure this out I will not be able to, fix the issue today but I can be made aware of the issue and I can try to work to get access to, the tool to hopefully help you.
+00:03:25 Speaker 1
+better in a couple days or in a couple weeks hopefully days not weeks but yeah because I mean there's a lot of projects.
+00:03:34 Speaker 2
+that I need to be able to respond to for now I talked to Ellen and she said if she could in the meantime request access for me so this is not a rush right this minute but what we can do because I can't connect to WebEx so what I can do. I do have a screenshot of the error I get, and then I can send you the link to the tool, and then tell you exactly what I'm looking for, where I see the issue.
+00:04:12 Speaker 2
+Does that work.
+00:04:13 Speaker 1
+That would be great. So that would be great.
+00:04:19 Speaker 2
+Yeah, because I know I have a screenshot of that issue that I can cut and paste, and so you can flag it to me. But I know it's not going to tell you much until you are able to, and I can definitely send you the link to that one, but it will have to be pre-flagged, because right now for some reason it doesn't seem to be working anymore.
+00:04:53 Speaker 1
+Okay. Well, you'll just send me anything that's bothering you or blocking you. So all I need is screenshots and documentation in my Slack or my email. Just send me, anytime there's an issue, just kind of spam me with all of your problems, and that way I have a record of it, and I can study it, and then I can follow up.
+00:05:16 Speaker 2
+Okay, no problem.
+00:05:17 Speaker 1
+But I can tell you right now, I'm looking at the VBG success-based capital funding request form, and I'm looking at the computer server that it runs on, and I do not have access to that computer server in any way. It is new to me.
+00:05:37 Speaker 2
+Okay. Are you going to have access? Is that something you can request, or you are not going to have access at all.
+00:05:42 Speaker 1
+So I do not have access right now. Sanjay did have access, and I have made everyone aware. I'm aware that I need access last week. This week, I do not still have that access. The issue with access, yeah, I'm just not an admin, and so I'll try to chase this access, and your issue is a good request for me to use to help expedite it, but it is a system-wide approval that can take time.
+00:06:18 Speaker 2
+Gotcha. I understand. All right, so let me put that together. I'll send it to you, and then in the meantime, I guess that I'll work with Ellen to offer to do that for me. Okay. All right.
+00:06:30 Speaker 1
+Great, thank you, and Ellen reached out to me. I'll be meeting with Ellen in a couple hours, so we'll get a footing on this issue at least. I'll get started.
+00:06:41 Speaker 2
+Okay, that works. Thank you so much. Appreciate it, Darrell.
+00:06:44 Speaker 1
+Okay, yep, nice to meet you, and I'll see you again. Bye.
+00:06:47 Speaker 2
+Nice to meet you, too. Bye.
