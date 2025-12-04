@@ -1,0 +1,193 @@
+T1
+
+
+00:00:00 Speaker 1
+I am sending the link. That is the most helpful thing in the world.
+00:00:04 Speaker 2
+Oh, good. Let's see if you even have access.
+00:00:07 Speaker 1
+Okay, so I did open the link, and I do have access to read. Awesome. I'll clarify because there can be confusion. So I can see the tool on my web browser, and I can use the tool. However, as a software engineer, I do not have access to this server right now that I'm aware of. So if there's issues with it, right now there's some blockers preventing me from maybe making changes.
+00:00:38 Speaker 1
+or putting in some improvements, though that's not always the case if I have access to the database or if I can use the program in ways that other normal users don't. So just a heads up.
+00:00:53 Speaker 2
+Okay. Yep. All right. So whatever, I mean. Technically, Sanjay's still on roll, right.
+00:01:01 Speaker 1
+I think so, sparingly.
+00:01:04 Speaker 2
+To the 19th.
+00:01:05 Speaker 1
+Yeah, sparingly. I haven't seen him this week regularly, and I did try to reach out to him. I haven't had full communication with him. I'll try as best I can, though I know him pretty well. He's been helpful, and it's unfortunate to see that he's not here.
+00:01:21 Speaker 2
+We just need to switch over, yeah, all the rights that he had over to you. At this point, there's not a lot of maintenance, but, you know, once in a while, things do go a little wonky with the tool. So, I don't know if you're familiar, or do you want me to walk you through the different tabs.
+00:01:42 Speaker 1
+Yeah, yeah, that would be great.
+00:01:44 Speaker 2
+Whatever you think would be helpful.
+00:01:46 Speaker 1
+Yeah, walking through would be great. So, okay.
+00:01:52 Speaker 2
+I kind of like you, of course. I was a developer. I was kind of like the designer because I knew exactly what I wanted when we created this. So I'm going to go through. This is the first tab. And a little background on this is we used to have just a Google sheet where the engineers on the IBD team would come in and I'd have all the columns designated for what information I needed. And they would just manually put in whatever they needed for funding each time they had a new PO to create. So that got to be a little bit tedious. So we decided to let's try to develop a tool. So this is the product of all of our brainstorming.
+00:02:43 Speaker 2
+And, you know, it's as simple as what the engineers just need to come in and put their, you know, their 5 and 2 in right here. And then they'll sign on password and then hit authorize. So let me just do it.
+00:02:58 Speaker 1
+Yeah, let's take a look.
+00:02:59 Speaker 2
+I'll put myself in. And then you hit authorize. And then you get the little message up here saying that you're authorized. And then you'll see this again. And then I'm just going to find myself right there and grab a FuseFPM. And then you just put in the FuseFPM for the project. And the other thing is, like, we put in budget years.
+00:03:31 Speaker 2
+So since we're working with C funds, if you need C funds for next year, you need 2026 and 2025. So I'll just do 2025 for now. And then this spits out the information, what it signs into use, and right now on the WVS, there's zero funds. So, if I needed $10 and this had $25, I would just back out because there's enough funding on the WVS, I could move forward. Um, and then what I do is, I'll just put like a dollar in here, and I'll just put, it's just okay, I'll just put test.
+00:04:04 Speaker 2
+And then I just hit request. And then I'll get an email, um, pull that over as soon as it comes in. And I get an email from the system letting me know for anybody that, if it's a request, that there's a capital project funding request requiring approval. So, it's number 2773. So, then I go back into the tool, um, where is the tool?
+00:04:38 Speaker 2
+I usually work from the second tab, and then I'll go down, these are all the funding requests for 2025, so I'll go all the way down to the bottom, and let me refresh this.
+00:05:21 Speaker 1
+it's a little slow refreshing that's fine no this is really helpful you have no idea how like my favorite thing is to sit with someone and see how they use software because that's when i learned the most oh yeah yeah that's how i learned the most about how it works and you know within a 15 to 30 minute meeting on webex i can learn more than four hours of reading through something so.
+00:05:46 Speaker 3
+exactly um like real time also that's how i learned good so the request came in.
+00:06:06 Speaker 2
+so this is what i this is the sheet that i'll work from then i go into unifying and like i'll look okay one is requesting a dollar um still waiting for scott her boss to hit approve he'll get an email also once he hits approve in the approved date column right here i'll see a date so i i'll know that it's approved and i can move forward okay but all this information is coming from like the project reference the imdld the site fuse ftm the mdc the wbs um the budget code.
+00:06:47 Speaker 2
+the address everything is pulling for views and then i'll go into unify let me pull up here, so these were recently done um, This request was for $2,500 for this VA in Milwaukee, and I used that WVS in Unify. And once I submitted the request, I come in here under the second column for the notes.
+00:07:20 Speaker 2
+I'll put in the UNIFI request ID number right there, and then I just put a note in, like, it's pending decision funding request. And then I just hit update. And then when the request is completed, I'll come back and update the note, and then update, refresh that, and then hit complete. And once I hit that complete button, generate it to the engineer to let them know that the funding is on the WVS, and they're good to go.
+00:07:54 Speaker 2
+They can cover their PO.
+00:07:57 Speaker 1
+Yeah, okay.
+00:08:00 Speaker 2
+it's not really sophisticated it's kind of like you know a fancy excel spreadsheet but it's a lot.
+00:08:08 Speaker 1
+less input from the engineers right and it has the i'm thinking through this it has a database and it can keep track easily and it looks like um it's not being shared around in emails and you can trust information is accurate as well as the status of something so yeah this is typical this looks like a good uh powerful tool um i guess one thought that comes to mind is um are there known issues or hiccups that kind of regularly come up that it breaks or maybe there's a bug.
+00:08:44 Speaker 2
+um or is it pretty smooth yeah like it's pretty smooth for the most part it's when we have there's two two different components there could be you know we're just asking for funding and there's already, an established WVF that we created whenever the project was first built. But then there's other ones are like here, where all the information is not populating,
+00:09:16 Speaker 2
+and I would really used to have to reach out to Sanjay and say, hey, you know, can you refresh the database for me, and let's see if they populate. And then usually something does happen.
+00:09:29 Speaker 1
+Okay, so sometimes it needs a refresh, or sometimes it doesn't feel like it's functioning properly for some reason.
+00:09:43 Speaker 2
+Yeah, it's like, I don't have too many. It's just, like I said, whenever it says, like, here's a new project, like when it says capital expense, we already created the WBS and we're just adding funds to it. Usually all the information we need is there. But this one, it's missing the WBS. So I just think it needs a refresh. And Sanjay hasn't been here to refresh. And this, I do this periodically, but it's not the same refresh that, like, Sanjay would do. He would do, like, a real hard refresh.
+00:10:15 Speaker 1
+Yeah, okay. And, okay, so it seems like the refresh on your side for the interface is a simpler one. And it looks like what Sanjay's doing is a manual procedure, or maybe a protected procedure, at least, that only someone like him can specifically run because it's consequential.
+00:10:38 Speaker 2
+Yeah, yeah.
+00:10:40 Speaker 1
+Okay. Well... Okay, this is helpful. And I'm guessing you're in this situation right now with a specific request already.
+00:10:49 Speaker 2
+Well, there's one of our users. Let me go back to... And then just the third tab is just a download from 2024, and we just put all the data there. So it's an archive, so we can go back and look up anything we want. So at the end of 2025, I'm going to need to have an archive of 2025 activity added and start fresh in 2026.
+00:11:20 Speaker 1
+Right, okay. Okay.
+00:11:25 Speaker 2
+There's one user, and I did a bunch of testing yesterday, so she was having trouble. Let me, I'm just going to, I think it was, it's a Lisa, and it may come up. with the error message, because when I used my name with Diffuse SBM, okay, oh, let me log in again, I wasn't getting the error message that she was getting.
+00:11:57 Speaker 2
+But when I went in and used her name, I was getting the same. And it was an error message that I had never seen before.
+00:12:11 Speaker 4
+Oh, it seems to be working now. Oh, very strange. Let me see if I can get her.
+00:12:29 Speaker 2
+Maybe we can have her. Or just jump on real quick and do one real time. Yeah, but I don't know, wackier things have happened that maybe it fixed itself with, like, I don't know, overnight.
+00:13:04 Speaker 1
+Well, sometimes, uh, yeah. But you had, like, sent. Okay. Yeah, sometimes it can look weird on your end because the server, um, might do stuff automatically overnight or run jobs to check and clean itself up, you know, at 5 in the morning and, or even in the afternoon unexpectedly. So that's why sometimes when you use this, it seems like it worked and then it didn't, or it didn't and then it worked. Um, that's typically the reason why.
+00:13:42 Speaker 2
+Yes. Um, let's see what she said. She's going to be joining.
+00:14:15 Speaker 2
+Alvaro's asking me what that is for, the test I just did. I'll just tell him to ignore it.
+00:15:08 Speaker 2
+And while we're waiting, I'm going to just delete my test. Yeah. It doesn't confuse anybody. At least you need to get audio. I don't see you on the call either.
+00:15:28 Speaker 1
+So I do have a fair amount of time. I'm quite available today. So unless there's someone else that, we're looking to join on.
+00:15:39 Speaker 2
+Okay, she said she was on. Is all that...
+00:15:51 Speaker 4
+I do want her to share the screen.
+00:16:58 Speaker 3
+I'm going to try to send her the invite again so she can jump on.
+00:17:21 Speaker 2
+We'll have to reschedule.
+00:17:23 Speaker 1
+Okay.
+00:17:26 Speaker 2
+But I think that's the immediate need. It's like if you could just get in there from Hal and see if, like, why she's getting the error message that she's getting.
+00:17:40 Speaker 1
+Yeah.
+00:17:41 Speaker 2
+And everybody else is still able to reject this one. Okay. We have to leave this one.
+00:17:50 Speaker 1
+So two things I can already see.
+00:17:51 Speaker 2
+That's a lot of ideas.
+00:17:52 Speaker 1
+Yeah. Two things I can already see are going to happen. So one thing is, anytime you see this, I know it's effort on everyone's part, but anytime you see this, like, don't worry to spam my inbox with issues or things you see just on my email. It's really easy on email because I can filter it and then I can study it easily. However, one thing I can already see that's going to be an immediate issue is at the top of the browser, there's the URL that shows you the web page and how to navigate there. The server that's listed, I have never seen in my life before, and I'm not sure.
+00:18:37 Speaker 3
+Oh.
+00:18:37 Speaker 1
+Yeah. So I looked, so if you look at it, it looks like gibberish and then there's a one, or there's a two dot win dot engineering dot vznet dot com. There's four. There's four of these type, there's four of these computers. I only worked on the number one. There's two, three, and four. Um, and I don't have the, I don't have the actual access that I'm aware of to look at the actual software like Sanjay did. So, um, yeah, that's going to be an access, um, blocker for me that I'm going to try to.
+00:19:14 Speaker 1
+expedite with Sanjay and get like, literally all I need is a username and password and then it's not an issue at all. Um, so I'll have, yeah, I'll have to talk to Sanjay and, um, maybe a couple other people that are helping me with transitioning. I think Rob and his team and Milton are also helping me. I'll make them very aware that I have, I fundamentally do not have access to these tools, but until I have, yeah, until I have actual administrative access, I won't be able to make any corrective.
+00:19:48 Speaker 1
+changes, unfortunately. uh so there's gonna be that hopefully it's resolved quickly i'll try to.
+00:19:58 Speaker 2
+check on it every day and then i'll let you know when i can okay okay um it looks like.
+00:20:06 Speaker 4
+elisa just joined elisa can you hear us i think you're on mute elisa you're on mute.
+00:20:57 Speaker 2
+Um, yeah, take your Webex off of mute.
+00:21:10 Speaker 1
+Hmm, and maybe it's a microphone issue. I don't know. I was able to meet with Lisa earlier this morning, so hopefully we can connect now also.
+00:21:20 Speaker 2
+Oh, okay.
+00:21:21 Speaker 1
+Yeah, I was able to get some brief notes. She was using a different tool, actually, I believe. I could be wrong. Unless it was...
+00:21:31 Speaker 2
+She had the wrong version.
+00:21:32 Speaker 1
+Well, unless it was this one, and... Oh, I think I know what it is. I think I'm getting a little thrown off because you're on the other tab. So I think maybe she was showing me the same thing.
+00:21:45 Speaker 3
+Yeah.
+00:21:45 Speaker 1
+But I think it was just the input tab, the number one tab.
+00:21:49 Speaker 2
+Yeah, the first page. Yeah.
+00:21:51 Speaker 1
+Okay, I just gotta remember that.
+00:21:53 Speaker 2
+Okay. Okay. So she was over here. Okay. All right. Elisa, do you just want to connect directly with Gerald to try to rectify your request issues? That would be great. And if you guys just want to keep me up to date on how that goes, that would be great, too.
+00:22:27 Speaker 2
+All right. I guess that's it for today. And Gerald, we'll connect if you can keep me updated, like you said, with projects. And if you don't hear anything from him, we'll have to update and have, like, maybe Rob reach out to him.
+00:22:45 Speaker 1
+Okay. Yeah, I'll text him again today and send him a message. One thing that comes to mind is, is there a time dependency on some of these issues? I'm sure there is, but how immediate do these things typically need to be resolved, like from a business need or a business requirement? Because if this thing extends into a three-day or five-day or ten-day issue, the request itself will just fail. And I guess a new, can you delete a request and set a new one?
+00:23:22 Speaker 1
+Or, like, what's the backup plan if that happens.
+00:23:28 Speaker 2
+The problem is for requests that he had over ten different requests, and because there's an issue, the email went to Alvaro to approve them. But since there's an issue, they're not populating in my tracker for me to delete them.
+00:23:45 Speaker 1
+Okay.
+00:23:47 Speaker 2
+But I can go back to those emails that hit delete, if that helps.
+00:23:55 Speaker 1
+Yeah, so it does. The immediate issue I see is... Alright, I'll go... Yeah, I would just say the immediate issue I... I'll go... What's that.
+00:24:09 Speaker 2
+I'll go back to those emails, the original ones that are submitted, and I'll show you. Let me pull this over.
+00:24:19 Speaker 1
+Yeah, and I reached out... This is what I get.
+00:24:22 Speaker 2
+And I can just hit...should I just hit reject on these.
+00:24:24 Speaker 1
+Well, I would say as you need to, as they're failing, because I'm not able to access and fix it. And I requested for access... Okay. Yeah, I requested for access at least a week ago, because I knew this stuff typically comes up. So I'm trying to be proactive, but I would say... That would be...
+00:24:48 Speaker 2
+That would be Sanjay to give you access, so we need him to give it to you, right.
+00:24:53 Speaker 1
+Yeah, yeah. So, I'll chase that down, and I'll follow up with updates today and tomorrow and Monday, and then the worst case scenario is to probably, for tickets that there are issues, until I have access and I have the username and login and I'm able to login, the default backup plan would be to function as if Sanjay is out of the office on vacation, because that's the level of access. That would be my ability to help at that level, is as if he wasn't here. So, just I'm trying to mentally...
+00:25:39 Speaker 2
+Yeah, I mean, there's nothing you can do until you get access.
+00:25:42 Speaker 1
+And it's literally, it's really trivial. It's not trivial, but... it is kind of trivial in the sense that i just literally don't have the username and password it's that it's that simple so yeah and but once i have it i can look at everything and then i can.
+00:26:00 Speaker 2
+quickly get to work so let's let's reach out to him today and if we don't hear back from him by the end of the night then talk to rob let rob reach out to him okay good good tomorrow okay we get this done we're getting to the end of the year and you know there's a lot of maintenance that's going to have to be done on this to get ready for the next year too okay well uh okay.
+00:26:23 Speaker 1
+um do you prefer email thank you so much yeah no problem do you prefer email or slack or something.
+00:26:28 Speaker 2
+like this i was uh either or either it's fine okay i'll send both i'll send both uh.
+00:26:35 Speaker 1
+for slack and email today with you me and sanjay and elisa and if i don't hear back, from sanjay today uh mid tomorrow morning i'll reach out to rob on email and slack and just make him aware of it yeah and that should be perfect that should be a good way to get started.
+00:26:57 Speaker 2
+on this perfect all right well nice to meet you and in the meantime elisa nice to meet you too let me just at least i know you can't hear us or you can hear us but you can't respond if you want to just try today um to do one more request and we'll see if it goes through if it populates and we'll know if something was just wonky yesterday but give it a try just do one today and then we'll uh we'll take it from there all right got the thumbs up we're good oh good good okay.
+00:27:30 Speaker 2
+all right thank you so much everybody okay i'll stay in touch okay thank you bye-bye
