@@ -1,0 +1,286 @@
+T3.txt
+
+
+
+00:00:21 Speaker 1 
+Hello. 
+00:00:25 Speaker 2 
+Good morning.
+00:00:26 Speaker 3 
+Hi.
+00:00:27 Speaker 2 
+How are you. 
+00:00:27 Speaker 3 
+Hi, pretty good.
+00:00:32 Speaker 2 
+Okay. Alisa? Okay, I see you now.
+00:00:36 Speaker 4 
+Good morning.
+00:00:37 Speaker 2 
+Hi. Good morning. Okay. Gerald, do you want me to steer, or how do you want to run this? Yeah. This is kind of like fact-finding for you.
+00:00:48 Speaker 3 
+No, that's fine. Thank you. So, I mean, the biggest thing is I just kind of need to know really two or three things, which is I just want to confirm. the, Program or programs plural you're using. I know this is related to the capital funding request, But if there's another thing that you're using alongside it I'm curious and then the second thing is are there any problems that you see come up? regularly that Sanjay had to maintain or correct on a regular basis, or is this kind of like a one-off and.
+00:01:23 Speaker 3 
+Then I guess I just also need to know, What do you immediately need help with when using this program, and we'll just go from there, okay. 
+00:01:36 Speaker 2 
+Okay, so for your first question what other programs? This program tool it the information from fuse. It'll look for I guess everything's based on the fees FPM, okay? so that is supposed to populate you know a lot of the information the project alt name, you know the building number the site the mdj and the wbs if it's loaded and the tool is supposed to.
+00:02:14 Speaker 2 
+incorporate this column um it's going to put capital expense if the wbs is already populated and if it's a new request where we don't have a wbs it's supposed to stay new and that doesn't.
+00:02:31 Speaker 3 
+happen all the time okay so yeah because i just want to understand what the immediate blockers are.
+00:02:41 Speaker 2 
+um and well all of the leases i i don't know why elisa's requests are not populating she.
+00:02:51 Speaker 3 
+seems to be the only one so yeah so it's more like, so yes not i understand so i guess i'm trying to understand um one second uh so is it an issue that elisa is having an issue where she can't see it or you can't see it because when i looked at the database yesterday elisa's requests are being submitted and my understanding is you should be able to see them even though they're not populating in this tab they are not so i'm.
+00:03:25 Speaker 2 
+seeing the email come on and the tab is the archive request or let's back up yeah she's submitting the request yeah in the first tab coming through in an email and saying there's a, funding request that needs your attention yeah it doesn't go any further than that it's not populating in the second tab where you know i need to see the approvals i need to put my data.
+00:03:55 Speaker 2 
+So, they're just kind of good emails coming across, and I don't know what's happening from there. Sanjay would have to go in. Sometimes it was like the requester was not, you know, clicking on the correct budget year, but I'm not sure if that's the issue here. And Sanjay would just go in and say, okay, yes, the person didn't click on the budget year. He would fix it, and then it would populate in the tracker.
+00:04:22 Speaker 1 
+Yeah, okay.
+00:04:26 Speaker 4 
+Yeah, and this is not the first time that I've had that issue. This happened to me a few months ago. And do you remember that we engaged Sanjay, and then he fixed that? It was the same issue.
+00:04:40 Speaker 2 
+Yeah, because you're not clicking on the right budget year, right. 
+00:04:45 Speaker 4 
+No, I was clicking on the right one. The only difference that I see between the requests that I submitted that went through successfully and the ones that didn't is that little message error that I get that I sent a screenshot to you and Gerald. I get that big message error that I don't know what it means, but every time my requests don't go through, I get that message. And I know right away this request is not going to go through.
+00:05:14 Speaker 3 
+Okay, so I did look at the code in the database. My understanding is that there's a year that the request is for, and the form is letting you submit that request even if it's empty. I think there could be an issue there because is there a reason on the business end why it could be empty because you don't know? Or is that an issue with the code not stopping. 
+00:05:42 Speaker 2 
+It can only be 2025 or 2026.
+00:05:46 Speaker 3 
+Okay. And so that's it. Okay. So where I'm going with this is I think there's two or three issues here, and I'm just trying to go one step at a time. So I'm trying to diagnose the issue you guys have right now that I can put a fix in to fix, and then I hear maybe some longer-term software issues or bugs that need to be corrected so that it doesn't continually happen.
+00:06:11 Speaker 2 
+Right.
+00:06:11 Speaker 3 
+So I guess my first thing is, what is making life difficult right now this week that needs to be corrected? And then I think what I can do is optimize the submission form for Elisa's end, where if that year is empty, it doesn't go through. Because I can see how someone forgets or they don't have the information available at the time.
+00:06:38 Speaker 2 
+I don't think it's a year mark. No. If they get to that point, they don't know what year it should be, they should not be requesting.
+00:06:48 Speaker 3 
+Okay, so if there's no year, it should not go through.
+00:06:54 Speaker 4 
+Yeah. But it's a clear option to leave it empty. If you're always going to be either 25 or 26, there is no option to either leave it as a select year or leave it empty. Yeah, it's a drop-down. Well, it's a drop-down, and it's just either or. I don't think there is an option to leave it clear.
+00:07:16 Speaker 3 
+Can I see that. 
+00:07:17 Speaker 4 
+Yes, here it is here.
+00:07:19 Speaker 3 
+Yeah.
+00:07:22 Speaker 2 
+But it will never be empty, that.
+00:07:23 Speaker 3 
+Well, from your perspective, but it could be broken.
+00:07:27 Speaker 2 
+I don't know if you have to click it, though, for 2025, though.
+00:07:30 Speaker 3 
+That's possible. I'm just saying it could be broken because my understanding is that in the database, there are some requests where it's empty. So, even though you guys see something behave a certain way in the software or on the computer, it could be fundamentally breaking, and you don't know it.
+00:07:48 Speaker 2 
+Right.
+00:07:48 Speaker 3 
+Yeah. Right. So, right now I'm just trying to listen and document and write down some notes. Yeah.
+00:07:56 Speaker 2 
+So, that's where it cuts across on this tab. The year, the budget year comes here.
+00:08:00 Speaker 3 
+Right. Okay.
+00:08:01 Speaker 2 
+And we have a color coded, so I know what year they're requesting funds from.
+00:08:07 Speaker 1 
+Okay.
+00:08:07 Speaker 2 
+It's 2026, and you can see yesterday, once came true for 2025. So, for Aaron, there was no issue.
+00:08:16 Speaker 3 
+Okay. So, I wonder if you're not seeing, so are you not seeing Elisa's requests. 
+00:08:24 Speaker 2 
+I'm not seeing them in here. I'll see the email that you requested something, but then it's not populating here for some reason. Okay.
+00:08:31 Speaker 3 
+I think that's because maybe in the database, the year is blank. because of this issue Elise is showing, and because when this list is showing up on your screen, Ellen, you don't see it because it's filtering out empties. So if she has a legitimate request, but it's incorrect in the database, you don't know. So you're getting the email, but you don't see it because the email is a separate program from rendering or listing these requests on your dashboard, does that make sense. 
+00:09:02 Speaker 2 
+Okay. So in the past, when I would see emails coming through that were not populating, I would just send them to Sanjay and say, hey Sanjay, for some reason these aren't coming through. And his response was always, the budget year wasn't selected.
+00:09:19 Speaker 3 
+Correct. And to me that's a problem.
+00:09:21 Speaker 2 
+And he would go in and fix it, and then it would, you know, populate.
+00:09:25 Speaker 3 
+Yeah, that's okay. So yeah, that to me is a continual, systemic, dynamic. issue that needs to be corrected because um uh you know maybe sanjay and some other software developers had a broad understanding of this application and how it worked and they knew all the ins and outs from years of experience i do not so my interest is in fixing it and.
+00:09:55 Speaker 3 
+cleaning it up so that the issue doesn't regularly happen at all um slowly in the next month or two so that it's not worth our time because the verizon is restructuring and you know, consolidating so someone like me is managing more tools right um and so if there's 12 tools that i'm managing and they're breaking all the time that's not sustainable um so i'm interested in at least helping you right now with the current bug and then i can try to fix the issue that elisa is seeing.
+00:10:30 Speaker 3 
+Um, so that it's not frustrating to her and you, so that maybe in the next couple of weeks, certainly by January, um, you don't have to keep coming to me saying that, Hey, the year is missing and can you do this quick fix again. 
+00:10:45 Speaker 2 
+Okay.
+00:10:46 Speaker 3 
+And that should help. So, so what I see is I see one problem for right now this week, which is Elisa has requests that she submitted. The year is blank, which shows her error. And then on your end, Ellen, you see the email, but then it doesn't show up on your capital funding requests, um, because the year is blank. Does that make sense? So I looked at the database yesterday and I think you might have almost a hundred requests where the year is bright is blank.
+00:11:19 Speaker 3 
+I could be wrong, but, um, if I were to put a fix in, I don't know if I can do it today because I have to do it carefully. and correctly um but so if i take a look and see where the funding year is blank and update it when i send you another message saying hey i think i put a fix in for right now your dashboard for capital requests might um have a ton of requests in it that you didn't see before so i just want.
+00:11:51 Speaker 2 
+to give you a heads up do you have like when you're seeing that do you have quest id that.
+00:11:59 Speaker 3 
+i could just look at now oh yeah yeah let me look at the the database let's just take let's.
+00:12:05 Speaker 4 
+do a couple spot checks yeah so um so by the way i just uh tried to request um, It's a response again, and I tried to deselect because when you come into the tool, there is the default is 2025.
+00:12:22 Speaker 1 
+Right.
+00:12:23 Speaker 4 
+So I selected 26, then went back to 25 to make sure that I am selecting a year.
+00:12:28 Speaker 3 
+All right.
+00:12:28 Speaker 4 
+And I still have the same error. Yeah.
+00:12:30 Speaker 3 
+Okay. Thank you. And I am writing this all down. This is great. Okay. So it's happening to you right now as we speak.
+00:12:39 Speaker 2 
+And the email, this is what just comes through. That just came through.
+00:12:43 Speaker 1 
+Okay.
+00:12:44 Speaker 2 
+So it should be request 2795 coming in and 2795. I'm refreshing now. Let's see.
+00:12:58 Speaker 4 
+I wish the list started at list of the newest requests at the top. Sometimes you have to scroll all the way down.
+00:13:06 Speaker 1 
+Mm-hmm.
+00:13:11 Speaker 3 
+Okay. So let's see it loading. So this is a great example. Thank you for making the time to meet. This is very helpful. So we're seeing the bug in live time. I saw a request right now in the database for today from Elisa and the funding was $2,100. Is that the amount you entered. 
+00:13:37 Speaker 4 
+Yes.
+00:13:37 Speaker 3 
+Okay. Yeah. And it says funding request for LSI SOW. And I see the request ID is 2795. And the approved date is blank. The super approved by is Ellen. And the super approved date is empty or blank. So yeah, I see some blank approval dates.
+00:14:03 Speaker 2 
+Well, they still come on before they're approved because, you know, Alvara will just come in here and hit approve. Um, so that has been working.
+00:14:15 Speaker 1 
+Okay.
+00:14:15 Speaker 2 
+Um, it's just, it's just her whole row is not populated. P794 is my last one that came through.
+00:14:22 Speaker 3 
+Okay. All right. So I would, so yeah. Uh, so there's two problems. A, when Elisa is selecting the year, it's not, it doesn't look like it's correctly populating it. And B, um, it's not showing up on your list, Ellen. So there's potentially dozens of requests that you're not aware of right now. I don't know how many. Um, so I'll need to, I think fixing what you can see, Ellen, right now is more important.
+00:14:54 Speaker 3 
+because they're backdated and they could be backlogged. Um, and I don't want it to stall any further. And then once we can confirm that that is correct, then I can work and help you, Elisa, so that you can have confidence when using it so that you don't, um, worry about clicking the wrong thing. you get the correct um feedback you need to make sure you're submitting it correctly and that is working okay because i want you guys to have confidence when using it um another one that.
+00:15:28 Speaker 3 
+may be from somebody else that'd be jack um yeah so my understanding is i think you might have your database yeah or blank i think you might have a number of requests from a number of people that you're not seeing i don't know off the top of my head a request id number let me, the database is it yeah that's a chosen dot well the only issue so i see requesters i see aaron i see quincy i see michael and joshua and ryan and aaron earl and this is since december.
+00:16:10 Speaker 3 
+Second I see Blake Quincy, but I there could be a number of them. I I guess I don't know.
+00:16:18 Speaker 2 
+What's that their requests are all coming through? Yeah, okay? No, well if you have a one that you think is not coming through if you have the request idea like the 2741 number get to see if it you're saying it, but maybe didn't come out. Correctly mm-hmm, and I can check it mm-hmm cuz it'll show me right here.
+00:16:50 Speaker 3 
+Okay, okay, so I think it's where I got a couple of those I think I think you're not seeing the ones where the budget year is blank. So do you see two seven nine four. 
+00:17:16 Speaker 2 
+I do.
+00:17:17 Speaker 3 
+Okay, so then let's check another one.
+00:17:19 Speaker 2 
+2025.
+00:17:20 Speaker 3 
+Do you see 2790? You probably won't because it's blank. I'm just confirming that.
+00:18:00 Speaker 3 
+I'm just trying to diagnose the core issue.
+00:18:02 Speaker 2 
+I mean, I can kind of, without even getting the email, if I get a few and then the numbers are not going in sequence, then I know there's a problem. Like if, for instance, here, 2793, if this jumped to 2794 with a 2793, I would know that, I would say, hey, Sanjay, do you see 2793, was there an issue with that. 
+00:18:35 Speaker 3 
+Yeah, that's okay. So that one you don't see, I'm guessing, because you would have probably seen it by now. Do you see 2786. 
+00:18:48 Speaker 2 
+I do, it's right here.
+00:18:50 Speaker 3 
+Okay, so let's try another one. Hopefully we are two first. Or three for three, or four for four here. do you see 2776 I do not it may have been deleted okay all right so well I so a lot of Ellen's are blank for the budget year so I I wonder if there's a.
+00:19:22 Speaker 3 
+browser issue or a computer issue on Ellen's computer that's affecting her that maybe may not be affecting other people because that can happen someone's version because different I see it the budget year though oh you do I'm saying the budget year 2026 that is that eight that looks like eight to me two seven.
+00:19:45 Speaker 2 
+seven eight yeah but what I'm saying is I will delete some of the request is you know the engineer says oh I made a mistake can you delete that for me, And that was one of the ones that we had to delete.
+00:20:00 Speaker 3 
+So, but you're able to delete them, right, in the interface. 
+00:20:05 Speaker 2 
+I'm only, it's only me.
+00:20:08 Speaker 3 
+Okay, well.
+00:20:10 Speaker 2 
+I just hit the delete button, then refresh it, and it's gone.
+00:20:13 Speaker 3 
+Okay.
+00:20:14 Speaker 2 
+The engineers don't have rights to do that.
+00:20:17 Speaker 3 
+Okay. All right, well, then what I think is, and let me know if there's other issues you guys want to go over. But the first thing I think is fixing it so that, Ellen, you can see all of Elisa's requests. I just, I wonder how far back I'll have to go to correct it, because I.
+00:20:38 Speaker 2 
+Not too far.
+00:20:40 Speaker 3 
+What's that. 
+00:20:40 Speaker 2 
+Elisa should have a view submitted, right? It's not too far back. It's just, I did two or three weeks.
+00:20:51 Speaker 3 
+Two or three weeks. 
+00:20:52 Speaker 2 
+I have. there's maybe five or six requests right at least that you couldn't get through yes yeah i have a.
+00:21:01 Speaker 3 
+list of them that's it yeah okay well i'll go back probably pretty far i i can see october and september i'll go back to september 1st in terms of now will the budget year can that be edited so if i default the budget year to 2025 can you guys go back and make them 2026 if it's incorrect.
+00:21:29 Speaker 2 
+no you cannot okay i'm sure what you mean like if you're changing all of these on my tracker right now between 25 or 2026. so yeah the issue is that elisa's requests.
+00:21:44 Speaker 3 
+for the last month or two don't have a budget year selected at all it's blank it's missing, So, I have to give it a default value to correct it just so it can show up on your screen.
+00:21:59 Speaker 2 
+Okay. Just hers.
+00:22:03 Speaker 3 
+Okay. So, I can give her...
+00:22:04 Speaker 2 
+Whatever.
+00:22:05 Speaker 3 
+Okay.
+00:22:05 Speaker 2 
+Yeah. No, that's fine. Yeah.
+00:22:07 Speaker 3 
+And then you can see it. And then we can meet again if you need to. I know everyone is short on time. But email, an email or a Slack back and forth until all of the request IDs are correct is probably the next best step because I might need to make a change. It may work. It may not. Okay. And then we'll just kind of slowly correct this. I'd like to get it fixed this week because I have to.
+00:22:40 Speaker 3 
+It's related to finance and this is my new position, so I'm happy to help as best I can. It just might be a little bit of a back and forth.
+00:22:47 Speaker 2 
+Are these... are these 2025 requests that you're trying to get through yes uh they are 2025. did you submit them and do we do it manually or we didn't do that no we haven't done it at all because we were trying to see if we could fix this okay we're just running out of time to get those to's done for.
+00:23:16 Speaker 4 
+this year i know i just need to fund those because my vendors i mean the idea was to send the vendors as soon as possible but they will not of course attend that or make any effort to uh to schedule the visits unless they have a a an appropriate i thought we were going to do them manually in.
+00:23:42 Speaker 2 
+the interim bars gerald, You were going to send me a, like, with what you needed, with the WBS, and we were just funding in the interim.
+00:23:54 Speaker 4 
+Yeah, no, I took that, especially already, I have a table with all the requests.
+00:24:01 Speaker 2 
+Oh, we talked about, you were going to send that over, I thought you were going to send it to Al Baroque, and then back to me, and then we could work through it. I mean, I talked about that.
+00:24:19 Speaker 4 
+No, no, no, I do ask me to have the list ready, which I do, but I went on vacation, I just got back yesterday. So, but I wasn't aware that I needed to send it to Al Baroque first, so he had to approve, and then to you. I thought you were going to just post, to make those.
+00:24:36 Speaker 2 
+Yeah, either or, you know, I can approve them.
+00:24:41 Speaker 4 
+Okay, no, I can, let me just put them on the table, like I said, have them on the table, just send it over, she'll approve them, and then I'll see you, of course, in that email. Does that work? Okay.
+00:24:54 Speaker 2 
+That works. Okay. Sorry, Cheryl, we'll just keep the business moving.
+00:25:00 Speaker 3 
+No, I did it. Yep, got to keep running. Every week, something has to happen. So what I can do is, I, let me, now that I think I understand the problem, within two hours, I'll send us three an email with an Excel sheet of all of the requests I see from Elisa, and that way you have it, and when I send that email, I will also have updated the database, and you hopefully should see them in this page.
+00:25:36 Speaker 3 
+so then when you see the email with an excel spreadsheet it's it looks like it might have five to ten requests or something like that just let me just go through them one by one and if you see them um just let me know i guess you can highlight the ones that are correct or if you don't see them or something like that whatever makes sense and then um later this afternoon i can try to diagnose it further for the ones that you're still not seeing because that could happen because i'm just trying to find on here when the last successful request.
+00:26:11 Speaker 3 
+went through for her let me find the date wow we see august september august september.
+00:26:20 Speaker 2 
+they all went through all the ones i'm looking at now okay so that the last one. looks like it's 2736 1126 was the last time she was able to submit one successfully yeah.
+00:26:46 Speaker 3 
+that's weird i wouldn't know what's causing that um right like all of a sudden it just, stopped working for her which is very strange yeah that happens um computers are awful software breaks and she's having a lot of computer issues it happens um and it can be specific to one person's computer it's really weird a browser because because everyone's computer updates all the time but everyone's computer is different and some updates go through and um even though.
+00:27:20 Speaker 3 
+let's say all three of us are using chrome we may not be using the same chrome, I might have version 25, you might have version 28, and we would never know. Sometimes these versions can cause different issues with websites, and something might work for one person and not the other. And then I have to go in and update the code to work for all versions, if that makes sense. That is a common issue. I don't know if that's this issue, but I'm just trying to illustrate so it's easy for.
+00:27:53 Speaker 3 
+you guys to understand just how many small things can go wrong, and it's not your fault. It's my job to notice them and then correct them.
+00:28:06 Speaker 2 
+Okay. Yeah, I think that could be part of the, at least you're having a lot of computer issues, right. 
+00:28:14 Speaker 4 
+My laptop is just awful, yeah, but I don't think this is a laptop issue, but my laptop is just really bad. Well, I have all sorts of technical issues because of the laptop, except for this one. I think this is just like a general sense of the tool.
+00:28:33 Speaker 3 
+Yeah, and I did see...
+00:28:35 Speaker 2 
+I'm not sure about that because it's working for else.
+00:28:39 Speaker 3 
+Well, yeah, I'll know more. So I guess I don't know why this problem is happening. I'll have to learn more.
+00:28:49 Speaker 2 
+Yeah, she needs a new computer.
+00:28:52 Speaker 3 
+Yeah, I see two or three problems. What I can work on right now is updating the correct list. And then slowly in the next one to three weeks, hopefully I can clean up this tool for Elisa and you.
+00:29:10 Speaker 2 
+Yeah, once they get through this hurdle, get her squared away, then we can just clean up those little things.
+00:29:20 Speaker 3 
+Yeah, yeah, okay.
+00:29:23 Speaker 2 
+okay perfect um do you have any other questions okay i don't think so not right now okay well let.
+00:29:35 Speaker 3 
+me work on um trying to fix this today or get started today and then i would like to make sure that by the end of thursday at least all of elisa's requests are approved and she can start submitting them successfully if we can solve that by the end of this week that would be i think a good thing a good start okay perfect yeah that was good to me okay thank you thanks thank you.
+00:30:08 Speaker 2 
+okay i'll see you all right talk to you later all right bye
