@@ -1,0 +1,447 @@
+IBV team
+
+
+00:01:18 Speaker 1 
+on circles yeah well it's good it's good that you know the circles yeah yes it's just in all.
+00:01:27 Speaker 2 
+honesty john we have to be careful here um with product product is going to push yeah to get things done faster and not follow the processes that's why i kind of made the comment about foa exit you know you heard product right there he was saying they have 16 additional customers not psych 16 additional customers lined up trumping at the bit right so it's you know yeah they're enduring their power to get that done sooner but if the spc is not ready then.
+00:01:54 Speaker 1 
+that's an issue yep yeah because after that you know this past couple days with the spc yeah they need to be ready because it would be yep exactly this is just very very ugly. so sorry no job we were just chatting while you were uh coming on.
+00:02:17 Speaker 3 
+about the previous call yeah i thought i saw you on there yeah i was until about uh 4d past hour i guess uh i had to leave well you got a taste of it right yeah what was the.
+00:02:34 Speaker 1 
+concern that you were you guys were sharing now uh well they just wanted to know about how many sites were going to be able to get up before the end of the year and then all of a sudden they product came back and said well we have because we have a bunch of clients sitting right behind you know in 2026 looking to jump on board right and all of a sudden when she's like whoa whoa we don't have everything together and until you prove it to me i'm not going to just let you just.
+00:03:07 Speaker 1 
+you know bring customers on and then eric was pointing out different things he he saw that they should meet and comply to you.
+00:03:17 Speaker 2 
+So, that sort of sums it up. Yeah, I mean, essentially it's making sure that we are, the SDC is operationally ready for the amount of traffic that's about to be sent to them via this project. Just making sure everyone's aligned. This product will push very hard on things and escalate, break processes, etc. To get things done which aren't always good for the health of the network. So, it's the same every single week.
+00:03:51 Speaker 2 
+Yeah, yeah.
+00:03:54 Speaker 3 
+Yeah, yeah, I know you tried to explain it to me last time you spoke. I'm still trying to figure out, like, you know, why is the product team push these kind of projects the way they do? I don't know if they share any ROI or, you know, anything that these projects bring to the organization. Anyway, it's a longer discussion. But, yeah. I see that they're fully funded, they have their teams intact, and they keep bringing these projects that they want to do and push them through.
+00:04:29 Speaker 1 
+When they open up their ServiceNow tickets and the questionnaires that come through, they have to put in about like, here's the customer, here's the revenue that's exposed, why we're doing it, because here's the potential of what we can lose. Like ACA, you know, we have Boku lines that we're going to lose, and it sums up to like $9 million, potentially, if they walk.
+00:05:03 Speaker 1 
+So that's what I've seen them present. That's why it's more of a customer retention, more of a revenue producer.
+00:05:15 Speaker 3 
+Got it, okay. Laptop hung on the wall on your left.
+00:05:28 Speaker 4 
+The space I'm in is actually quite small, so I had to maximize the space available, which meant putting a few things on the wall. So computers on the wall, it's out of frame, but there's a USB hub that's on the wall. The monitor is actually attached to the wall, even on the window. It's a very, very small space. The desktop holds flat against the.
+00:05:55 Speaker 3 
+wall. Oh, wow. Cool. Hey, look, I was just waiting for everyone to join. Let me just look at the participants real quick, if you're missing anything. Oh, it sits back, so hopefully you're feeling better, you know, you were under the weather yesterday, and yeah, we're clearly better, okay, it's good man, yeah, thank you, yeah, the, the weather's, at least where I am, in the 20s, in the 20s, it's very cold, yeah, well, I'm in California, and it's, it's in high 30s, which is kind of unusual, and it's been like that, high 30s, low 40s, I guess, it's been like that for like, almost a month now, which is really unusual for us,
+00:06:51 Speaker 3 
+and it's been foggy, I think I saw some, like, once in the last two weeks, which, again, is very unusual for here, so, because I lived in Seattle a couple years way back, and this, this feels like that, it's like gloomy, foggy, or cloudy, you don't see the sun. cool so it's not necessarily the cold it's just it's not sunny what is everyone here it's snowing here today so oh there you go all right so yeah i just wanted to um have this meeting and you don't.
+00:07:27 Speaker 3 
+have to use pullover if you don't have anything to talk about um since we haven't i guess met as a team um rob i don't know how many know but how many of you know but rob's out getting married this weekend um so he's been off the the whole week so he hasn't had any yeah good for him yeah, yeah i think uh i think it's a destination money i think it's.
+00:07:57 Speaker 3 
+uh in the keys area in florida sub keys um yeah um yeah even though he's texting, Some of the important stuff going on, but yeah, he hasn't had a meeting, so I don't have an update from his meeting, and that's my plan kind of going forward. He's settling on the time. I think he's going to have it on Wednesdays, kind of mid-morning, and then we'll have one after that, I guess, so I'll share updates from his meetings.
+00:08:31 Speaker 3 
+So, so far, let me just show you. I don't know if you guys noticed, we have an agency now, and it's Edmar, and it was, kind of expected. It was either Edmar, or we were going to go under, I think it's Haberman's group, right? Cliff Casey. So, currently, we are under Edmar. Let me just show you this computer.
+00:09:05 Speaker 3 
+I just noticed this yesterday. So we roll up to Phil at French, at Mars, the AVP, looking at other folks in his team, at Mars team, basically, I know Scott, even from NorCal. So he has compliance and regulatory, I guess, policy couple, right? So those people, and then Mick Sedelec is, I believe, like, real estate negotiations and stuff.
+00:10:08 Speaker 3 
+Thank you. They thought it would make sense for us to be here. I mean, compared to other folks in the French organization, which, again, let's see. David Wall, Marta. Yeah, I guess it could be anyone.
+00:10:24 Speaker 4 
+Yeah, I think kind of what Rob was saying before when he was talking about this was there's like the engineering path, and then there's more of the, let's just say, business partnerships path. There were advantages and disadvantages to both. So, yeah, just interesting to hear where it landed.
+00:10:53 Speaker 3 
+Yeah, and I also keep hearing, and I'm going to ask Rob when he returns next week, that this is temporary, temporary as in for a few months, because I don't know if you... guys saw that there was an organized it's some some a lot of confusing stuff that came out last few weeks um there was the org chart that went out not to us but to haberman's team and it was showing us in their group uh and and be reporting to click casey like with casey i think has fw and.
+00:11:26 Speaker 3 
+those kind of things and then people are like hey you're in our group and then i'll reach out to phillips like oh no no it's not it's not finally i don't know why it went down so so that's when people started asking that and then we were told like oh it's yeah currently we're on phillips team but we may get moved too so another team i don't know but this is where we are currently i guess at least we have a home for now yeah yeah it's something right um it's, a larger group um well i don't know maybe some of these people are uh are leaving right laid.
+00:12:02 Speaker 3 
+out because they're still in the organization charts you know all those people um, you, Okay, so yeah, so this is where we are. And then within Rock's organization, this is something that we've been working on. This deck is an old deck that Doria had, I think. But this part is mostly updated, bigger. Okay, so this is what it looks like. One thing that you would notice, I don't know how many of you have caught it so far, is that Milton is not here. He is under Scott's team.
+00:12:48 Speaker 3 
+And this was Rob's idea. And I think it's more to that Scott only had two full-time employees left. So I guess to balance out. And basically, it's under Scott. Has Scott reached out, have you guys heard? um any conversation yes that's right okay okay i mean yeah we still have to kind of talk through like you know if your role would change or your role basically remain the same.
+00:13:27 Speaker 3 
+you're just in his team um or he's gonna ask you to kind of look into some of the budget stuff, the game is it's going down at least at this point so i don't think he has a lot more work than he had in the past um but yeah so this is so for us here uh chris eric abby john and gerald uh um oh actually i didn't notice is gerald here yes uh hi everyone i was reporting uh to sean.
+00:13:59 Speaker 5 
+um and worked with sanjay on ibd pmo tools nice to see you guys.
+00:14:08 Speaker 4 
+Good to see you, Joe Hunter.
+00:14:10 Speaker 5 
+Thank you. My background is that of a full-stack software engineer for 10 years.
+00:14:22 Speaker 3 
+Yeah, so Joe, you told me that you finally got access to the tools. You talked to Sanjay. He supported that, right? So I'm sure you're trying to find your way around it. Is this the first time you're looking at these particular tools, the 12 that now you have access to. 
+00:14:40 Speaker 5 
+So this is the first time I've had access to the four servers that support it. I was primarily on VPT, which was just on the first server. So I was aware of Sanjay supporting all of the tools, and I'm aware of the framework and the ecosystem for all of the tools. I just haven't seen the code before and every aspect of the database. So, yeah, I think I've supported about 10 to 20% of the tools, but now I would be supporting most of it, right?
+00:15:17 Speaker 5 
+If not all of it. So, yep, big change.
+00:15:23 Speaker 3 
+Right, right.
+00:15:24 Speaker 6 
+But now, Jack, we have to go over a few things that I think we need to make a decision on, whether we want to keep it in maintenance, decommissioning versus mode versus the development, right. 
+00:15:40 Speaker 3 
+Yeah.
+00:15:40 Speaker 6 
+You know, yeah, we have to go precisely into what we want to continue to use.
+00:15:53 Speaker 3 
+Right, right. Yeah, I think at this time, I think, Gerald, you've probably heard from, I don't know if it's Nick or Vinny, right? So I think they were having some issue with the capital budget approving tools. So I guess at this time, whatever is breaking, right, let's look at that. You know, that needs immediate attention. And then afterward, yeah, I mean, you started that sheet I looked at, right? So the tools and yeah, and after that, we look at basically what we need to do. To improve, right? So sort of like a feature request. And then also, like what Milton said, right? So what we may have to give up something, right? So then suggest you, I don't know if you use all those 12 tools equally, or there's something that we're like, you know,
+00:16:45 Speaker 3 
+it's not worth our time right what's your time so then we can we can see if he eliminated completely, or have some other group take over or which i mean i don't know that war which group but.
+00:16:58 Speaker 5 
+yeah we should have this around that sure yeah thank you and i did meet with elisa and ellen um twice this week and i already started uh diagnosing the funding request bugs and there's two or three reasons why so i'm supporting that change this week and then um i can work with milton to kind of categorize green yellow red you know what areas of the tools we want to keep or or decommission and then um one other thing i can use is i can also implement some analytics.
+00:17:31 Speaker 5 
+software that generates reports reports for usage data so that we know kind of what the flow rate or volume of requests are for these 12 tools that let us know which ones, Using hard information would be good ideas to keep and some are just costing us money because, We're spending for these servers and no one's using it. That's my initial job. Okay. Yeah, that's kind of that's the stuff.
+00:17:58 Speaker 3 
+I can start setting up between now and Christmas. Got it. Okay. Sounds good. Yeah, so yeah again this meeting, right? So first of all with this update and then, you know as a team, you know, I thought we should have a discussion I was was texting some of the team members here, Yesterday that with all the changes that happened, You know, everyone is taking on more work, At least for now, right since we're still not hundred percent clear. What are we gonna do in 2026, right?
+00:18:32 Speaker 3 
+We know the budgets been cut the market budget, right? So I don't know if that would mean that we will take on more projects more programs or it will go down because, At this point, we're not capable of adding more workload to the team. So we'll basically keep talking about it. I'm sure Edmar now at some point is going to have some direction for our team, so we'll hear about that. So we'll go as we hear things.
+00:19:05 Speaker 3 
+But I think as a team, we should know we are here and how we can help each other. I know John and Eric, you guys are talking. John's already working on enterprise Wi-Fi projects. Eric is the whole Wi-Fi team. And then I mentioned that, Joe, again, I put your name forward. I know you're working on tools, but I was like, you know, with my limited knowledge of how things work on the database.
+00:19:37 Speaker 3 
+and software programming side, like, Maybe you can help, you know, them or the team with some, I don't know, some reporting or some automating stuff, right? We can talk about that if there's any need for the team. Abby, you've been supporting some Moken projects, right, helping out Apple. So, yeah, I mean, this is basically it.
+00:20:04 Speaker 7 
+Yeah, that's it.
+00:20:06 Speaker 3 
+Just, I don't know if you want to have a discussion around that. I don't have any items on the agenda, so it's just a team discussion.
+00:20:18 Speaker 4 
+What kind of work have you been doing around Apple, Abby, if you don't mind my asking. 
+00:20:26 Speaker 7 
+So, I have been toggling the, yeah, go ahead.
+00:20:30 Speaker 8 
+No, go ahead.
+00:20:33 Speaker 7 
+So, I've been. WSCC conversion and that is with whereas in retail the WSCC is for the Apple stores have been completed and Some of the apples like most of the Apple stores having the noise issue So I've been handling that the queries that comes with, Regarding the noise issues and I'll be sending out the NA's The precaution measures to be on site before you went having a noise issue at the inside and I'm handling the snap, for the Apple site.
+00:21:05 Speaker 7 
+and, Whenever there is an issue when there's a site goes down on any of the Apple stores Then I'll be contacting the NA to be on site and help resolve the issue for the Apple sites. Okay. Have you been involved.
+00:21:22 Speaker 4 
+with any of the, retail stores about Verizon retail stores or just strictly? Yeah.
+00:21:29 Speaker 7 
+No, regarding the standard of secrecy, yes, I'm handling the very good detail of it. Only two sites are pending with the Verizon vehicle, and all the Apple stores have been completed.
+00:21:39 Speaker 4 
+Gotcha. Okay. I get requests for information around Apple stores, Verizon stores, mostly related to SpiderCloud. From time to time, I had one yesterday. Oh, yeah. Yeah, there's some renewed interest around them, I think, lately. So, yeah, just kind of always interested to hear who's involved, who has touch points, kind of that sort of thing.
+00:22:05 Speaker 7 
+Let me know if you have any questions or any further assistance from me. Yeah.
+00:22:10 Speaker 4 
+Sounds good. Thanks.
+00:22:15 Speaker 3 
+Yeah, so, Chris, yeah, I think it would make sense, right, so to Luke and Abby for similar, right, so if it's a Verizon store or similar kind of projects, if you can help out.
+00:22:28 Speaker 4 
+Yeah, let me do this. I'll just, I had a couple of requests yesterday, just for information about accounts of Apple stores and Verizon stores in general that have SpiderCloud. Yeah, go ahead, Sid.
+00:22:47 Speaker 8 
+Yeah, James Trisdano from Maintenance Engineering reached out to me yesterday, too. He called me. He asked me the same question, how many Apple stores and how many Verizon stores.
+00:22:57 Speaker 4 
+Yeah.
+00:22:59 Speaker 8 
+So. So we have a master list. I can share it with you with Apple stores. But the thing about the Apple stores, right, the list kind of like, you know, we have sites that get decom, sites that get reload. So the number is never fixed, right? Right. It's not a fixed number. it kind of fluctuates up up and down what down right i'll be adding with the point that there's an additional store from from this point on i think but the numbers that i don't know where you start that he said 101 of us out our um budget and more we have like about 50 ish.
+00:23:33 Speaker 8 
+was there like um a variety of stores i'm not tracking now but i'm i'm tracking the apple stores we can get you the latest in the apple stores that you know already managed yeah um the.
+00:23:49 Speaker 4 
+it's interesting to hear that james reached out to you as well um he contacted me and then keith martin contacted me i was involved with the original project orion project to do the apple stores just the apple stores i didn't have really any involvement with the um, With the Verizon stores, but I mean, this is what I was able to share with them, just based on, you know, a few old legacy records I could pull, you know, a count of, and they're really interested just in Corning, you know, SpiderCloud, the number of Verizon stores I could find, the number of Apple stores I could find.
+00:24:34 Speaker 4 
+And then they wanted to go one step further and ask about VBG or Verizon-funded locations, really, you know, VBG stuff, so they broke it down, customer-funded, success-based, SpiderCloud stores, or not stores, locations. And then they had a question around CoEran as well. And that took a little digging to come up with a number.
+00:25:05 Speaker 4 
+There were a lot of gaps in there. So it was into RFDS to kind of pull, like, well, what actually got installed? But, yeah, I'm not sure where this is going yet. Maybe it'll be something. Maybe it's starting to form a budget request around doing something about these. Yeah, this tells you how a budget request starts.
+00:25:31 Speaker 8 
+Yeah, the problem is, like, the quantum systems are good. So they have to basically certify basically every release in the lab. And that takes up a lot of resource. They have to basically certify every single release end-to-end using automation. It's a lot of work, you know. i think um and they they've been complaining about that too that i don't know if that.
+00:26:02 Speaker 8 
+could be one of the reasons like they're trying to figure out like a long-term plan with these spider cloud systems you know yeah um i know jake was working on like a an end of life right he was um he was i think apple actually did not like their turn box they got a call on it because they don't want like to replace a mini middleweight with c-band solution right they push back so we have mini middle if you guys need to give us a little bit yeah they missed the.
+00:26:29 Speaker 4 
+point about the backhaul though like well i know that you have millimeter wave but if you only have a one gig pipe going in you're not gonna get you know the full millimeter wave.
+00:26:40 Speaker 8 
+and that were in the hook because we had to deliver like a 10 gig to all of these apples but we signed a contract and we signed agreement with apple and we're trying to that's also another open item right with my app with apple all right so yeah um yeah let me know uh anything apple related right in this customer yeah i'll forward you what i sent to um james.
+00:27:06 Speaker 4 
+and keith um just so we're all on the same page um yeah yeah i think the members you have are.
+00:27:13 Speaker 8 
+actually like you know maybe like this apple saw that like decom recently over the past six months and some of them we intentionally shut down because of the noise, and there are others that apple approved the decom because the uh outdoor seabed coverage is sufficient so we were able to basically shut down shut down about like 10 or 15 right, So that's why the number is not in the 80 or 85, you know, it's four, so yeah, that's fine. I'll take a look.
+00:27:47 Speaker 4 
+Yeah, take a look. And then if you need links to the reference material that those came from, like I said, they're scattered all over some legacy documents. We're in the weeds at that point. Okay. And I guess someone else. Oh, go ahead.
+00:28:07 Speaker 3 
+I was going to say, someone else reached out to me, I would say a month ago, asking like, hey, can I get a list of these Orion stores? And I was digging into that at that time because I was involved in the Orion program too a few years ago, right? So Donnie Cruz was kind of managing that. And then I found out a list, a Google sheet actually that Donnie was managing. And there was this person who was a PM on Donnie's team, I can't remember her name. Amanda?
+00:28:37 Speaker 3 
+Amanda, yeah. Yeah. Amanda, right? So at that time, so I was able to find her tracker. And then I noticed that they use Orion in the alternate project name for every Orion. So I said, yeah, it may not capture everything, but it will get you most of it. Pretty close. Yeah. And Koi ran. You know, Winnie was one of the co-founders of that program, so I'm sure you know.
+00:29:10 Speaker 4 
+Oh, I know Koli ran all too well. I was asked to make it revenue generating and then ultimately to shut it down. Well, revenue generating and then onboard Samsung and then shut it down. So it was, I think it was a good idea when it first launched, but it just, I don't know, it came with, it came without day two support, which is the same problem we're running into with MochaJoin. So just to kind of, you know, there seems to be a theme here, just to kind of fill the.
+00:29:53 Speaker 4 
+team in about my interest around spider cloud. You know, we've, we've been talking about sun setting. spider cloud for three plus years in the strategy team um and it's it's gone a couple different ways it's either been here's what needs to happen to make it successful when i say success that's what i mean wide adoption integrates perfectly with all of our tools you don't have to go to some.
+00:30:25 Speaker 4 
+external spider net or sunset the program entirely and or sunset the um the ran the corning ran entirely what the what does it take to make those two things true um and it just kind of got kicked down the road and kicked down the road and um now we're at a point where you know there's there were some proposals for c-band on spider cloud they never really came to fruition um and now there's been an executive.
+00:31:00 Speaker 4 
+This is where we have to tread lightly about what we say outside of this group. There's been a decision to sunset SpiderCloud, but we haven't officially told Corning yet, so we're not going to buy into the C-band radio that Airspan has said that they can make for us. We have a lot of embedded SpiderCloud locations.
+00:31:31 Speaker 4 
+I mean, as a product, it did work pretty well. It did what it was supposed to do. Fan noise notwithstanding at Apple stores. But I've been sort of waiting for a... We talk about Snap all the time. I call it C-Snap. I've been calling it C-Snap for a couple of years unofficially. That's not its actual name. I'm saying that we're going to get to this point anyway.
+00:32:02 Speaker 4 
+When is that going to happen? Where is there going to be funding? On and on and on. Who's going to be named as project manager, project lead? Am I going to get pulled back into C-Snapping, Apple stores again? I have a longstanding interest in what will become of SpiderCloud, of AirSpan at this point. The RAN side is going to go away. The DAS side is sticking around. But I would expect this team to have some involvement with a larger sunset setting project.
+00:32:41 Speaker 4 
+I don't think we've heard the last of it, I guess.
+00:32:51 Speaker 3 
+Understood, yeah. I have strong feelings for Cytoclub, which is that I hate it, coming from the market, we were the market where they FOA it, we were the market that kept FOAing it, mini-middle wave, C-band radio, put it there, it's terrible.
+00:33:12 Speaker 4 
+We gave it a fair shot.
+00:33:13 Speaker 3 
+We did, we did, right? We propped up the company, actually, right, before Corning bought it. So no one wants to do operations.
+00:33:23 Speaker 8 
+I was just going to say, to Chris's point, right, this end of life, Corning, it's going to become like a big problem. Yeah, our team will probably have to, that's going to probably fall in our lap, right? It's going to happen, maybe not tomorrow, not next day, but it's coming, because everybody's been talking, because we definitely need to swap, and then that, then we need to, because we're... we're managing the partnership right now with apple so we're going to have to present those.
+00:33:54 Speaker 8 
+design to them manage access and all that stuff right apple that's everyone going pretty straight they have a lot of like protocols and and rules you have no idea yeah so they're not the easiest to work with yeah exactly so they're gonna have for close-up packages pre and post uh you know. um they're very thorough i'll give them that yeah yeah exactly but yeah they're they're um.
+00:34:29 Speaker 4 
+they require a lot of touch points um they they like to be informed um they're very regimented with their rules um around accessing stores sharing information um those kind of things um. I think if we are talking, and I'm going to use my term again, C-Snap, the difficulty is going to be in the Samsung markets, because when we've kind of broached the subject of a Samsung radio in an Apple store, I mean, Samsung and Apple are, you know, they weren't real keen on the idea.
+00:35:21 Speaker 4 
+Millimeter wave is expensive to deploy. Yeah, I don't know. I think I'm done with Project Orion, and then, you know, six months goes by, and I get pulled back into it again. Like I said, I don't think we've heard the last of Spider Cloud Sunset, or C-Snap, or Apple Stores, or I think we're in for the long haul.
+00:35:47 Speaker 3 
+Since we don't really have a good product for indoor mini-middle-wave to replace by a cloud mini-middle-wave, right? Like, dot, right? Yeah, bleed, right? No mini-middle-wave. I'm not sure, Chris, if you were part of that group that prevented Ericsson from developing mini-middle-waves, dot. Mark has wanted it.
+00:36:07 Speaker 4 
+I actually don't have any familiarity with that. I know there's an indoor 1279 radio that is mini-middle-wave, and that has some, I'll call them dot-like features, but it's not a dot product in the sense that it connects to an IRU.
+00:36:34 Speaker 3 
+Yeah, and it's a base and all that. No, they were prevented because they were not part of the original five vendors. Remember when we started developing indoor mini-middle-wave? Keith Martin was part of that. Okay. So, Ericsson was late in submitting whatever, and then they were prevented from developing a mini-middle-wave dock. They wanted to. They went to the market and actually showed it to us, and markets are asking for it. But anyway, short of having that product, I think, like I know, CW and I, when we meet, they meet more than I do with Apple contact there, right?
+00:37:05 Speaker 3 
+We try to basically talk more about C-band, right? I think that's what we have to basically show them, that a C-band is our 5G ultrawide band, where you get to the 5G experience. um so that we use either dot or some other i don't know what what equivalent i don't think samsung has an equivalent product right but um maybe a c band a radio um so kind of talking about your c snap right so um i hope it we can you know pass it through the strategy and planning.
+00:37:39 Speaker 3 
+right what we're going to replace it with yeah handling the projects and everything will come later hopefully right and not like kind of like ask us to start working on it tomorrow and then no we haven't figured it out right i think that's what happened with orion it was put together very quickly um everyone was surprised and how many are we doing and and i think um it was yeah.
+00:38:01 Speaker 4 
+you mentioned donny cruz and amanda earlier i mean orion had a pretty rough start um and, I don't know that initially it was necessarily set up for success, and it ran into trouble really quickly. So I think understanding that you can't throw a couple resources at this.
+00:38:34 Speaker 4 
+and expect it to be successful was a pretty big learning lesson for everyone that was involved. So, yeah, I completely agree. I hope, like, oh, come on, IBV, go figure that out.
+00:38:45 Speaker 3 
+Yeah, that's interesting. I mean, 2026, to be honest, I don't know what it's going to bring to us. I heard that in the budget, actually, I haven't looked at it in detail. Live, like, that kind of on hold, right? I don't know how many end-of-life tasks we're going to do, and the BBUs, we're not.
+00:39:17 Speaker 3 
+I think we're doing 50%, something that Scott will explain to someone, so which may change. I guess once the organization figures out how much resources and capital we're saving, expense, I guess, by these layoffs, that can be invested somewhere. Although it's going to take some time to kind of fall off, right, with all the severance.
+00:39:50 Speaker 3 
+Anyways, anyone else want to talk about anything in general? Like, whatever you want to talk about, any support with anything? Go ahead, Eric.
+00:40:17 Speaker 2 
+any guidance, I got any guidance from Auburn in terms of the budget or what they're going to shake out, like, 26.
+00:40:25 Speaker 3 
+I know you texted me about that, yeah. Let me check with Rob. So, who does the expense budget? It's not a DVD, is it. 
+00:40:41 Speaker 2 
+That's the wrong guy.
+00:40:44 Speaker 4 
+Yeah, anytime I had budget questions, I would always direct them to Scott.
+00:40:48 Speaker 3 
+Yeah, we'll start with Scott, I guess, because I know he'll use the capital budget for next year, but I wasn't sure if he does expense as well. So you said that for Wi-Fi audits and stuff, just audits, not like anything operations related, or is it. 
+00:41:07 Speaker 2 
+It's performance audits. Essentially, you turn up Wi-Fi and it's just, well, a great performance facility that performs some benchmarking, baselining, understanding, you know, the user experience. You take that information, ask the markets, kind of have an idea of how it's performing so that you can use it on the baseline. And if you covered the performance as well, they could work with the venue to kind of be curious to see if there's a facility we'd like to run next year.
+00:41:53 Speaker 2 
+I'll just turn six gigahertz on Wi-Fi. your performance so just want to know if i or not for you you may have stuff already but do you.
+00:42:09 Speaker 3 
+usually hire a vendor to like go out and do the testing or we do something yeah so it's for a.
+00:42:14 Speaker 2 
+vendor it's for a vendor c squared oh um i see they've been doing it for us so just curious that would be fine if the button splashed a little bit like i don't need 550 thousand dollars you know especially around the corner depending on the size of the facility now a bit facilities that we target or make sure that we store how much we yeah right some data that we have you know.
+00:42:48 Speaker 3 
+you want to know how much we spend this like if you spend all of it or give me, how come i know that i'm just curious i mean i'll start with scott i mean whoever is managing the budget would know so um yeah of course yeah um eric and jim i know we just talked about it i think.
+00:43:19 Speaker 3 
+last week um as i mentioned right john john is there he's handling some um enterprise wi-fi projects and i mentioned to you you want to reach out to a journal if you can support with anything i guess reporting and stuff right so yeah let us know right how we can support yeah yeah absolutely.
+00:43:38 Speaker 2 
+yeah i haven't found my list john i could have you work on potentially um most something like that, but it helps you know sanity, this dashboard before the weekend and draw some of our online work that may take years to do, but I still have to do it for some of those type of tasks.
+00:44:12 Speaker 2 
+Yeah, I'll reach out, and I'll have to search just all their tools and stuff, but it shouldn't be a pain in the neck, would it. 
+00:44:33 Speaker 1 
+Yeah, when all the things run so smooth. Yeah, oh, that's nice.
+00:44:42 Speaker 5 
+Yeah, my only comment is, by all means, please invite me to meetings or anything you guys have questions on an email if you want some help because software is still very powerful. We can make some changes that can give you guys 30 minutes back of your life or your day or an hour, and sometimes they can be simple implementations with what's already there. So I like learning and being brought on and learning more about how the team is working. So it's not a hassle.
+00:45:14 Speaker 5 
+Just ask.
+00:45:15 Speaker 2 
+Okay. Kyle, you mentioned the performance tool. Kyle, what did you say previously. 
+00:45:29 Speaker 5 
+Well, I've been writing software for enterprise applications for 10 years, really. So I was... Working on the venue performance tracking tool, and now I'm taking over all of the tools for ABV PMO, at least that I'm aware of. There's at least 12 tools that I'm aware of. So. 
+00:45:51 Speaker 6 
+Eric, the tool is going to move into Airwave.
+00:45:58 Speaker 2 
+Welcome.
+00:45:59 Speaker 6 
+That's the, that's the, that's the strategy. So I think Carol has been working with the different groups to transition that over that, to that.
+00:46:14 Speaker 2 
+It's I'm curious, there is other data that we can use for Wi-Fi data, or certain select venues value actually to that. So I'm curious. Yeah.
+00:46:35 Speaker 5 
+Yeah, I think my email should be in this meeting link. And then with the email, you'll easily find me on Slack. Happy to meet everyone.
+00:46:46 Speaker 8 
+Absolutely.
+00:46:50 Speaker 3 
+If you mind, but I was thinking that, you know, the Google Sheet created, right, with the team. Yeah. And then maybe with the whole IVV team, basically, right? And then we start some kind of a feature request kind of tracker, right? So, like, you know, when I have something later, 2x5 KPI, you know, there on a CD in the report, and you can look at it if it's possible.
+00:47:18 Speaker 5 
+Absolutely.
+00:47:18 Speaker 6 
+I have a question about that, Navjot. In the DE, I guess we would do that that you just described, and just to... I guess to get back to what Eric is saying, right, what would be something we would need to put in the wave? Because we are the mission, the VP team, right?
+00:47:49 Speaker 6 
+Or are we changing the strategy. 
+00:47:55 Speaker 3 
+I wasn't aware of that. I think that if it's happening, then we're good. Air wave, right? Yeah. I mean, that's a larger tool, right? So a lot of users, I'm sure, has a larger developer team.
+00:48:11 Speaker 6 
+Well, it's the, all the performance engineers go there, right? So I think that's where the performance metrics should lie. Right. And that's what the tool that the performance uses for that. So I think that's kind of what the intent is behind that. And then now what Eric is saying. I mean, depending on what it is, right, like, I guess my only suggestion there would be, you know, if there's something on the other side of enhancing the VBT tool, then that would be something that we'll have to do with the NS group on the other side and implement that there, right, because you'll be able to decommission the VBT, right?
+00:48:54 Speaker 6 
+However, you know, along the same, you know, his expertise comes in, you know, some tools and apps and that kind of stuff. So if you're talking about along those lines, I think that now you have, like, some sort of, like, talking to Rob, you know, his idea is that we start.
+00:49:25 Speaker 6 
+opportunities to dashboard things and other things, right, but then that, we've got to go, we've got to go through that, right, we do use tools, DNS, and that is, when we talk about, you know, feature-less, there is a chance something else went away from a couple years ago, okay. 
+00:49:52 Speaker 3 
+I don't know where we're at, you know, in transitioning to Airwave, if it's happening soon, then I would say, you know, sense, but, you know, what I'm saying is kind of a Wi-Fi, performance tool as well, right, so if it's, if the transition happens soon, then start with Airwave, right, so, I mean, where they're at.
+00:50:27 Speaker 6 
+Yeah, like I said, I'm assuming this information is coming from NCWS or some mechanism. where we can collect the data. So if it's, I guess, Eric, you'll sync up with Gerald and you'll determine what, whether this is something that can be much more, or we're looking to have it in VPT, then that's.
+00:50:58 Speaker 6 
+where, Gerald, I would suggest things that we need to talk about VPT, those are the kind of things we have to start figuring out how we're going to roadmap that into EdWave, right? We don't want to keep developing something we're trying to decommission.
+00:51:15 Speaker 2 
+Yeah, I was thinking about data sources that I have to do manual reporting on that should be... You should be investing more inside of Verizon, right? Through proprietary UI or via spreadsheet that I haven't been able to drive, right? So it's like that would have value to the local markets. So yeah, I don't mean VPT, but it's more of a, well, if we put in VPT or Airwave, it doesn't matter.
+00:51:52 Speaker 2 
+It's not like it's valuable information.
+00:51:54 Speaker 3 
+Or if you want to stop doing that, maybe have a dashboard, I think that's what you're saying, right? Maybe Joe can help you put together a dashboard, a separate one, and then... Yeah, absolutely.
+00:52:08 Speaker 5 
+And I mean, I do have full access, right, and admin, and connecting to other servers and database privileges. So my ability to turn something around quickly is high. I think that's probably... One of the advantages for having me take a look at something, especially if it's blocking or if it's making processes slower during the day or week.
+00:52:43 Speaker 3 
+Just remember this word that our executives keep using, right? They use AI or anything.
+00:52:52 Speaker 5 
+Yeah. I'm very adverse.
+00:52:56 Speaker 3 
+I don't have an axe.
+00:52:57 Speaker 5 
+At AI.
+00:52:58 Speaker 3 
+Yeah. The book air lamp, that's what I'm waiting for. I heard that's what's using Gemini. And now, I don't know, has used data to help you kind of report and stuff. AI is not creative AI, right? At this time, it's just manipulating the data that you've created. I'm wondering if anyone played around with it. What's the game? The Notebook LM. It's a Google tool.
+00:53:31 Speaker 3 
+It's more powerful than the regular Gemini. Yeah, you can feed data into it and then it can give you...
+00:53:42 Speaker 6 
+Yeah, it's an assistant built of the Gemini, the whole language model, right? I barely use it. I started to geek in it. But I was always using it from my home, like my personal computer, not a hardware computer. And it's pretty neat. I mean, you just need to know your data.
+00:54:15 Speaker 6 
+You have to give it a place. you know your data just like anything else right you know garbage in the shop right but it is similar to i don't know if you guys used um five so when you have your drive you put a folder right in your folder you have your uh pane on the right side with gemini right so you could you could give it context and explain okay on this file i have this on this one i have this other thing can you.
+00:54:45 Speaker 6 
+please give the top 100 offenders on metrics and correlate these data so it gives you a quick summary and you can actually also tell them you know can you give me a csv file sometimes it does it sometimes it doesn't but i think no lmd is no to compete um a bit more failure to upload files.
+00:55:16 Speaker 4 
+So and pretty well with for your Google Drive. Okay, interesting. I asked Gemini yesterday for some. creating, slides. Not so much. I, Tried to upload data to it links. It was the.
+00:55:47 Speaker 4 
+Output was very basic. So I have to look about look at notebook LM here. Yeah.
+00:55:56 Speaker 3 
+Yeah, I'm gonna just send this link in our channel here to not forget them Yeah, it's a that's way box approval. So I'll see. Um, okay, uh, hey, five minutes morning. Um, who hasn't spoken yet? Sid. 
+00:56:19 Speaker 8 
+Hey, Movel, and hey, uh, Naptcha. Uh, of course, I need some help. So with the, uh, there's an email floating around about, uh, the John Deere buildings. Uh, um, you know, Rob, I think it was BBG we talked to Rob, right? Rob said, okay, um, he approved the three buildings. I don't know where the number three came from. Um, but then when we talked to Sophia early this week, Sophia said she, uh, she was basically told by, I don't know who, Rob, to basically put a restriction in the agreement to limit the buildings to three, but to three locations only.
+00:57:03 Speaker 8 
+Um, and now Mark is saying that the, like, John Deere HQ array, uh, it consists of basically six. so there's not three buildings right um so if you can check with rob just to see if we have approval to move forward with this building or do we need to put a restriction in the agreement, i'm aware like i said sophia now i think this is holding up the production agreement um.
+00:57:33 Speaker 8 
+then put from from bob or whomever said that there needs to be should put in place right in the agreement to limit this deal basically to three buildings i don't know where it came from uh, but when we look at the total building is six six buildings six different locations, so um and honestly it will be two s ones right so one adds one will will cover.
+00:58:04 Speaker 8 
+five buildings and then and then there's another one that covers that makes sense, some connections and six buildings so on that yeah the 10 gig i did ask okay yes.
+00:58:20 Speaker 3 
+well you have so i'm not going to the same um chain right so rob saying i agree with rob i'm assuming he said roger right so three three hundred buildings for that's mark who's in rob's team but he hasn't confirmed that right so it looks like they agreed on those three buildings.
+00:58:48 Speaker 8 
+mark just messaged me looks like he responded he's basically seeking approval for six buildings, not three right because that's what it's right so, He already has five buildings, and if we approve one, I don't know, he's thinking, oh, if you approve one, then might as well just approve the other four, because all of them are basically the same kind, but you just approved three out of the five. That number three, I don't know where that number came from.
+00:59:20 Speaker 8 
+Maybe somebody just gave the wrong information to Rob, right, about the three buildings, but it's nowhere here. You know, there's six buildings, basically, in total, for this location, this particular, their HQ, basically, the headquarters.
+00:59:41 Speaker 3 
+Yeah, okay.
+00:59:42 Speaker 8 
+And then, really, the question is, from an agreement perspective, what is it that we need to, because Sofia was told by Rob to put a restriction. She was told to basically limit the number of buildings to three.
+00:59:56 Speaker 3 
+To three. 
+00:59:57 Speaker 8 
+Yeah, and then when we asked, like, why three? she didn't have she couldn't answer she said you need to check with rob or novchak so that's why i.
+01:00:07 Speaker 4 
+think chris you were part of the yeah we were really struggling with where the number three came from um i mean i'll tell you this much when i talked to rob before thanksgiving um about just, moken in general um i mean like he's his interest is in monetizing this now like we can connect them all we want i mean that now that we know how to do it sounds like there's enough bandwidth for.
+01:00:39 Speaker 4 
+a few buildings i don't know what the scale of the buildings, you say 10 gig s1 i'm imagining that's a shared 10 gig circuit it's isp you know there's a lot of bottlenecks around that link that much aside, you know, limiting ourselves to a small number of buildings per S1. Okay, that makes sense. If you're saying three or four per S1, fine. But really it comes down to, is this something we're going to do,
+01:01:13 Speaker 4 
+if we're going to continue to do this for free, for whether it's InfiniG or Khajiit or whoever the next, you know, Moken operator is. I don't think Rob has an interest in, you know, giving away core resources for free. I mean, he understands that there is a cost to Verizon to do this and there's more at stake here than just churn. So my impression in talking to him before,
+01:01:44 Speaker 4 
+and again this is my impression, was he wanted to throttle these a bit, slow roll them, if you will, so that... BG has a chance, like, hey, let's charge for this function, let's charge for this ability, because there's value here more than just, like, making sure the phone works. I don't know if that clears things up or makes it more muddy or what, but I think Rob's looking at this as, how can we build a strategy around this. 
+01:02:20 Speaker 8 
+The fact that he approved those three, right, I think that's kind of, like, what's a little bit puzzling to me. Like, if you go to Rob and say, look, Rob, there's actually five buildings in that three. I think that's kind of, like, what I'm trying to find out from, like, is he okay with us moving forward. 
+01:02:37 Speaker 4 
+Well, don't you dare bother him on his wedding day. I mean, like, you're just setting yourself up for disaster.
+01:02:43 Speaker 3 
+Yeah, that's right. You said wedding? You said, well, Rob is getting married? and this week yeah oh okay thank you i didn't know that yeah he was texting called me yesterday because uh we had to complete the um some stuff on the performance reviews right so it's calling.
+01:03:01 Speaker 8 
+everyone um yeah he's off so if you ask me my input understand we need to provide an answer right because i got it so there is already restrictions in place in the production that would prevent basically infinity from turning up like additional buildings without our approval, they can't do that right they cannot just come in so that restriction is already, in in the agreement it's like that's what what that was the purpose of the.
+01:03:33 Speaker 8 
+site activation schedule that that we introduced right so each location will require kind of like an amendment document that needs to be signed by both parties infinity and the local id, So if you ask me, right, I mean, hypothetically speaking, like, you don't want them to just go and turn up, you know, as many locations as they want. I don't see a need to put, like, a number, a restriction to, like, three, like a number three, you know, I don't, that magic number, right?
+01:04:04 Speaker 8 
+If that's the case, right, we could just move forward with the production agreement template, that Sophia is working on. I think we already added a few things there, right? I think that's what she wanted to know, right? Do you guys want me to add a restriction to three buildings or not? And if not, then we move forward, right? And then each location, if you, right, we each, basically, location individually from both the design and the business perspective.
+01:04:37 Speaker 8 
+These buildings are campus buildings, right? And there's, like, five things that are part of them. Rob is okay with this moving forward, but I don't know what that, you know, is what Rob's thinking.
+01:04:54 Speaker 3 
+Yeah, I know what you're saying. Yeah, I'll try texting him. You have the same address too, right. 
+01:05:00 Speaker 8 
+That's exactly. But even the other ones, even the swap building is literally like across the street. So it's kind of in the same entity, right? It's probably, if you look in the map, it's very close. You know, it's probably like less than a mile. So that's kind of like the buildings, the six buildings that BBG is seeking approvals for, right. 
+01:05:28 Speaker 3 
+Okay. Let me text him. Like I said, he was talking to us yesterday, so he may choose. And then I can agree with you. There's so much confusion. I'm trying to get clear direction too. Like, what are we doing with Malkin, right? So he said those kind of things, right? But it's like, you know, we're going to stop and think about it. No, because they, I mean, you have to have a strategy that we say no, or we say you have to pass these conditions, but it can be like different for every time.
+01:05:58 Speaker 8 
+Because right now it's not productive, right? Because now we're wasting a couple of days, just one, so we should move forward or not, right? It takes up a lot of time. It's like you have to do this evaluation. Well, it's not sustainable, basically, you know, like you could have one or two. Yeah, fine. We can get on a call and agree. We have to look at this from, you know, like a long term perspective, right? Where we doing with these, right? And any request that comes in, right? We find out the AT&T and T-Mobile are on these systems. They are.
+01:06:38 Speaker 8 
+Going in the smoke, Yeah, they are. I mean like the numbers that I don't know who shared the never but yeah But the poor number of local system that Verizon and the team is that T-Mobile AT&T joint like in a thousand Not sure if you've seen that Chris, Yeah, based on like the genome ID allocation of these like 2000 ish systems that, I won't have to do with the churn record. That's what actually one of the.
+01:07:10 Speaker 8 
+The Malkin operator called me like you guys are complaining about the churn customer leaving and we're trying to help you guys He's not joining the ecosystem.
+01:07:19 Speaker 4 
+Yeah, this goes back to the strategy that Rob's trying to perform.
+01:07:26 Speaker 8 
+like we lose customers right you know i mean it's like yeah i mean we're spending but if these if at&t we're at a competitive disadvantage a big competitive time in 2000 systems a lot a lot of fights if i was a variety of customers in one of those buildings i'll be pissed, you know if my phone doesn't work and the guy sitting next to me has e-mobile it works great.
+01:07:48 Speaker 3 
+the fine money to here by the hot revenue engine system or an system for bryson you the joint, digital competitors which again that's all that when an intake comes in you know that chris or.
+01:08:25 Speaker 6 
+I don't know if they already have an AT&T or T-Mobile on it.
+01:08:30 Speaker 3 
+Well, we can ask them, right? We can ask them.
+01:08:34 Speaker 8 
+We usually ask them, and, like, the ones that, like, Khajiit, we're always late. Khajiit, AT&T, and T-Mobile, we're on there. Same thing with John Deere, the trial location. They, we're always late to the party, basically, always late, you know. And they've got, you can ask Keith Martin. Keith Martin, he's the one who shared how many Moken systems the other two are on.
+01:08:58 Speaker 6 
+The reason I ask is, the reason I ask is mostly because in a workflow, right, that we've been working on, you know, I guess part of the decisions is whether this is impacting churn or, you know, does this make sense for Verizon. So maybe if they're already there, maybe that could play a role. I don't know, Chris, what do you think, or Dabjak, but. It's part of that, or it should be part of that decision in the beginning, right?
+01:09:30 Speaker 6 
+Are we going to be the first ones to go in, or are we the last ones, given that the other ones are, you know, how much do we do property in those. 
+01:09:37 Speaker 4 
+I don't know. The rule is VBG. VBG's convinced that they can sell ICE to the ESCO. I mean...
+01:09:47 Speaker 6 
+Yeah, but, here, think about it, just like what Sid is saying, right? If AT&T is already on it, there's nothing that we can sell them. It's going to be cheaper than what we already have.
+01:10:00 Speaker 4 
+I know, I get it. You and I are on the same page. It's convincing VBG that your opportunity to sell anything is over. You're not selling a license system. You're not selling a DAS. Your best chance at this point is selling an S1 connection. That's it. There are a couple people that are on board with that. Don Levasseur gets it. But they also don't want to turn this into a product that we offer.
+01:10:38 Speaker 4 
+Like, we don't want that to become the new, we don't, there's a desire for it not to undercut Signal Source only projects, because Signal Source only is, is a, you know, a maker for Verizon. So we don't want it to undercut that. We also don't want this to turn into the next Koei fan, where, you know, there's no day two.
+01:11:13 Speaker 4 
+So, I mean, we're trying to solve for that. That's the second thing. I think we've been down this road enough times. We know what we don't want, but we're having a hard time defining what we do want. I'll send everyone the deck that I wrote down with Rand Planning. It's a little dated at this point, but it'll kind of give you an idea of, you know, big picture, what does a join look like.
+01:11:45 Speaker 3 
+And enterprise Wi-Fi is kind of in the same boat, too. Just recently, Eric, actually people from my market, NorCal market, right, so they learned from our crisis response team that AT&T is using enterprise Wi-Fi in hundreds of locations in San Francisco, including, like, libraries and schools. And they're like, hey, why are we not doing this? We're churning here. So, they obviously reached out to Richard Smith, who was ecstatic, and he added me right away.
+01:12:21 Speaker 3 
+So, now he's kind of the supporter and sponsor of that. Like, he wants to do it, which I won't be that excited. Other people, you know, competition is doing it, and they're still, you know, they're offloading the network. But we need to build a team for that. That's one thing. We're not building a team for that because we're not admitting that we're doing this. Well, we are.
+01:12:49 Speaker 2 
+I mean, that's in the first years. People are getting that support. We're afraid of this. I don't want to do it. How do we do it? We have to buy in. The extent that we're going to see things in person with this is absolutely, it's more something, well, employment, we're just sticking with that employment type thing.
+01:13:31 Speaker 2 
+It's, you know, it's a concern for a lot of minor clubs that are, you know, kind of third-party lives, you know, there's no smoke, there's no, you're not going to just plug the thing again. That's an enterprise that I know is scared of, and it actually matters right now. Right, so we need to figure out, you know, it's not a way, that's a kind of band-aid we need to use.
+01:14:07 Speaker 4 
+Yeah, Eric, I don't know if you want... The date for it's, there's a call, it was for Monday, but I don't know if you have any interest in writing that or not. I mean, I'm not going to be like, yeah, come on, join.
+01:14:38 Speaker 4 
+The point is, there's enough interest now because H and N are putting their foot on it saying, you will not proceed with this until you plan, whatever it looks like. If you want an adjudication, if you want to join, great, but at least it can give you an idea of here you need to solve for.
+01:15:07 Speaker 2 
+I think that would be it. Okay, all right. Enterprise, right, they're day-to-day single guy. It's just a punch. But the scale that they're talking, for Enterprise, you know, they're talking about Walmart, $7,000 a piece. They're talking about, you know, the CA Health.
+01:15:38 Speaker 2 
+They're not all, you know, $7,000 a piece. You can't get, right, that's a, that's a, and you can't, you can't, it's a network connection, it's a network call, it's like the IMF.
+01:16:10 Speaker 2 
+But it's cool enough where if it's touching the work, you still need to pay to be able to mitigate a, you know, product or a stat.
+01:16:39 Speaker 4 
+Yeah, they understand. They understand the problem. They just, and to put it bluntly, they don't care because their job is to close the deal. That's what they do. They're salespeople. They close. And I get that. That doesn't help me, no, but I understand.
+01:16:58 Speaker 2 
+No, no, no. Yeah, thanks. So it's very interesting. In terms of Strat, it can overall look in and, you know, it's in specs, users to a third-party access network, we'll call it.
+01:17:21 Speaker 4 
+The scaling that I'm about in Solana, for example, and Walmart, you know, these are, the gateway, the Moken gateway is cloud-based. So if we have, you know, one S one connection to their gateway, I don't know how many stores they plan on serving from that gateway, one, 21, 121, but I mean, you know, there's Walmarts all over the place and they want this in all their stores.
+01:18:00 Speaker 4 
+There's a lot of the checks in there that I have concerns with. And then, you know, what do you do when something goes sideways and you have no visibility to anything because it's not our rant? Just taking care of it. I mean, we're on the same page.
+01:18:14 Speaker 2 
+Yeah, we're very much aligned on it. Definitely, you know, the Walmart comment is interesting, because I remember the Enterprise Wi-Fi site, one of the customers that were bringing up was that they wanted to do Enterprise Wi-Fi for all the Walmarts. But if they're saying they want to do Salona, that's interesting. Or if they want to do Mokin. So which one is it? So which is the better option for our customers, right?
+01:18:44 Speaker 2 
+And that's something I need to think about. I should take this call for one second. But that we need to dive into, I think.
+01:18:49 Speaker 4 
+Yeah, that would be a separate thing than the... to support call, but I was not aware of that. They wanted to do Wi-Fi also. Walmart is going through Salona for private network services. Since they're going to install a CBRS network in their stores, they want to have wireless operators, mobile operators, us, T-Mobile, AT&T,
+01:19:25 Speaker 4 
+ride on that same service because you can. So I understand they're just trying to maximize what they're doing, but I hadn't heard the Wi-Fi wrinkle. Maybe they're just sort of moving forward with both and seeing which one ends up being more profitable, useful, trouble-free. Call it what you like.
+01:19:58 Speaker 4 
+Interesting. Look at us. We are way over our time.
+01:20:05 Speaker 3 
+Yeah. There you go. And our new CEO does not like this. Let's leave that for later. Well, I guess he's not okay with one minute over or late. Nineteen minutes? Yeah. We're being productive. Anyways, anyone, any last-minute thing to share or talk about? We'll pull you up.
+01:20:31 Speaker 6 
+Hey, Abhijit. I pinged you. A question on the total wireless thing.
+01:20:38 Speaker 3 
+I saw the message when I looked into the email.
+01:20:41 Speaker 6 
+Please take a look at, you know, maybe sync up with Scott. Okay. I also talked to him. He's going to talk to Mike, Michael Kramer. So, yeah. So, just, just FYI, I don't, I don't have any input on this. I'm not sure, I'm not quite sure what, what Mike was going with on that.
+01:21:10 Speaker 3 
+So, they are our, basically, third-party stores, right. 
+01:21:16 Speaker 6 
+Correct. Correct, correct, correct. And Total Wires is one of the resellers, but that's the one that we're kind of working with, I believe, at least from what I hear. Now, the email is talking about, you know, whether the unit is proper or not, and, you know, if it's overkill or not. So, they're going after the markets for help in the markets. I don't know who's, I don't know what guidance there is, but the three questions I have, or that we have, is, you know, who's going to fund these things, right?
+01:21:48 Speaker 6 
+Who's going to install them? and who's giving the guidance how this is going to happen going forward so um yeah yeah i'll pull you can see that we've been seeing that was gone first maybe until tomorrow i think he's going to talk to michael um i think michael had to leave today but i think he said he was going to have a time to talk to michael tomorrow and then and then you guys can think about how you want to proceed.
+01:22:20 Speaker 6 
+right but at least for now it seems like a lot of emails back and forth between the regions which is an indication that they're not sure what's going on and they're going to try to figure but it's very likely not going to match what probably michael was intending to have at the time okay.
+01:22:37 Speaker 3 
+Yeah, I'll look into it. But in short, I think it's going to go back to market, to be honest, because I remember the strategy that Michael Freeman created for the stores, right? So it was new stores, right? It gets funded under the VCG budget, right? But if it's an existing source, then it's up to the markets. But I'll look into that. So this will come under that category, right? So existing store, it's indirect.
+01:23:04 Speaker 6 
+When you say existing stores, you're talking about Verizon existing stores. These indirect stores are excluded from that assumption, from what I understood from Casey back in February, when he was still going on on the team, okay. 
+01:23:21 Speaker 3 
+Well, if they're not funding for existing Verizon stores, I wonder why would they fund these indirect stores. 
+01:23:28 Speaker 6 
+Yeah, I think it's because these indirect stores have some sort of VCG component, and then they have their budget. And they're funding. And I think they were trying to negotiate like how to transfer or how to make a process, right? And then also the, you know, coordinating with the stores and, you know, it's not like our stores where we have our, you know, I guess our regional director or market and we have like a, it's a hard, right?
+01:24:07 Speaker 6 
+Anyway, long story short, that's, those indirect stores are a little bit of a, I'm going to steal the wrinkle reference that Mr. Chris uses. So this is the only wrinkle in that is these stores have some sort of different ownerships. So that's been a little bit of a pain as far as I know. This is the little I know about these indirect stores, okay? Can I send you the document? that I'm basing this from and but again it is dated back to early this year like in March or.
+01:24:45 Speaker 3 
+something okay okay you got it thank you cool but thank you all right team thank you thanks for your time um again next week so yeah maybe this time work for everyone we can settle on this if Rob's going to have meeting before this we can chat in slack all right thank you everyone thank you
