@@ -1,0 +1,127 @@
+IBV server consolidation 
+
+
+00:00:01 Speaker 1 
+Um, yeah. All right. I, I, there's a fire. Now we need to send an email and we're working on something. And so I told him I got a, I had another call. So let me, let's go through, you know, um, why don't we go and take a look at what you've been collecting? I mean, it's, I guess, let me start with this. Is there anything that you need my input. 
+00:00:31 Speaker 2 
+Well, yeah, you know, I, I'm trying to help you out here. Um, so the biggest thing, so I think that Excel sheet is kind of, um, important. Um, the IB, the tools, um, with the, uh, stakeholders, um, you know, honestly, right now, I don't think so. Um, I have access to all the servers that I need to accept. for one that I need to double check. But for like 80% of the tools, I have the ability to.
+00:01:06 Speaker 2 
+make changes and edits. I think the bigger thing right now is reviewing what tools or apps people generally use in the start of January. And one thing you might like is that I started adding analytics software. So I'm starting to capture data for all of the usage statistics on all of the tools system-wide. And I should have that complete by, I guess, Monday or Tuesday in terms of tracking all of the systems. So, you know, by the start of January, I'll have a lot of data.
+00:01:38 Speaker 2 
+to send the team reports as to which tools are getting the most foot traffic. And I think we.
+00:01:45 Speaker 1 
+can go from there. Well, yeah, that's good. I mean, I know that they had some other ways. They had something in the pages to count that. Because what happens is in December, most people are going to be out. You're not going to see a lot of usage. With that said, if you have a new way to monitor each of the pages, that's great. Then we can put some metrics.
+00:02:16 Speaker 1 
+That's good. At least you took the suggestion and implemented it. So that's good. Thank you. And, again, like I said, I expect that most of this stuff doesn't have a lot of traffic. A lot of them are needed when you need them. It's not like I sit here and everything I do is on this calculator or this tracker. Right. And then the other thing is a lot of these dashboards are usually.
+00:02:55 Speaker 1 
+for quarter reviews or for monthly reviews so you will see no traffic until the presentation day and then everybody goes check it out and then get what they want and then leave okay okay yeah, so just just heads up because that's what we're going to observe and then some things we may not even see any usage at all because we have no none of these presentations or meetings, um so that's why to me i was more inclined uh well i mean still inclined to to make sure that.
+00:03:29 Speaker 1 
+the stakeholders give you the feedback right and you know just to see hey do we keep maintaining this because that way you could tell not just you know these are the things i'm going to maintain, um and you could always display the usage right um as you go through the year um, and then there's going to be other things like some of this, fireflow kprs, Do we even need that? I don't think we're going to need it, but does it hurt keeping it there, right?
+00:04:03 Speaker 1 
+It has no traffic. It's still process of the data and percentage of it. Do we want it there, right? So for me, the answer is yes. But then I don't know if you can come up with, you know, is there any cost associated to keeping maintaining these reports? Of course, is there anything that costs Verizon anything? Or that from your perspective, is there anything that this adds to the work?
+00:04:41 Speaker 1 
+I don't think so. I think a lot of these are hosted in the same server. And I believe if you have to patch the server to protect. The one tool that everybody uses, then the other tools get benefited, right? Like, it's not like you patch a tool at a time, right? Whatever you do for the server is for the overall server. Security-wise, you know, any sort of software updates or anything like that, it's not going to.
+00:05:11 Speaker 1 
+So that's why a lot of these dashboards, like I said, you know, just keep them maintained. And unless the stakeholder says no, kill them because this is now not a priority or, you know, we're changing strategies. And I use Spudercloud because I heard that we're going to move away from that particular vendor. Okay. But it's not official, so we can't really say anything.
+00:05:42 Speaker 1 
+But given that we're in the front end of a lot of these planning initiatives, we're going to use some strategy. you know sometimes we know that these things are you know we need they need to start dying down so because of that that's why i said navjat would be likely to determine what to do with this because you know they'll determine yeah this is we need to start phasing this out we need to start making it difficult things like that okay um yeah you know the metrics um.
+00:06:21 Speaker 1 
+I expect to see maybe metrics, do you put metrics on VPT? I thought you already have.
+00:06:26 Speaker 2 
+I have um so I do that's kind of that's another tracker so that's separate but I actually bundled, it into this one because it is all of IBB tools so um yeah one was kind of more focused and isolated to just um VPT but um the new ones that I set up uh this week um just track the whole thing.
+00:06:51 Speaker 1 
+system-wide so it's a little bit more comprehensive. Yeah okay um I'll tell you that another thing is I don't know maybe for another day is if if my thought is that if you go and, present the traffic you will see that the server will be shut down in less than a few months. Because if you show that nobody is using this, and again, because you're looking at it from the last month, December maybe, and part of this January, we may, you know, I would just suggest that you mention some of my feedback.
+00:07:41 Speaker 1 
+And of course, I will talk to an object as well. It's just that it's, you know, you said something the other day, right? Like, once you have these resources, the actual hardware, you know, getting them is a big deal. And once you lose them, you're not going to get them back.
+00:07:58 Speaker 2 
+Yeah, that is true.
+00:07:59 Speaker 1 
+I don't see how we're going to be able to do things without having, like, a server like this. Because my thinking is, yeah, we're going to... We probably can still host in dashboards or applets or tools like this, but I'm thinking the server as a database, I think it's a lot more, it's going to become more useful for more of data,
+00:08:37 Speaker 1 
+correlating data and connecting data because there's other tools that don't. And I mentioned that the other day to you, is that the other tools are not always connected and or they don't accept data that we want to do. And sometimes we want to spin some data or we come up with new data fields and the tools can keep up with the things that we need. So that's why I think that it's useful to keep these servers because we don't have resources that we could do other than Google Sheets, right?
+00:09:09 Speaker 1 
+But that's not a relational database that we could. query and do all this stuff, more efficiently like SQL or Oracle, etc. Alright, well this is okay, but have you, talked to any of the stakeholders? I did see the email from Gloria. I hope I helped respond in the way I did. Because she was going after things that we were, I don't know, I already explained that to her. I already gave her the update.
+00:09:41 Speaker 1 
+She was asking the same thing. So we're going to have to keep saying the same thing. So, oh yeah, we're doing this. And then, yeah, this is like this day. This is like this day. It seems like every time we're going to have to say the same thing. So, she, did say she wanted to review the other stuff, right? So, I would recommend seeing if she's going to have some time, from now until the end of the year. Because it's going to quiet down maybe on her side. She may be taking off, but... And she may send you to Lars or Diane, and they're not going to know,
+00:10:13 Speaker 1 
+and then she's just going to go back to her. So see if you can get some time with her.
+00:10:18 Speaker 2 
+And can we confirm her name. 
+00:10:22 Speaker 1 
+Doria.
+00:10:23 Speaker 2 
+Gloria. 
+00:10:24 Speaker 1 
+D-O-R-I-A-D-O-R-I.
+00:10:26 Speaker 2 
+Oh, Doria. Oh, okay. Yeah, yeah, yeah. Yes, so that is for the VPT handover, but I would be happy to reach out to her again and see if there's anything else she and her team could need some attention to.
+00:10:39 Speaker 1 
+Remember I gave you, remember I put her as a stakeholder. 
+00:10:43 Speaker 2 
+That's right.
+00:10:44 Speaker 1 
+in the tracker, right. 
+00:10:45 Speaker 2 
+Yeah, I see it right now.
+00:10:46 Speaker 1 
+So don't ask her, just tell her. These are the things that you're the main stakeholder, okay? And I put in the email too, I need her to see if we're going to keep it or if we can get rid of it.
+00:11:00 Speaker 2 
+Right, okay.
+00:11:00 Speaker 1 
+Or if we need to redefine it, right? So in your tracker towards the end, there's a bunch of stuff that says to be redefined. Specifically, Fagy Airports, Fagy Bills, Fagy Sports and Venues. You show her. You've got to show her, okay, this is what this does. Is this useful? Is this not useful? Or should we move to something else, right? Can we scrap this and do something different? I'm pretty sure she's going to say, yeah, what we need to redefine is differently. Okay? So there's at least four things here that are Doria here outside the VPTPs.
+00:11:32 Speaker 1 
+Because VPT, she's a consumer and she cares about us because of the reporting. But she doesn't really go and run things. Because I asked her, I mean, show me what you're running. And she's like, no, I just need the reports. Right. Okay, so you're not going in VPT to run it. So unless you show what it is, then. So when you talk to her, you know, just ask her, like, okay, let's dedicate a piece of this meeting to go over the stuff that we want to either decommission or redefine.
+00:12:07 Speaker 1 
+Right. And get her feedback. And if she says, oh, but I'm not the main stakeholder. I'm like, OK, but do you care about this? If you don't care about this, let's say someone makes a decision that this will become, you'll be OK with that. And she says, yes, then put it in the notes. You know, once you review these things with Doria and she's OK with it and then she point out that she's no longer the stakeholder, then maybe you should go back to Scott or she'd go back to, I don't know, Mick or Milton, whatever. Right. So that's that's kind of what you need to do. And I had to give you more work, but that's kind of like, yeah, I don't see any other way to do this because if you don't show them, I can guarantee you they've never seen some of these or they saw it and they don't remember. Right. And that's what I was saying. Like, they probably won't remember many of these things.
+00:12:56 Speaker 2 
+Yeah, I have maybe two thoughts. So I definitely see the need for me to leverage this list and reach out to all the stakeholders and have them tell me how they're using it or what they're using it for. And then the other thing that comes up in the example with Doria. So I do know that. So, for example, Ellen and Elisa and Doria, when they use these tools, when they use them, they need to use them. And it is a structural part of their workflow, whether it's daily or weekly, just depends.
+00:13:32 Speaker 2 
+So I think reaching out to the stakeholders and asking them what is their workflow, where do these tools come into it? I think I can start learning that pretty quickly and getting an assessment of, you know, what are the critical processes that they're doing. And which ones are just being forgotten and not being used. And then I can maybe, I'll just have to kind of hustle and just kind of learn how people are using these tools across the system. And I'll just reach out to the stakeholders. I can reach out to Doria right away.
+00:14:06 Speaker 1 
+Yeah, I mean, there's so many processes. Let me put it this way. I don't know how to go around the bushes on this, right? That's basically what I do.
+00:14:19 Speaker 3 
+Okay.
+00:14:20 Speaker 1 
+What you're describing. Okay? So what I'm asking you to do is we need to first figure out what we need to shut down, what we need to determine that we need to maintain, so that way we have documentation of what it is that we need to do, right? And how we need to do it. Okay? Try and understand their processes and when they use it, that's afterwards, right? Why? Because if a lot of this stuff, they're not using or touching. That's something that's actionable for us. We can get rid of all this stuff, and that way we can start prioritizing where to do what you just described.
+00:14:53 Speaker 1 
+I know where they use some of this stuff. I just don't want to bombard you and give you to work on that stuff. I don't think that's what I – my understanding from when I talked to Rob and Nadja, I didn't think you were going to go and start trying to get into everybody's processes and flows and trying to . 
+00:15:10 Speaker 2 
+Oh, no, that's not where I'm – that's not really where I'm trying to go. So it would really just be one question or one email. What are you using these tools for? Maybe I can clarify this easier. To be honest, I can just look at the database and look at the data and I'll know within one or two weeks what's being used and what isn't. It's like night and day to me. It's like black and white. The data, as soon as I see how often someone, people are logging in, and as soon as I see how many records are being created on the database, I'll know immediately with a high level of accuracy what tools are being used regularly and which ones are not without really needing to reach out to a lot of the stakeholders. It's kind of like a fingerprint.
+00:15:55 Speaker 1 
+Yeah, but that's kind of okay. I understand that and that's great. What I'm asking you is reach out to the stakeholders. So basically get... feedback directs feedback from them that they're okay with shutting these things down okay or, if they don't and they want to keep it right are we going to keep it as is so that way you mark that as you're going to maintain that there's really no work for you, versus is we need to redefine which means it would be work for you right.
+00:16:28 Speaker 1 
+So, like, I know you could do a lot of this stuff. I'm not trying to, you know, minimize what you can do. What I'm trying to do is I'm trying for you to focus first on the task in front of us, which is we need to get and we need to figure out what we need to get rid of and prioritize what we need to really find. Then we can go into those stuff. That's why I said, like, the metric is great because we're going to be able to measure who's doing what and when. And like I said, depending on the times in the year, you're going to see spikes, okay?
+00:16:59 Speaker 1 
+So that's what I don't – me personally, I wouldn't use that to solely depend on that to just determine that I'm going to be decommissioning something, because I know that these things may be used twice or three times a year or four times, whatever it is, right? But when we need them, they need to be ready. But then there's other things that are just thrown there. And it was used for a strategy that is no longer valid.
+00:17:29 Speaker 1 
+And that's what I'm saying is go through the Doria. Hey, Doria, I have these ones. You know, we need to find out and just explain. Like, we're trying to determine what to keep, what to get rid of it, and what we do to really find out we can prioritize the work for 2026. That's what I need you to do. Unless Navjot is giving you a different role, then maybe we can sync up with Navjot and see if what he has in mind is different. And if it is, then what I can do is I can then maybe work with Nadja and see how is it that he wants to run this, and maybe he wants to run it differently.
+00:18:08 Speaker 1 
+But what I'm telling you right now, that's the instructions I got, and that's what they ask me to think about and work with you on. When I talk to Rob, he has other ideas. I mentioned to you that he has other ideas that we can use your expertise to do some business intelligence stuff. But then this was put in front of priority because we need to figure out what to do with this first. That's what Nadja said, and he said he's in line with Rob. So that's why I'm hoping that you can get through getting the feedback from this, and a lot of it is Nadja.
+00:18:41 Speaker 1 
+The doctor is not going to know, but he's going to have to rely on Chris, or he's going to rely on Sid, or he's going to rely on me. But you need to go through this with him somehow to say, yeah, is this good? And then if it's good, you put a note there, you know, on this date, all of these things, or you can put a checkbox. This is ready, ready, you know, confirm, confirm, pending. That way you can show some progress. But right now, I feel like we're still in the same place where we were last week, although I know that you did put some things in place. But I don't know. I still don't know what's priority here.
+00:19:12 Speaker 1 
+I don't know because we have – I don't know which of the stakeholders has confirmed to you that this is okay to be decommissioned, or this is okay to be kept as maintained, or if they want it to be decommissioned, et cetera.
+00:19:25 Speaker 2 
+Okay. Well, then . 
+00:19:27 Speaker 1 
+I can tell that from this right now. I mean, the stuff that's decommissioned is the stuff we already talked last week that we know it was decommissioned, right. 
+00:19:37 Speaker 2 
+Well, yes. After that, I don't know. So I just need to – yeah. So I just need to follow up. With the stakeholders that have a tentative action that's not decommissioned, and I just need to confirm whether or not they need to keep using it or not, right? So I'll just go through the list and start with Doria.
+00:19:58 Speaker 1 
+Yeah, I mean, you could – wherever it's available. It's going to be the holidays, so I don't know.
+00:20:03 Speaker 2 
+Yeah, I know. Yeah, no, I guess what I'm doing is I'm just kind of getting an inventory and learning everything so that when I reach out to them, I'll reach out to a few people as I can during the holidays. And then I'll have to – at the very start of January, I'll have to finish up the list pretty quickly so we have the rest of the year to work to get it done.
+00:20:25 Speaker 1 
+All right, all right, cool, cool.
+00:20:27 Speaker 2 
+Does that make sense? I'll reach out to everyone I can, and then I just need to make sure this list is accurate and that the things that are being decommissioned are. and the things that are being maintained are. So I just need to make sure that the column B for generative action is correct for each row. That's really what I think we need.
+00:20:44 Speaker 1 
+Maybe add another column, you know, if it's, you know, sign off or whatever, just a feedback, and then take some notes. That way I can read through. I don't need to ask you, right? If you take notes for each of these lines, or maybe they apply to the same line, multiple lines, take some notes. That way, you know, I know, and or Navjot can see, okay, this is the legwork we've done. This is the feedback we got from the team. And that way you could, that's going to give us some intelligence to what to do behind the scenes,
+00:21:16 Speaker 1 
+like what it is that, right? And again, and I'll check with Navjot. I just want to make sure that we're not, we're not, we're not. Giving you different direction because I don't think you are now thinking we may be so, But I'm not gonna do that now maybe when I come back we'll sync up again and then, If and then I'll maybe buy when I come back there'd be more guidance to what they do. So yeah. All right.
+00:21:50 Speaker 2 
+This makes sense no, I mean just enjoy the holidays I'll help you as best I can, I'm off. I have to be off next week as with my contractor status, but then I'm back to week after, so it just enjoy the holidays and we can kind of Get to it as we need to just kind of I'll just work through it and help you and the team out.
+00:22:15 Speaker 1 
+As we figure it out. Sounds good. Thank you. Same thing for you. Yeah, you know thank you for your help okay okay yeah no problem this makes sense.
+00:22:26 Speaker 2 
+i can get going on this stuff okay
