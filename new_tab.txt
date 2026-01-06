@@ -1,0 +1,95 @@
+Archive tab 2025
+
+
+00:00:07 Speaker 1 
+hello hello how are you hi ellen happy new year yeah happy new year thank you excuse my voice i were really bad um i'm just getting over from being really sick oh no my voice is kind of in.
+00:00:24 geraldgale 
+and out okay that's uh never fun with the holidays it happens yeah yeah unfortunately.
+00:00:34 Speaker 1 
+yeah it's been two weeks so oh no okay hopefully it'll be better soon well i can make it easy for.
+00:00:41 geraldgale 
+you um i think i understand what you're saying so basically we have the archive request 2024 correct that tab yeah and you just want a duplicate but for 2025.
+00:00:56 Speaker 1 
+2025 so anything in the second tab archive request that has a 2025 just want to archive it bring it.
+00:01:03 geraldgale 
+over into a new tab okay one question comes up in the archive requests do you want it to only.
+00:01:09 Speaker 1 
+be 2026 then because that was last year uh 2026 this should be all 2020 anything that says budget.
+00:01:20 geraldgale 
+year 2026 correct okay now what hap so i because i read through your uh your inquiry and did some studying on how this works um are there sometimes open tickets that are left in the archive requests for a moment like right now where we just started the new year that you still need to work on 2025.
+00:01:44 Speaker 1 
+No, there's, I mean, budgets don't carry over. So whatever, there was a few things that didn't get processed. I think it's just these three or four in 2025 because we just ran out of funds. So you could just pull those over. That's fine.
+00:02:01 geraldgale 
+So then those would still be in the active request tab, these. 
+00:02:06 Speaker 1 
+No, they would move over to the archives.
+00:02:09 geraldgale 
+Oh, okay. So I guess the one question is, is when you were working on the archive for 2024 early last year, were you still able to approve or complete an update if you needed to. 
+00:02:25 Speaker 1 
+I won't need to. Okay. Like I said, 2025 budgets are done.
+00:02:31 geraldgale 
+Okay.
+00:02:32 Speaker 1 
+We can't go back in time. So it's only budgets are moving forward, and 2026, you start fresh. So if the engineer, say Aaron Locatelli for this one, wanted to move forward with this project, he would have to do a 2026 budget.
+00:02:48 geraldgale 
+I see. So he has to make a new ticket anyways for the current year.
+00:02:51 Speaker 1 
+Yes. Yep, exactly.
+00:02:57 geraldgale 
+I think I understand that.
+00:03:02 Speaker 1 
+Okay, good. Good. And I know there's a lot in here. There's a lot of 2026 already, and that is due to the seed funds, where we get budgets early, and we can start working on 2026 projects. You can leave those in 2026, because I'll just capture it in case engineers need to go back and get a total of like how much they spent on a particular project. They can download to Excel and figure it out real quick.
+00:03:30 geraldgale 
+Okay. Um, I'm just thinking this through. Um, I think I understand that. So basically, archive request needs to be only 2026. And then anything that was 2025 needs to be in a tab similar to 24.
+00:03:50 Speaker 1 
+Yeah, I mean, is it easier if you just add the 2020 if we just do archive request 2425? Or is it easier for you to do a separate file, a separate tab? Because I'm okay, either way.
+00:04:06 geraldgale 
+Yeah, that's a good question. Um, I guess it depends. Because I could see how it gets a little clunky if you keep adding tabs each year. But I mean, yeah, I don't know, I guess it doesn't really matter too much. Whatever is the easiest, simplest change that's least likely to cause any issues is my thought for now.
+00:04:30 Speaker 1 
+Okay. All right. So, yeah, you just let me know what you discover on that.
+00:04:36 geraldgale 
+Mm-hmm. Yeah, because it's a new tool to me, so I don't know how it was built. So I'm going to build within its design, most likely. Okay. And then what I'm thinking is I can review the code and maybe push a change by Thursday. Thursday, what I'm thinking is I'll try to do my best to make sure it's done correctly the first time, though if there's something that needs a little bit of a tweaking or update,
+00:05:07 geraldgale 
+I can make another change next week and maybe you're feeling better and we have some time go by, and then we can finalize a complete fix and update by probably this time next week.
+00:05:22 Speaker 1 
+Yeah. No, that's fine. That works for me.
+00:05:24 geraldgale 
+Okay. Good. Yeah, that makes sense to me.
+00:05:27 Speaker 1 
+The only other thing I had on the first tab is since we're just in 2026, there's a pull down here for budget year. If we could just get rid of 2025 so it doesn't leave any mistakes by the engineers.
+00:05:41 geraldgale 
+That's a good point. I can make that update as well. It should be smart. Well, I'll make that change because I did just add the dots because that was related to Doria's, or Doria's another person I'm working with.
+00:05:55 Speaker 1 
+Elisa's issue.
+00:05:56 geraldgale 
+Elisa's issue, yeah.
+00:05:57 Speaker 1 
+Okay.
+00:05:57 geraldgale 
+Yep, I'll make that same change.
+00:05:59 Speaker 1 
+Okay.
+00:05:59 geraldgale 
+That's a good catch.
+00:06:00 Speaker 1 
+Okay, wonderful. Okay, perfect. Okay, and I think that was all I had.
+00:06:09 geraldgale 
+Okay, well, yeah, no problem. I reviewed the request and I learned it before this meeting, so I think I understand it. I appreciate the info and I hope you feel better.
+00:06:23 Speaker 1 
+Oh, thank you so much. Okay. And, yeah, like you said, we could just get back together next week, and, you know, we could just figure out what we need to do, if anything.
+00:06:34 geraldgale 
+Okay. Great. You'll see an update by Thursday this week and a ping, and then you can review it and make sure it's good, and then I can follow up again next week, and we can finalize it if we need to.
+00:06:46 Speaker 1 
+Okay. All right. Sounds good. Thank you so much, Gerald.
+00:06:49 geraldgale 
+Yeah, no problem.
+00:06:50 Speaker 1 
+Okay. Have a good day.
+00:06:51 geraldgale 
+Mm-hmm.
+00:06:52 Speaker 1 
+Okay. Take care.
+00:06:53 geraldgale 
+Bye.
+00:06:53 Speaker 1 
+Bye-bye.
