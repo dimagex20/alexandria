@@ -1,0 +1,247 @@
+Obv pmo 2026 start
+
+
+00:00:00 geraldgale 
+How are you? Good, good to hear from you.
+00:00:03 Speaker 2 
+Same, same thing.
+00:00:05 geraldgale 
+Yeah, it's been a while. I hope you had a good new year.
+00:00:11 Speaker 2 
+Yep, thank you. How about you? You had a good one too. 
+00:00:14 geraldgale 
+I did. It was nice. I was with my parents, and it was pretty quiet. I hadn't seen my mom and dad in a while, and my sister, so it was a restful trip.
+00:00:26 Speaker 2 
+That's good, man.
+00:00:26 geraldgale 
+Mm-hmm. So, and you? All right, well. Did you stay home. 
+00:00:36 Speaker 2 
+I did visit my brother in North Carolina. Oh, yeah. And for Christmas, and then for New Year's Eve, we visited some friends in Orlando.
+00:00:48 geraldgale 
+Oh, nice, in Florida.
+00:00:49 Speaker 2 
+Then we came back home. Wow.
+00:00:51 geraldgale 
+You were busy.
+00:00:52 Speaker 2 
+Yep, yep. Yeah, I've never done that. Like, double trip, usually I do just one hop, but this time it was, you know, there was a lot of stuff that was available, and, you know, we said, what the hell with that, let's just enjoy, you know.
+00:01:13 geraldgale 
+Cool.
+00:01:15 Speaker 3 
+Yep, yep.
+00:01:15 geraldgale 
+Good. Well, I think we can kind of catch up. I did do some work to get ready for this year with organizing and cleaning up the IVV PMO tools, because I think we can clean it up pretty easily. So, I'm all ears.
+00:01:38 Speaker 2 
+So, you had a list of things, and there were a few things you had to go look through and review with people, if they were available. So, I guess the start there is, you know, how much of that were you able to do, and how much is left to. So, to continue...
+00:02:36 geraldgale 
+I'd like to quickly ask, are you still using this tool in 2026 or not. 
+00:02:43 Speaker 2 
+Well, yeah, a little bit more than that, right? Like, is there any plans to change it? I mean, we want to... You have to basically say, well, this is going out, right? Going away, or... that sort of thing. We need to know what it is that we're going to end up with, because like I said, we both agree that there's some things that they're probably just going to stay there and we maintain them, and they're going to need them when they need them, okay? And that's the challenge with this is, I don't know that we can tell if we're going to use them right now, because a lot of these tools are not used on a day-to-day basis. But then they're all as they are. Like, for example, that funding request tool. So I know that you've been supporting that, and that's on a day-to-day basis.
+00:03:33 Speaker 2 
+As soon as they come with a project, they need to request funding. So that one is going to take more of potentially your time if there's any sort of issue, bugs, enhancements. That kind of stuff, right? So that's kind of where my head's still at where we left, right? Like, we need to determine what that is. how much of that can we actually do how much you know it's not priority and then have you know the managers decide you know whether they want to give that continue to do that work and you know.
+00:04:06 Speaker 2 
+keep you busy there or if they want to use some of your skill sets somewhere else right because i think that's not yet defined as i mean as far as i know they're still trying to figure out a couple of things within their teams but they haven't really decided anything yet on on some of these tools and also i don't know if if not jobs give you additional projects or work to do, yeah that sort of thing and we haven't even looked into the data, and i don't want to jump into that simply because that's going to take a lot of your time because.
+00:04:41 Speaker 2 
+once we start digging into this you know in building database and the data and how it's all, I mean, that's going to take a lot of time simply because we need to identify all the scripts, how it's saved, where it's coming from, how it's connected. And I don't even, at this stage, my understanding is we're probably not going to use that. So I don't think that item, it's of high priority. However, I see how that is probably going to benefit us in the future.
+00:05:12 Speaker 2 
+I just don't want to put you to work on stuff that we have no tangible direction at this point. It's just more like my hunch of, based on what I'm hearing or what they want to do, we're probably going to use that data. And I think NotJap's team is going to be the main user of that data. Again, not knowing yet how they're going to break things apart, and what are we going to take on, and how we would be taking the approach, because we could be solely, like, you know, NAPJAB could be a standards group, and they may not even use that data set, and they may drive the standards differently, right?
+00:05:53 Speaker 2 
+Because this data set is meant for the standards teams to kind of, like, you know, define and guidelines with data-driven decision, right? But now I don't know that they have enough people to do that, right? So those are the kind of things, like, that's why that item that I put under my name, I can tell you, I don't want to jump straight into that until we have more information. And that's why you need to work through all of the different stakeholders.
+00:06:25 Speaker 3 
+Mm-hmm.
+00:06:26 Speaker 2 
+to get that type of feedback right and if you don't get anything they just let let not know look i i work with milton this is the things that we have said in the past i'll be trying to get with all these stakeholders that are available um if we don't get any feedback then can we just simply decommission them or what do we do right well at that point it's going to come down to not john right because i cannot make that decision um and then now that we'll have to then at his level you know seek more of collaboration right yeah or he may tell you you know what just.
+00:07:04 Speaker 2 
+just hold up let's put a pause on these effort let's come back and review this in february right i mean that's that's also an option okay okay but there's things but there's things that they're using a day today right so we know our priorities is that this, is the you know the main one is scaling dpt right and i think that's on wheels already you, uh i want to be able to see progress okay i don't i don't expect you to have that now but.
+00:07:35 Speaker 2 
+i think next time we review we we regroup i think we need to take a look where that development is when is the next demo um i need to be coming over to these demos and start seeing what's up with that how is it going to you know there's going to be things that that we have to, compare with the existing system and and you may be able to compare some things but i'm not sure that you're going to have all the context of what to look for.
+00:08:09 Speaker 2 
+And then at that point, we may need to get some other people to chip in, simply because we're not going to be day-to-day users. I mean, I used it a lot before, so I have a couple of things that I know I will be looking for. But then there's other people that do it for different things. So I think that most of our effort would be to ensure that the implementation of that tool is within the realm of what's used by the markets and by our team. Okay, so that's one thing.
+00:08:42 Speaker 2 
+I would say next time, I don't know if next week or in two weeks, if you have any sort of sync up with the development, I don't know. I can't remember what is the BO name that is helping you, but I know there were two people, right? There's the BO and then there's also someone in NS, okay. 
+00:09:06 geraldgale 
+For VPT, I just want to confirm it, for VPT. 
+00:09:11 Speaker 2 
+Correct, for VPT, going in airwaves.
+00:09:14 geraldgale 
+Yeah, that's Terry.
+00:09:18 Speaker 2 
+Yeah, Terry's your BO, right? Terry's your BO, and then we need, you know, what we usually do is we've got to put some, we've got to follow up, right, and question, okay, where are these things, when is the demo, can we see something, right? You know, we need to understand how they're, and maybe you have all these answers, and I just don't know, but, you know, this is not a small thing, right, is this functionality. So we need to see some sort of, like, intervals, right. 
+00:09:48 geraldgale 
+Well, yeah, yeah, so...
+00:09:49 Speaker 2 
+I don't know how they're building it.
+00:09:50 geraldgale 
+Yeah, so I have one point of concern. I have a point of, I have three points that I think might help clarify some things. So in terms of the total IB, for all of the PMO tools and the Excel spreadsheet, the easiest thing for me to do is to reach out to all the stakeholders for each application and ask do you use this anymore or not? Because the easiest thing is to find the ones that no one's using and then get ready to decommission it.
+00:10:21 geraldgale 
+And then the ones that are up and running and people use passively, whether it's once a day or once a month, is to just leave them. Because you never know when someone needs it at the last minute and they need it to work.
+00:10:34 Speaker 2 
+How do you differentiate the first one with the second one. 
+00:10:37 geraldgale 
+If they used it at all in the year 2025.
+00:10:42 Speaker 2 
+Yeah, that's the thing. Remember, there's a lot of people that are no longer here, right? So the people that's left may have never used it.
+00:10:51 geraldgale 
+Right, right. So then the argument is why we keep doing that.
+00:10:54 Speaker 2 
+What I'm saying is those two things that you said, right, there's going to be a mix of the two. You would need to take notes, right? And then we'll review that. But, yeah, I'm with you. I'm with you with that, yes.
+00:11:07 geraldgale 
+Yeah, because people give vague answers. Like when you're trying to ask, do you still need this? You really get, well, I don't know. Sometimes the easiest thing is have you ever used it in the last year? If the answer is no and no one's used it, then that really should just, we should not be maintaining the servers for that because we can use a new application with NavJot with a new idea that's more productive for the team and with a new tool or just free up space so the other ones work better. So then on your second point with VPT, the only issue I have is.
+00:11:42 geraldgale 
+In terms of the build out of the Airwaves team, I'm not a part of their development of their replacement for VPT at all. I've tried to reach out to the team and make sure they have all the information. I check in with their developers once a week to make sure they're on time. But I'm not developing the replacement tool. They have everything that they need. They're scheduled to go live on March 2nd for the VPT replacement. But if there's concerns about, well, we need the Airwaves version of VPT to work and we need to make sure that it has 80% of these features and we need to make sure they're ready to go.
+00:12:33 geraldgale 
+Unfortunately, I don't have a say in that race because I'm not a part of those decisions or the implementation of those decisions because it's a different team maintaining a completely different tool. So does that make sense? I get it. Because I can help give them all the hope in the world.
+00:12:56 Speaker 2 
+Yeah, yeah. No, no, you're not. Remember, you're coming to that not as a developer or anything like that. You're coming to them as a stakeholder, right? As the group, you're representing a group looking for a functionality. So you need to change your hat there. So I'm not asking for any of that. You have no control over that. You just provide the requirements. All right, so what I'm asking you, since you're just the main stakeholder, right, at least representing the main stakeholder, so I'm asking you to...
+00:13:31 Speaker 2 
+Ask the VO, which is the business owner, in this case it's Terry. Terry manages a group of, he manages the development cycle. So we have to work closely with the VO, because I do that for other tools and other projects. Because you have to stay on top of them because there's only so much money available. And there's only so many more, there's only so many things that you could do in the list of priorities.
+00:14:06 Speaker 2 
+So with the recent changes, all the priorities changed. So we need to make sure that this is still in the priority list. We still need to see, make sure that this is still going for, you know, I guess to what your date is, whatever you said, March, right. 
+00:14:25 geraldgale 
+March 2nd, yeah.
+00:14:28 Speaker 2 
+For this to be ready March 2nd, we have to be able to see some sort of demos prior to March 2nd. Do you agree. 
+00:14:37 geraldgale 
+Yeah.
+00:14:38 Speaker 2 
+Okay, so because of that, we have to make sure that we stay in contact with Terry, right? The VO, like you said. Say, hey, Terry, you know, Happy New Year. Can we sit down and talk about this? Right, we need to see what is the roadmap to get to that March 2nd, right? Because it is very likely that that March 2nd is no longer the date, okay? Okay. That could be the case because that's what's happening with a lot of all the functions.
+00:15:12 geraldgale 
+Okay, with other tools in Verizon.
+00:15:15 Speaker 2 
+What was that. 
+00:15:16 geraldgale 
+With other tools in Verizon.
+00:15:18 Speaker 2 
+Exactly.
+00:15:19 geraldgale 
+Okay.
+00:15:20 Speaker 2 
+They, you know, the development teams that are... They got cut as well. The budgets were slashed. The priorities were reprioritized. A lot of stuff that was what we call above the line is now below the line. Stuff that was in the works stopped, and they're basically being deemed as not priority for now, and then they put on hold. So there's a lot of this going on, Gerald.
+00:15:44 geraldgale 
+Okay. Thank you for letting me know. I was wondering about that.
+00:15:47 Speaker 2 
+Yeah. Look, I've done this for years now, and every year is the same thing. This year seems to be a bit more steep in terms of what's dropping, and I'll tell you, no year we have the priority. I don't see the exception for this year. So we're probably not going to be priority, but with that said, we've got to put pressure. We've got to find out, and that's why I need to start...
+00:16:19 Speaker 2 
+Okay. I need to start getting introduced to this, okay? So I think I will need to take on the, you know, I need to start talking directly to Terry, okay? And again, I don't want to do this now because I've got a lot of stuff that I'm working on, but you and me, we have to start partnering in this. Why? Because you have a lot of the technical requirements, but you don't, like you said, right? Like you're working through,
+00:16:51 Speaker 2 
+you're just working based on expectations. Whatever they tell you, that's what you're saying. Hey, no, yeah, they told me March 2.
+00:16:56 geraldgale 
+Well, that, but also, I'm also removed from being a part of the development process.
+00:17:03 Speaker 2 
+Yeah, yeah, but we don't remove from that, we don't get into, we don't get to see the code or anything like that. Right, right. You know, we barely get added to maybe UAT environments for testing, right? Sure. We're not looking at development, however, the way we get in to verify like maybe code, not necessarily code, but logic, is to do demos and start testing. Right, and that's when you're going to be looking at it and then we're going to see, okay, there's a delta here, something's not right.
+00:17:39 Speaker 2 
+So now that's when they start opening it up and say, okay, you know, this is the code or this is the logic we're using. You know, what is not working or how is it working on your end and not on our end, blah, right? Yeah. And that's how you're going to step in into that realm because otherwise they're not going to open up. They're never going to show us, in fact, I don't think they will ever show us any code. okay we'll just know about what services they're using what logic they're using, how they're calling you know we may even get access to the data and that's that's very unlikely but.
+00:18:12 Speaker 2 
+sometimes we get access to databases like for to see what they're doing okay but i don't don't expect you i don't expect you or anybody will expect you to do any development or even see how the code goes okay because that's very unlikely to happen you remember you are providing requirements but since you don't know how this is you know this process of development is not straightforward right and you may have you may have uh experience in other places and i don't know how good or how.
+00:18:46 Speaker 2 
+bad how but at least here every year in the past six seven years it's been pretty pretty crazy intense and very um, it's not it's not very stable okay they've changed models in the past six seven years, so they always change into a process and this is really no consistency but then the only thing that's consistent is that we have to interface through the vo right because the vo is in charge.
+00:19:18 Speaker 2 
+of managing the development there the po is in charge to make sure that the initiatives and features that we're asking for right get delivered and they communicate it to us based on our requirements and if that's not the case then we've got to go and work with them okay what's missing what's not missing and if they say it's not priority then that's when we go and escalate right because we have to go and say hey not yet hey scott hey rob uh we've got a problem right he's dropped from the priority um we need you to you know give us some.
+00:19:49 Speaker 2 
+some assistance here if we do need to push or if we want to put you know pull back, then that means we cannot close you know the vpt or the server blah right hopefully we don't get to that hopefully it's all going you know like i said earlier hopefully it's still on wheels going forward to that march second date okay okay all right so but what do you need to do here so let's go back to what i said earlier right um in the next week or two you know get.
+00:20:20 Speaker 2 
+in touch with terry see if we can um regroup and i would like to be in that discussion right um just ask him you know can you know we want to um you know understand um sort of a road map of how do we get to that march 2nd uh we want to make sure we are um we have availability to, assistance in testing or any sort of demos that we would like to see because we need to have some lead time to bring in some other experts because we're going to have to bring someone in from.
+00:20:55 Speaker 2 
+regions we cannot do this in a vacuum okay so that's the task at least for that because that's bbt is one of our main products okay so that's that's this let's get that going in the next two weeks i know it's still january i know there's a lot of things going on so yeah we're going to.
+00:21:15 geraldgale 
+tell you yeah well it's still working either that i need to reach out you know uh start it next week um and then this is what i see just it is january but i want to take advantage of being early, um and getting ahead of things um the thing that i think would work well is just getting asking terry you know what his view is on on it and then getting his team to demo um. Once every two weeks or once a month at least you know a couple times before March 2nd so that people can see where it's at.
+00:21:49 geraldgale 
+Which wouldn't? Put focus on the team to you know deliver successfully, so I don't need to see the code. I understand that I just need to see Their version of EPT work correctly on a screen share on a WebEx meeting and it just needs to be able to do, these three things that there's roughly three features or requirements that it needs to do and We just need to see it ready to go and UAT and then that's that and either it will work or it won't.
+00:22:23 geraldgale 
+So or some percentage of it will be ready to deploy at March 2nd or it won't be so that's, But his developers will have to get that going they have everything and they have had everything from EPT for over six months.
+00:22:40 Speaker 2 
+Yeah, that's, so i'll tell you right now that that's all good from our end if i tell you how many if i tell how many features and initiatives um we have given everything since 2024 and how many are open you will not believe it okay so um the reason i'm saying that is because um again, the there's a lot of stuff that's being dropped right now ah okay okay so so it doesn't matter.
+00:23:11 Speaker 2 
+how much you've given um um you know um hopefully you're right hopefully they hopefully there's no need to worry and that they are um you know they're they're in in a further step, uh but you know let's just let's just you know let's let's trust them, But let's verify what they're saying, okay? I'm not trying to tell you don't trust them or don't do these or do not. We want to believe that they're doing the right thing.
+00:23:44 Speaker 2 
+We just simply need to verify and make sure that we're starting to get into, you know, a roadmap. When can we see a demo, right? When can we start testing, right? We don't want to be proactive, right? We don't want to just wait because we get to March 2nd and then they're going to be, like, giving us excuses or whatever, potentially, right? So we just need to be ready. And then, like I said, more and more they're putting some more of these things on me. So I need to do a readout of all the different tools.
+00:24:17 Speaker 2 
+So I don't want to, you know, when I'm asked what is, you know, where we are, I need to have a good picture of what that roadmap looks like because I'm doing the same thing for the other tools.
+00:24:28 Speaker 4 
+Okay.
+00:24:33 Speaker 2 
+Alright, so that's the one priority. The second is that budget tool that I think you are now under control, right. 
+00:24:43 geraldgale 
+Yeah, I have it up and running and I've been able to make improvements and I have a ticket system set up.
+00:24:49 Speaker 2 
+And then everything else falls under the third priority, right? Which, like you said, you're going to continue working with the stakeholders. I would say if by next Thursday we don't have anything, we need to tell, you know, NABJAD, hey, that you need help, right? Because now we have to ask at his level for collaboration. Or, like I said, if he tells you put a hold on all those things until X date, right?
+00:25:28 Speaker 2 
+Then we don't have to worry about it. And just focus on what it is.
+00:25:32 geraldgale 
+Okay. Well, that makes sense. Then I guess my concern is just hearing what you're saying and then making sure that of the things we can control and get done constructively, I just want to make sure that I'm doing a good job getting things done that help you and help the team and that I understand the tasks correctly. So, that's kind of where my mind's going right now. I can get everything ready by Thursday next week for all the users of these IBV tools and stakeholders that use the whole list of the tools and I will have reached out to all of them by the end of Monday next week and then have feedback for NAVJOT on Thursday.
+00:26:24 geraldgale 
+And then we should be in pretty good shape once those emails go out and we have a good job. I have a better idea as to, you know. what we can look at to review next week and i will have also reached out to terry and his team.
+00:26:40 Speaker 2 
+sounds good yeah all right um yeah like i said let me know also if you're not getting any feedback right and i'll also try to report that to scott because i mean there's some tools that are budget tools so ellen and lindsay should be able to provide you feedback and so i can help there but then there's other things that like a lot a lot of this stuff goes to doria so we need their team and then also some things are within you know for napier to review so i believe that should be.
+00:27:14 Speaker 2 
+able to get some assistance there okay yeah that makes sense all right my man well thank you for your time um do you have any other questions any other things that you you may need, i mean you don't have anything to show me right so there's really not much not much we could do other than what we just discussed so unless you have anything else.
+00:27:38 geraldgale 
+we could wrap up no i think um without the feedback from all the stakeholders for all of the ibv tools um there isn't anything to to escalate right now uh to navjat but next week on friday there will be all right so i'll reach out to navjat uh by thursday next week um after i've had um the first half of next week to talk to everyone for the stakeholders have you been.
+00:28:12 Speaker 2 
+given any additional project um not yet what's on your what's on your table well i mean yeah so.
+00:28:21 geraldgale 
+there have been two or three bugs with the ibv pmo tools that i've been fixing um one of them was related to key, Um, Brauer, so, um, and Ellen with the, uh, fundraising tool, um, and then it looks like there was another, I got an email from Rob, it looks like there's another, um, EPT event performance tool dashboard that, um, someone in, in network performance created for me.
+00:28:56 geraldgale 
+to review to see if we'll use it with NavDrop, so, NavDrop, so, um, that's what's happened in the last week.
+00:29:06 Speaker 2 
+Okay, no, just, you know, if they're sending you stuff, that's fine, I just, the only reason.
+00:29:12 geraldgale 
+I ask, yeah, there's a couple of books, I'm talking about in addition to these, to the. 
+00:29:16 Speaker 2 
+to the tool.
+00:29:17 geraldgale 
+Yeah, there might be another tool to review to bring into the portfolio, that's, that's really the biggest news from this week, from Rob.
+00:29:24 Speaker 2 
+Yeah, I, I just need to find out a bit more, because I, i guess what what i'm trying to get to is it seems like we're getting similar requests okay so i'm not sure that's that's you know we can we can work together uh but then every time there's anything with tools they they're looking for me to provide and if i don't know what's up then i'll be like i don't know so i don't want it to be that so i want to make sure if you know about that the other.
+00:29:55 Speaker 2 
+thing is there's also a lot of dashboard or data analytics or data measurements and things like that that are they come out right sometimes they need data for for example they asked me to pull some data for equipment right so i don't know if you ever got that request to pull data about equipment or baseband units right all right so that that's that's one thing because i got that on one on tuesday or wednesday i can't remember.
+00:30:27 Speaker 2 
+so um, That sort of stuff is what I'm saying. I think that's where my head is at. We need to be more efficient. At this point, everybody's just going in every direction, trying to get what they want right away.
+00:30:43 geraldgale 
+One thing that would help with that is, I don't know how familiar you are, but Jing and Carrie, they have a smart sheet form, and maybe you're very aware of it. They have a smart sheet form for handling requests, whether it's a feature or a bug, for anything for IBV PMO tools. I can share you that link.
+00:31:07 Speaker 2 
+Yeah, I created that.
+00:31:10 geraldgale 
+Okay.
+00:31:12 Speaker 2 
+I know what that is, and that's kind of what I wanted to have.
+00:31:15 geraldgale 
+Yeah.
+00:31:16 Speaker 2 
+But unfortunately, that's not...
+00:31:19 geraldgale 
+Does it not work? Because it's technically...
+00:31:22 Speaker 2 
+People wouldn't fill it up, because you get an email, right? And then especially when a director sends you an email, but now we have only one director. So we're basically, he's not filling up the form, and the ADs aren't filling the forms, right? So it's going to be you filling the form at that point, why filling the form? So at one point, we need to go back to that for that same reason. That way we have a tracker.
+00:31:53 geraldgale 
+Yeah, just a small dashboard with one form that collects everything, whether it's a question, you know, it can be a feature, a bug, it doesn't matter. At least it's one link, one form, and everyone's aware. Anything related to this tool, just dump some information in it, and then Gerald has his dashboard, and he can manage it with Milton.
+00:32:10 Speaker 2 
+Right, so we, yeah, when it comes out to the tool, like if it's something within... the tool, you can put a link there, you know, anything, please submit this, right, within the tool, right, and anything with that budget tool, I think you should follow that smart chain, right, make sure that everything gets put in there, right, otherwise it becomes unmanageable, and then you have to prioritize if there's too many things, blah, right, so for you providing support or box enhancements on a specific tool, you must continue using that, right,
+00:32:45 Speaker 2 
+however, sometimes they don't know what they want, or sometimes they want something infused, not in the tool, and they're asking you to get it done infused when you have no, you don't know, you have no access to that, so that's where I had to make sure that in the form there was clearly a place for them to say, yeah, I need, i need i need some assistance in fuse or in conquest or in nato or an mpp or an airwave or whatever a tool was so whenever there was external tools it would come to me anything.
+00:33:20 Speaker 2 
+that was an internal tool anything in the server that you have now that would go to jing yeah okay so that's how we had it in the past right and then very very soon um you know we we we build a pipeline and i mean he worked for over a year and a half he was actually working pretty well but then things change and then that kind of, Stopped working properly and now they were in we're back to emails and really hard to keep track and etc Okay, so you you should work internal tools like anything that we discussed right when we say in the three priorities airwave.
+00:33:58 Speaker 2 
+With the PT right there this budget tool and then the other stuff that you need to go with the stakeholders all of you know Anything that has to do with those internal tools. They need to go through this marching right now. I would say keep that in mind I'm until BPT goes out You probably gonna still have to figure out what to do it at this point You're not developing it. They need a new BPT. You just maintain it alive, right? I don't even know that we have I don't even know if you could fix bugs there.
+00:34:28 geraldgale 
+I do have the access for that. There was a, There's an NHL hockey issue that I got yesterday that I put a fix in yesterday afternoon So there are still things that come in like that.
+00:34:43 Speaker 2 
+All right. Well, that's fine. So, but I was talking more about, you know, if you could add, you know, for example, you said you were giving a tool to review. So I don't know what the ask is. The ask is for you to build it internally. The ask is to see if that goes into, what is the ask, right? So when you make the assessment, you don't need to tell me now. Just make the assessment, whatever it is. If the ask is for you to develop something internally, then now you're going to have to review where the data comes from.
+00:35:14 Speaker 2 
+Et cetera. And then at that point, you're welcome to reach out to me because I usually know where things come from, you know, but sometimes the dashboard comes with the details and then you don't need to, you can just go and get it. And then the other thing is, it's like, again, like emails. Oh yeah, I need these data, right? I need these requests. So if you have the data. then you provide but if you can or you need more details then you can reach out to me because it's very likely they already asked me to no it's fine i think one thing that's coming up.
+00:35:48 geraldgale 
+a pattern that i'm hearing is um i you know i need to reach out to nav jot and you know maybe i don't know what frequency but i think us three at least one meeting with now with us three you me and i've got in a meeting to just get some clarity and focus on you know what actually needs to happen what doesn't would be helpful because it seems like he is going to be making decisions.
+00:36:18 geraldgale 
+about what is or what is not um things that time's going to be allocated for so okay that this does that help um i i think that would really add some clarity and get us going pretty quickly this year, Because he would have a better idea about what he's thinking and where he wants to take something going forward right now.
+00:36:47 Speaker 2 
+Sounds good. Yeah, talk to him and let me know, okay? Okay. We need to meet, and we meet.
+00:36:51 geraldgale 
+Okay, yeah, I will. I have all these notes that I'm writing down for to-dos, so I'll start getting them ready to fire off on Monday and get things ready today for Monday to go smoothly.
+00:37:08 Speaker 2 
+All right, sounds good, man.
+00:37:09 geraldgale 
+Great.
+00:37:09 Speaker 2 
+Have a good day. Have a nice weekend.
+00:37:11 geraldgale 
+Thanks, Milton. Thank you. Yep, have a good weekend. Bye-bye. Bye.
