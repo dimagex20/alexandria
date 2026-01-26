@@ -1,0 +1,177 @@
+Funding breaking 
+
+
+00:00:44 Speaker 1 
+I'll take the money. I'll. 
+00:00:46 geraldgale 
+Take the money and I'll captain one. I'll take your money and you have no legal authority to navigate managing this institution. No influence.
+00:03:39 Speaker 1 
+Hello. So. 
+00:04:04 geraldgale 
+I see Elisa is is on. Hi Ellen, good morning. Yep, hi.
+00:04:11 Speaker 3 
+Is Alisa on?
+00:04:12 geraldgale 
+It looks like she is. Um, she should hopefully be joining here. Um, so okay, I'm not trying to bother anyone. Um, Alisa reached out to me on Friday. It looks like there still could be an issue with her. I don'tum it. It's at a point whereum I know. I can always make a mistake where I might miss something, but I thought the updates have been pretty complete. Um it's at a level where i'll want to see her screen in live time. To confirm it because uh, otherwise I just don't have enough information to confirm her issue. Okay. So, Hopefully, we can just have a quick presentation in ten minutes, and that should be enough, maybe even five. Yeah. And, you guys can have your week back to yourself and I'll try to find what is causing it if at all. Okay.
+00:05:07 Speaker 3 
+Elise are you on?
+00:05:09 geraldgale 
+So it says she's not in the meeting. Let me, ping her on Slack. Okay.
+00:05:55 geraldgale 
+Just kind of wait a little bit. Her complaint was that, um, let me just read just so you have some information. She says, hi Gerald, this was on Friday. Have you been able to find a solution to my issue? It looks like she has problems getting her funding requests to even show up on the list. Um,
+00:06:13 Speaker 3 
+It's just so yeah.
+00:06:17 Speaker 3 
+It's the same issue I think it's the budget year. That's what it's been in the past that she's yeah. That was given her issues.
+00:06:26 geraldgale 
+Okay, um, are you not seeing her requests also?
+00:06:31 Speaker 3 
+I don't see them. I see the email come through that there's been a request, but then they don't show up on the tracker.
+00:06:38 geraldgale 
+But everyone else is fine?
+00:06:41 Speaker 3 
+Everybody else is fine. Yeah.
+00:06:43 geraldgale 
+Hmm, that's kind of crazy. Um, well, I'll have to look into this then. Maybe we can see it in lifetime. So I can see it not that I don't believe you or her. I absolutely do. It's just I'm kind of it's it's a puzzle. Um, I very rarely see this. This is typical of. 
+00:07:07 Speaker 3 
+Some come through and some, I don't know what you know, I don't know, it's it's what you're selecting because some comes through and some don't.
+00:07:14 geraldgale 
+That's okay. I'll figure out a way to rebuild it, hopefully, without impacting the rest of the application and I'll just have to. If it's so severe, I'll have to rebuild it from scratch and find a better design.
+00:07:27 Speaker 3 
+Yeah, no, We're not going to do that because I'm not sure that you know, once February first comes around if the guys are going to be using it. So I don't want you to like invest too much time in this item. You know there's other things I'm sure that are on your plate.
+00:07:42 geraldgale 
+Well, I didn't mean the whole site. Um, just specifically that one component. Just that one component. I would have to rip that out. 
+00:07:50 Speaker 3 
+And build it again,
+00:07:51 geraldgale 
+Not the whole site now.
+00:07:52 Speaker 3 
+Yeah, okay.
+00:07:53 geraldgale 
+You are right. That would not be time efficient. Okay. Well, I sent her that link this week.
+00:08:05 Speaker 3 
+Did she respond to your Slack? Yeah,
+00:08:08 geraldgale 
+Not quite. Let me. I'm sure she sees it; she might be getting something.
+00:08:22 geraldgale 
+Open. Okay, so that's okay. So, the fact that you're not seeing it confirms for both parties that there's an issue. Um, yeah, that's weird. Yeah,
+00:08:39 Speaker 3 
+Right? It is just very strange. That everybody else's are going through okay. Mhm.
+00:08:55 geraldgale 
+So I'll give her five more minutes. Um, let's see if she joins on. If she doesn't, Then I'll probably want to leave the meeting and just get this fixed because the fact that you're not seeing it confirms, it's not hitting the database. So it's a bigger issue than something just local on her browser.
+00:09:18 Speaker 3 
+Okay. Yeah. I slapped her also Let's give it a minute, I like to see her screen too.
+00:09:28 geraldgale 
+Sure, I mean we can be patient too if we.
+00:09:32 Speaker 3 
+Yeah. Do you get snow by you? Not sure where you're located at.
+00:09:40 geraldgale 
+Oh, that's right, so I'm in New York City. Uh, we definitely got a lot of snow.
+00:09:44 Speaker 3 
+Oh yeah Yeah, I'm in I'm in New Jersey Soum yeah We got like fifteen inches of snow. 
+00:09:53 geraldgale 
+Wow You got a lot.
+00:09:55 Speaker 3 
+So it's a mess out there. Yeah, it's it's messy out there.
+00:10:00 geraldgale 
+So I guess I think when we met last week, you were at the Baskin Ridge office.
+00:10:05 Speaker 3 
+I am yeah.
+00:10:07 geraldgale 
+That's cool. I'm I'm at the ten ninety five office.
+00:10:12 Speaker 3 
+Oh okay, all right, I'm sure I hope you didn't go in today.
+00:10:16 geraldgale 
+Not today, no tomorrow, weather it but not today.
+00:10:21 Speaker 3 
+Yeah me too. Elise are you on?
+00:10:25 Speaker 4 
+Yeah, I'm finally. I apologize. My laptop is just it's just giving me all sorts of problems, so it takes forever for me to like to log in sometimes some mornings. I'm trying to connect, so I can show Gerald what i the issues I have, so trying to signing into the VPN right now.
+00:10:54 Speaker 3 
+Are you using Global Protect?
+00:10:58 Speaker 4 
+Yeah, I am using the VPN. Okay. Yeah, it's not the VPN, it's the laptop. I can't even log in. It just freezes and it takes forever. But I generally start turning on my laptop around ten minutes, fifteen minutes to eight. It won't even open that meeting.
+00:11:33 Speaker 1 
+I just joined the meeting. It's. 
+00:12:00 Speaker 4 
+Still trying to connect. Hurry.
+00:12:35 Speaker 4 
+Okay, I think I'm in. I mean, unless you can see me there.
+00:12:40 geraldgale 
+So we do see. It looks like the Seattle logo, and it looks like, that would be your computer connection.
+00:12:49 Speaker 4 
+Oh, that's my phone number. Yeah, my yeah, that's my phone.
+00:12:55 geraldgale 
+Okay, So I think to make it quickly if we can just see your screen when you go through the flow. I'm curious to see what it looks like when you fill it out and, Um, I am curious to see uh Ellen not being able to see it just to confirm it. And then that's all I need to know.
+00:13:18 Speaker 4 
+Okay, I am not sureum I am not sure how to show you how Ellen cannot see it. I don't know how to show you that, But I can show you what I go throughum when I request and what I see.
+00:13:37 Speaker 1 
+So, let me pull one of them.
+00:14:13 Speaker 4 
+So I can request another one. I just requested that one. Um, it was uh yeah, it didn't come through today.
+00:14:26 geraldgale 
+You can also see it load and still trying to finish.
+00:14:30 Speaker 4 
+Yeah, I was able to load on my screen so it's running. It's justum let's see how your internet connection goes.
+00:15:57 Speaker 4 
+Okay, So can you see my screen? Okay.
+00:17:20 Speaker 1 
+Taking a minute.
+00:17:23 geraldgale 
+Yeah, let's just see how it goes. I'm kind of curious to just watch what happens.
+00:17:32 Speaker 4 
+Yeah, I'm trying to log in right now. It's taking a minute to log me in and but that's not the issue. I mean, that's the issue I have because of the laptop not because of the funding.
+00:18:55 Speaker 4 
+I don't know what to do. To this thing is just no. And you went in by now.
+00:19:19 geraldgale 
+And This is not the problem, is not the logging in, it's the budget year? No.
+00:19:24 Speaker 4 
+It it's it's the logging in is a issue with the laptop. Um, that I'm having. Um, it has nothing to do with the. With the sunning, part of it.
+00:19:37 geraldgale 
+How old is your laptop?
+00:19:41 Speaker 4 
+This is a Dell, so this is probably like, I don't know. I don't know exactly how old is this particular unit, but I'm thinking probably seven eight years old. Um.
+00:19:54 geraldgale 
+Wow, that's a huge problem. There is no way you can request a new laptop. Seven years is. 
+00:20:02 Speaker 4 
+Pretty awful. Yeah,
+00:20:05 geraldgale 
+That could be the source of a number of problems.
+00:20:09 Speaker 4 
+Right, so they I requested a new laptop, They sent me a new laptop, and it was exactly the same laptop I already had. Same laptop and besides that it was disgusting, it was dirty. It was. It had like a. Yeah, a layer of dirt on top of it, so I send it back. Cause, it's not you know, it's not the dirt I could have clean it, but it's the same laptop. I'm gonna have the same issues. These laptops, I used to have this one when I was with Verizon three years ago, and they called, they took all these laptops back, and they gave us HP because these ones they had issues. So um yeah and then uh. 
+00:20:53 Speaker 4 
+They said that they didn't. They didn't have any other laptops other than Dell. So, that was the only one they had. So that's what they said.
+00:21:04 geraldgale 
+Okay, well, I'm just taking a mental note. Um, seven years is pretty uh, that's pretty bad. That that will basically slow, if not halt half of your day to day routine tasks.
+00:21:22 Speaker 4 
+I am. But um so in the beginning when I just got it, it was very glitchy, the laptop and then um. It will just freeze because I uh I have two screens here. So, it will freeze one of the screens, and then the other one will continue to work. So it was really bothersome. Um so I requested someone to help me uh you know reimage the laptop, and they did. And, it just got worse from there because they put too much into a system that can't handle all this stuff that they put in there. So, um, let me see it now.
+00:22:10 Speaker 4 
+All Right, so I can share to this back and let me use this one. I'm not sure if I'm going to have an issue with this one. Okay, It's a third of Carolina and I'm going to put twenty six, and you know, put three thousand dollars. Um.
+00:22:45 Speaker 4 
+And I request that. And I get that error. When I get that error, I know that the this request is not gonna show up on Ellen's spreadsheet and I'm not gonna get the funding. When I get that error,
+00:22:59 geraldgale 
+That's fine. Okay, so can you select it and let me take a picture of this? Let me sniff this on my computer. What you just showed is.
+00:23:08 Speaker 4 
+I think I sent you a screenshot of this one. You should have a screenshot on the conversation that we had onum in Slack.
+00:23:17 geraldgale 
+Okay. Well. That is a huge problem. That's uh, well, there you go. Um, I don't know. One second. And, this is the error. You see every time that Alan doesn't get a request?
+00:23:40 Speaker 4 
+Correct. Soum I noticed that when I get this error, yeah, the the funding I know it didn't go through. And Ellen will not be able to see it. Okay. So I requested this this one like three times already, and it's just not. This is the fourth time, so it's just yeah.
+00:23:59 geraldgale 
+That's okay. Um, Let me see what I can do today this afternoon and push a change this afternoon, maybe by three or four I can let give you guys an update. And then maybe by uh. Uh, three or four tomorrow afternoon, it can be resolved. So this will get so I'll push it. Yeah, I'll push it this afternoon. The fix and then I'll give you guys tomorrow morning to work on it. Everyone's busy. And then I'll ask you on Slack how things are going and hopefully, by three or four in the afternoon tomorrow, it's not a problem anymore.
+00:24:37 Speaker 4 
+Okay, perfect like that. Yeah,
+00:24:40 geraldgale 
+This yep I hope that helps. Yeah,
+00:24:42 Speaker 3 
+I've seen Thank you Gerald. 
+00:24:44 geraldgale 
+Yeah no problem, It's happened enough. It has to be corrected uh in the next two days, and thenum we should be okay.
+00:24:53 Speaker 4 
+Awesome, thank you so much, appreciate it.
+00:24:55 geraldgale 
+Yeah, no problem. Okay guys, uh,
+00:24:59 geraldgale 
+Okay, See you this week on Slack again,
+00:25:01 Speaker 3 
+Bye Thank you B ye- bye.
