@@ -1,0 +1,293 @@
+Decommissionreview
+
+
+00:00:00 geraldgale 
+I'm listening. I'm just uh thinking through all of it, especially yesterday's meeting or the day before. I think it was the day before.
+00:00:10 Speaker 2 
+Yeah, so I think there's a lot of stuff in the list that, I believeum we can just hide, okay, basically remove them from the menus for now and at least with the what what I wanted. You to do, you know, when you get a time right. I don't know if you already started doing, it is checking at least for the finance part for last year or the year before. What was the data source? Right, So it's probably going to point to a table or a set of tables right in the server. But then we need to know how those tables get populated. What services? What APIs? What web uh. 
+00:01:00 Speaker 2 
+You know, data pool or whatever it is that's running. And once it runs, does it what does it do with the data? Does it merge it with other things? Does it group? It does. It, what kind of you know, data cleansing does the script does if if he doesn't right, because I think that's the one I think that's what we need to work on. I don't, Look, listen. I the more I talk to everybody, the more I hear what they want. The more I hear Rob and Scott and even Nabajot, we just want to be able to get our data. We don't. I think we want to be the ones generating these dashboards and things. So, that's what I am trying to find out : the best available tool within Verizon, where.
+00:01:58 Speaker 2 
+We we can where each engineer can do their dashboard, their thing, whatever it is that they want. Right by default, we have to use Fuse, but that's an embedded dashboard. That's embedded data. That's really is very limited. Okay right. And then typically the people that uses that is usually PMS. And because they're just counting beans right in dates. But then when you try to do any sort of like a more. Sophisticated type of analysis that tool doesn't do what we need. So with that said, most of the work, at least my team does is, oh, I have this data set. Okay. And I want to pull this other information about this data set from these other sources, and then I want to merge it. And I want to do some sort of math or.
+00:02:53 Speaker 2 
+Forecast or you know whatever right basic, you know not basic but standard business intelligence type of you know dashboards okay, so with that said. What I was what what my conclusion is, We need to just give them access to the data and then they can do with the data, whatever they want. Okay. And that's what I was asking you yesterday because I have. I have you know. Python scripts and I pull data and I kind of arrange it and give it to them. But I don't want to be, I don't want you to be, or I don't want the server to be a middleman. Oh, a middle you know because I used to like for example in Excel, I used to just have run a macro, right? You know wherever i knew, i just push the button, if runs a macro, pulls the data. Yeah. And he does all that stuff as soon as i come in And. I even went an extra step, but i just put a.
+00:03:53 Speaker 2 
+A scheduled job on my computer as soon as I log in the morning, check my emails. The thing immediately runs a script and he's running my, my thing like I, but this is like years ago. Okay. We've since then moved into Google Sheets and I mean things change. And you know for good or for bad so now um, I know we could do some of that. However, our security uh policies like you mentioned, right, uh, you know.
+00:04:23 Speaker 2 
+They're just not letting us do. Well,
+00:04:26 geraldgale 
+I did look into that, and this is where I think we can add value. It doesn't you know wouldn't be today or anything. So I did look at the Google Scripts and I made one. And I ran it to try to hit our SQL. Um, What we can do is so the the IVB tool sits on a server right when we when you log in and youum you hit the uhum.
+00:04:55 geraldgale 
+You know, one of the tools in the dashboard. Um, you know our servers can provide a data endpoint potentially. Um, that's down the road. That's if there is a need for it. So just I just want to give you an update that I did look a little bit into your idea in terms of at least internally in Verizon. What could this setup look like? So there is a way for a Google script to call our server. Um there would have to be a data endpoint that I build. But it is possible.
+00:05:28 Speaker 2 
+When you say data endpoint, You're talking about like a like an API that I would just hit from the Google Sheet.
+00:05:35 geraldgale 
+Yeah, Exactly because we can take yeah because that's one of the things that I've that I've that I'm good at is building APIs. That's what I was doing at my last job at BNY Mellon. So, we can take one of our servers and create an API endpoint in the future. So that is a possibility. So you can repurpose the server to function like that. It's not it doesn't have to just be a, uh, a tool dashboard.
+00:06:00 Speaker 2 
+Yeah, but question but would would we be within the security policies? So are we allowed to yeah To do that?
+00:06:11 geraldgale 
+So, that's the. That's the thing isum whatever the constraints are for compliance for the procedures to set it up, we would have to follow. But, as long as we follow those procedures and it's built, and approved. There shouldn't be a reason why it can't be allowed. It's more like um, As long as I am aware of the boundary conditions for the compliance and the security. And I build that API endpoint to follow them. It really just comes down to an approval process because they are internal. You know nothing about it is external so.
+00:06:50 geraldgale 
+If it's all internal, it should be okay. As, that's but we wouldn't build this at any time right now, but it is technically there a possibility. Cause the servers are already out. That's why I was. I was thinking about the fact that we already have them. They've already been allocated. They're already in compliance for what they need to be. I think, I looked at the compliance F A Q this week from one of the emails Rob sent since we already have. Four servers, basically in compliance. I think we would just make a request for another compliance. Um, feature set or whatever. I don't know. Um, That's why why I think keeping them up and running is valuable because it does enable options like this because they are already up and running and in compliance for something. So you're kind of just adding another feature to it.
+00:07:47 Speaker 2 
+All right, well let's. Let's see how it goes. Yeah, I mean that's one idea. I mean, I got other ideas, and t here is other ways because the other thing is like I don't know that we have all the data sets.
+00:08:03 geraldgale 
+Sure, yeah, that's true. We might not be pulling in from many. I looked at the situation for Lindsay and Scott's team, and it looks like Unify is a system that we're using. And then the Fuse tables for. Google Cloud provider, so just a heads up; those were some of the high- level data inputs.
+00:08:27 Speaker 2 
+Yeah, I know that because I looked into this at some point— maybe a couple years. I mean, there was this different versions of this. There is a huge capital projects report, okay? So that is that's one.
+00:08:46 Speaker 2 
+That's one of the tables that we host that used to give us information, and I believe even today still pulls the data, but I just don't know where is he pull it from. Okay, Because he could be pulling from the older database, not database like yeah, like the older tool, which is PeopleSoft, but it may be before Jen and everybody kind of like. And these all, I don't know if they ever converted that to be pulling from, you know, unify or okay one ERP. It does look like like I don't know. Do you know what table I am talking about?
+00:09:30 geraldgale 
+I think so, I am following now.
+00:09:35 Speaker 2 
+So yeah, let me just ping you this. So look at this look at this table because in this table, this is the one where I think, Um. I select so that, that's the table. So when I look at this because I use this for multiple things in the past, a different type of analysis. I think they want to go back to the same analysis. I used to do.
+00:10:08 Speaker 2 
+And When I went back to this. First thing I noticed is that they added the WBS project IDs, which didn't exist. So that tells me they upgraded this to be with the latest. So, this is what I wanted to see how that other dashboard is pulling. Because this is the data that it comes. This is what they see in Click, like you know if you heard them talking about Click this, click that. So Click has a lot of other. 
+00:10:39 Speaker 2 
+Reports and they kind of pull data from different places. The problem is their canned reports, and those reporters I mean, that I don't like that tool as much. And then it requires a lot of manual intervention. But if these data matches what they get in Click, for example, If they were to pull certain projects right and these matches that, then then they don't have to go to Click right? And then they don't have to go and, Download the data and we do because that's what we will do. We'll just, you know, like you said, like either we do an endpoint, Like you said that you could do or like what I've been doing is, which is I just run a script in Python and just pull the data and then make it do what I want to do and put it in a spreadsheet. Right? Right. And then but the problem is I have to run that now. Another thing that was thinking is i could I could make that Python an executable file, just give it to them and they just have to run it.
+00:11:35 Speaker 2 
+The problem with that is that you know, I don't know if I haven't done this in a while, so I don't know if you could. You have to log in, so I don't know when you do an executable if you could just uh, you know, put as an environmental variable where you put your credentials blah. So I don't know. I don't want to be in trouble. So um, I don't know if we could maybe Lindsay and Ellen have access to the database? But then, in the same way, you know, maybe other people like. Something like that, and they will have to mesh accounts. So that's what I was thinking. You know, If there's a different way where we could just deposit these data in their spreadsheets, right? So anytime they want something. We'll have like a. Like a like a script that we could put on ah on the Google Sheet, such that they can just simply hit button, like you know how like this will basically just create buttons and one of the pages. So I'm thinking.
+00:12:33 Speaker 2 
+School, She probably has a similar thing where you can just either push a button or just go into the apps and run. What do they call it? Is it an extension? Cause I've done, I've seen those too. So, you could just run an extension, and the thing will run it and update it. So that think that's probably the way with you would work. And then that way they don't have to go anywhere. Right, and they enough to if that makes sense for them, then we could just go and see if there's any way to do that. Because that would be on demand versus schedule, right? So, But I mean, at that point, we the server may be able to do something. I mean there is different ways, but you see what I am going with this right? Like, they're used to work on the spreadsheets and I hear everybody say, oh, we need to get out of the spreadsheet, but then we get more into the spreadsheet. It's like the more we say it, the more people get into the spreadsheet. So I am like I am done with that so. 
+00:13:32 Speaker 2 
+I think it's to to given that we have not much um certainty into into where our team is going to be put more, you know more focus than others. I think that we are in a stage where we're going to have to just get our data and see where that takes us, and I think that's the approach I would like to take. Because if you start building dashboards, It's going to be you're going to be in the same position. Sanjay was stuck weeks and weeks talking to specific stakeholders for a specific dashboard. You build the dashboard that day, and then that stakeholder is like, "Oh, I don't need it anymore." And then the dashboard stays there. You complete a task but nobody uses that. Yeah. And then it's just like wasted effort. There is no value added. I keep telling that to them but whatever I am To me, it's they need the data when they need it. 
+00:14:29 Speaker 2 
+And they need the dashboard that week when they need it. So, If you can build something within a day or two that they can actually start using, so it's better if you becomes more of a "hey, I need this data and this is my tracker, " and then you work or I work, or we just provide them, however, instructions and how to get it, and then that way they can just simply. Go with the lights and do their own dashboards through Google, Sheet or whatever tool do they want. And now, if they want to, if it's a proof of concept, right? And it works and so now it sticks with you know leadership or whomever. That's when you come in and okay, Now you go in and create an actual, more a more standalone dashboard with with a. 
+00:15:19 geraldgale 
+Well You are going to find this funny because I've been thinking about this.
+00:15:25 geraldgale 
+I hope this doesn't sound crazy. Um, Really, what you're describing is an AI uh tab that's very similar to chat GTP in the IBV tools web page. And all you do is tell it what data you need that's related to our data, ingestion pipelines. And then it outputs the table that you need dynamically without a user interface. Um, that is very possible to build, especially now after last year. Last year, Ai and AI agents became really feasible for someone like me to build and work with. They just got really good in the tools. The software tools are are really simple. That's kind of where I think this conversation is going where IBV so cause I was listening in the Teams meeting with um Navjot and the rest of the TADS uh team members.
+00:16:23 geraldgale 
+And what I was really hearing is that IBV is kind of in question right now in terms of its need within Verizon, And that's that doesn't make sense to me because everyone that I meet is really knowledgeable and has a strong expertise about a lot of things. Like where I am thinking is, Um you know this IBV tools. Um dashboard is really going into a conversation where A we have. A number of data pipelines going in that are valuable to a lot of people in the business around Verizon. And B, There's there's a strong expertise of what the the data means and how it impacts a lot of people around Verizon. So I think there's an argument to suggest that not enough people in Verizon are using IBV PMO tools. I just think the tools are not built well.
+00:17:22 geraldgale 
+To serve a lot of people within Verizon. I could be wrong, And I know there's Irving out in Texas and Baskin Ridge in New Jersey where they have entire teams that can, you know, supply a lot of this information, But um that's kind of like what comes to mind is we could add another. Is this an idea? But, if you had a if we're taking rid of all of these tabs and VPTs going away, there could just be You could just replace V P T with, um, data like data brain or like the data hub or whatever name you want, And all it is is a a little chat bot that you ask it whatever question, and it knows what you are talking about. And it just auto populates the data that you need. Assuming it worked right, assuming it was intelligent enough. But that just comes down to the architect of like building it correctly. Anyways. Um.
+00:18:19 geraldgale 
+That's kind of what I'm thinking is you you go to I B B tools if people only need this type of table, and it's created dynamically at runtime because it's intuitive, and it knows what tables it needs to go to. And it knows what you want. Then you just copy and paste in the screen the table, and you just go on with your day. It doesn't even I wouldn't even know you ever did it. You wouldn't even have to email me. Or anyone else on our team.
+00:18:49 Speaker 2 
+Yep, yep. No, I know what you're saying. I mean, it's not crazy to think that's where we have to eventually get to. Sure, I don't know if you remember last year we were talking about. I don't know if you remember, I told you about how we have some GCP data lakes infrastructure that has a lot of this data. Yeah, and I mentioned to you like at some point we have to. Have some sort of an agent or something like that. So, I think you are getting there. That's where we need to get to. Now, I think you said at the end something that's important, right? And I am not; I just read things and things stick with me. But a lot of our data sets, you know, the way we structure and save data is old-fashioned.
+00:19:45 Speaker 2 
+Right, like if you look at how datasets that are built for AI, Right now you have fields that describe. They basically is more contextualized of what these things are, right? Rather than a boolean true false type of thing or like a value. Right. Now there's a lot more that comes with the data that describes the data. Right and that helps AI. Agents to contextualize a question, a conversation, and correlated to the data. So, I don't know that we have that. So so part of the you know everybody's doing the same thing. Okay, so I and then I am talking about everybody that has resources, money, and time. Sure okay And they're doing that in date, they have not been able to do a good job. Okay, Um.
+00:20:41 Speaker 2 
+I'll tell you because the NS tools they have all these bots, nothing works. You ask it for the weather, it can't tell you the weather. Or you know what time is it? I am sorry at this time. I cannot process your inquiry like what what time is it? Anyways. So this is the kind of stuff that I don't know, but but it all comes down to, I think what you said at the end right? You know properly build an architecture around it. With that in mind, right, And a lot of what this takes to is it's probably going to mean time, money, and effort. Okay, So I think we need to put these ideas and pitch them to our leadership. Right? Because I talked to Rob about it, and he wasn't really too much engaged because of all of the things that are happening. So right now, we're in a situation at least our group, like you said earlier, too, like you know.
+00:21:40 Speaker 2 
+To you know, is the team needed? Is the team not needed? Blah blah blah. I think that may be the wrong perception, but I think that's what you immediately perceive when you hear them talking. I think that there is a need for the team itself. It's just oh, I agree completely. It's just that there is a they're pivoting. They're pivoting the um and then I want to get too philosophical here, but they're pivoting their. 
+00:22:07 Speaker 2 
+Their story, right? And they're changing names and they're so their notion of what's important and how to handle certain things, I think that's what's changing. And I don't know much because my focus is not so much on that level of you know, decision making. But from our perspective, the way that we would add value, like you said. As well as what I've been saying is, is have a mechanism that gives them the data, And then not only gives them the data, but that, but that gives them a way to to make it seamless. Like, they they should be able to plug in something into their Google Sheet and configure it with whatever it is, like you select the agent or like a table or whatever, yeah. And then. 
+00:23:06 Speaker 2 
+And, then they move on with their lives, and they can focus on their thing and not worry too much about the data integration piece of it, right? So, And that's kind of what I am thinking is like, you know how t here is like companies that make money because they create extensions for Google Sheets. That's true. I've never done any extensions, but I think that there is something to what you said, right? Like, maybe you could come into the chat box, say, hey, uh, you know, uh, currently I am working on these and that I am trying to correlate. Data from you know from projects that are listed in this, and then I need some funding numbers that you should are associated with unified. So, I need an extension that plugs into my sheet that pulls this data, blah. And then the agent will go and like you said, right? We'll find create a table do some of that right? And then gives you like a extension. Like I don't know if it's even possible, but but that's what I am thinking. I am thinking people just want to plug in and go.
+00:24:05 Speaker 2 
+Right, I think what you were saying earlier is something that is probably going to be the few first steps. But ultimately, people you know if I am a real estate specialist, Why would I want to deal with data and try to do queries and you know, joins and check for data types? I mean, They're focused on their thing ;. They just want numbers at the end of the day. Like a list of this here go here. This is the number. This is what we see. Move on, right? So that's kind of where we need to think about. So when we review these lists of things that we're trying to decommission, right? For example, from a funding perspective, that table I gave you there, right? I need to see what other information exists that can help us get to all of these things like you mentioned? And like I mentioned it, right? But first we need to understand what we're gathering. What is. I know this server pulls data from so many sources.
+00:25:02 Speaker 2 
+And from what Jing told me once, there is some of them that take hours. I don't know which one takes that, but then we need that's what we need to assess. And I keep saying this: we need to put a dollar value to that, right? We need to come up with something. We have to provide value in one way or the other, Gerald. And I am not saying we need to just come up with bullshit. No, I think we need to come up with something that. You know, It may not be important, and it may not be in the millions of dollars, but we can still, you know, if it's a few thousands here, a few thousands there. And then we're simplifying this; we're removing this. We're you know we're using resources better. That is what is going to provide value that our leadership can.
+00:26:00 Speaker 2 
+At least understand. I don't know if they can showcase it, but at least we can showcase it. Right Yeah, um.
+00:26:07 geraldgale 
+Well, one thing yeah, One thing that comes to mind is, you know, like the the K P I uh or the metric that proves that which is really pretty simple. It's just as like. The number of users going to the IBV PMO website just needs to start increasing. You know right Like if there's like one or two. If, we clean up the um, the navigation bar. So that's easy to understand. And there's half the number of options because we archived half of them that no one uses, And then we add one or two um things that have the data that people need, that we support and have an expertise on, and it's fast and easy to use. And it takes like three minutes of their day. And people enjoy it. Like we really just need more people coming to our site that enjoy it.
+00:26:57 geraldgale 
+And we'll know immediately, in the numbers, how many people are logging in, and I think that's your metric. Like I think it literally comes down to like, how a tech company looks at an app, which is are people logging in and are they. Using it and coming back. Cause uh, that that I mean, that's the simplest way for me to look at it. So and then someone within the business of Verizon. No, no,
+00:27:27 Speaker 2 
+But Cheryl, we you know I am with you. Um. But, but we still need to we need to get rid of all these other stuff. We need to we need to understand what we have right. We need to,
+00:27:38 geraldgale 
+Oh, yeah and and. 
+00:27:39 Speaker 2 
+That's what I am trying to get through like I am not I am not disputing what you are saying. It's just well, not even six months. I don't know what I am saying is like like what we're doing right. We need to I think we have an idea of which screens to remove from drop downs, and we need to keep. So what are the things we can? Decommission? All I am saying is, all this is that we the commission, We're going to have to put a price tag on what we're doing right and the benefits of getting that out of the way. But then we need to see if we're be commissioning something, we need to see what services were running right, what data. Because if we don't need that data and the thing there is, We cannot just simply get rid of these scripts because one screen that where they're commissioning, maybe using script A.
+00:28:22 Speaker 2 
+But then t here is another screen that we're not decommissioning. ;. It's also using script. Pay so we can't just simply get rid of that script, right? So that's the kind of homework that you need to do, that legwork. And because that's how we're going to round these up, and then then we start moving into what you described like okay, What do we need so that this becomes something that our customers come back to it often? Right. I think that the first step is to, Ensure that our immediate customers, which is within our teams, are you know get what they need right what they need at this time. And then and then but the key here is that whatever it is that we come up with, is something that they can get in a relatively easy way. And then rather than us becoming dashboard creators, We just we just simply become you know in the given time, basically the data.
+00:29:20 Speaker 2 
+Um, not creators but enablers or whatever, right? And then that task is what we want an agent to do, right? Like, you know, like you what you were saying earlier on the stuff that was that I am thinking of of we could probably do with other things as well because that agent is not. You know you could we could you could probably have something that you could just do within our local server. But then t here is other things that are out there within Verizon that we could also should be able to get. Right, rather than keep pulling this data, and that's a different conversation because I don't know. Like we we have data lakes, we have all these other places where we could pull data from. They don't want us to duplicate the data, but then they also don't want us to support what we need. So, it's like they have to be a middle ground. So um that would be our next step. Okay. But but again, we have to it's only you and me at this point, right?
+00:30:19 Speaker 2 
+Yeah, and then we're gonna have, and then you, and very soon you are gonna find. That's why I wanna um I wanted to get these out of the way. Um because um cause you are gonna see in in the next in the next couple of weeks or so, you are gonna get hammered with a lot of other work that's going to take you away from this future stuff. Right? Like all these, you know all these I would say they're cool. Projects and ideas, right? Because now and they're you know involving AI, and you know in this agent development or anything like that. If it excites me, I am pretty sure it excites you even more because this is like where you kind of yeah.
+00:31:07 geraldgale 
+I am kind of a techie guy. I am definitely right,
+00:31:09 Speaker 2 
+Right? So, so what I am saying is that you are going to be pulled to do. I am not going to say boring, but just in the lack for lack of a better word, you know, some boring stuff. You know, collect data, Set up something for them and then give them the data or or give them some analysis. So, you are going to be pulled because that's what's happening to me, right? They get me. ;, they had me doing much stuff that you know I understand the reason why we need it, and it's important. We got to get it done. But I would rather be doing other stuff right? A bit more advanced, but that's what the needs of the team is currently.
+00:31:46 Speaker 2 
+So, that's that's why I want to for us to be done with with these stuff, right? So let's let's try to like I said, I think we need to get this done this month. And I think you have most of the feedback. Um, I don't know if you meet with NapChat about these or I am not sure what you do with this,
+00:32:11 geraldgale 
+But whatever so whatever is in the emails. And then you and me and then this Google sheet. That's it, so, um. And I think I think Navjot when I last spoke to him, um I think he's just you know, trusting me to work with you to just you know, figure it out and just clean it up quickly. So all right so,
+00:32:32 Speaker 2 
+So let's do thisum. So let's let's let's kind of like try to. Um, Just just get like a not not like a final result, but like a final. Um, let's let's I think we have enough of to to make a decision. Okay, yeah. So let's summarize that and then and then we'll share that with um with Navjot. Uh and and then we show our next steps right. Okay. Now these are gonna go off. These are gonna disappear. We're gonna get rid of these, I don't know if we need to collapse some of the menus. Mhm. I don't know if we need to get rid of menus altogether and just put them in one place or leave them like that.
+00:33:13 Speaker 2 
+I'll leave that to you to see which better. Um, and then but then again the the next step for us is okay, quantify you know how much of the scripts, how much of the schedule jobs, how much of the data pool we can actually decommission. I don't know if t here is a way to know like we have a bunch of we have a lot of tables, and some of them are supporting tables versus other ones are just static tables. I don't even know who uses them. Or for what purpose, but I don't know if we could see if people are using them. Is there a way to know if the tables, people's logging in and pulling? So. 
+00:33:54 geraldgale 
+Querying, yeah, bless you. Querying tables in SQL measuring or tracking the read of it, not no, not unless you had it previously set up that I am aware of. I guess it would just be whatever analytics for whoever's going to the site. Is a general estimate. That's about all you can do. No, I think you can configure a database to keep track of it, but I don't think these ones are. I could be wrong, but. Right, right, right. Okay. Yeah, so if you don't explicitly tell the server to keep track of it, it's not tracked by default. It's basically my understanding. I could be wrong, but uh. 
+00:34:42 geraldgale 
+I guess I'd have to go back and Google it. So,
+00:34:49 Speaker 2 
+That's fine. Figure out is but do you have any questions on at least the first? I mean, all of these is done. We have the tracker, we know what to do. I know we have some tentative, but let's just make it okay. This is where we're going now with We know that. The stuff that people wants to archive, We just going to hide it and keep it and review the data, and then eventually turn it off. But at least archive the data. We were being at least from budget perspective, I think we're told like you know for anything before twenty twenty four, I think they're okay getting rid of it because they have the data. So even that we could you know shut down. And just keep twenty twenty four in a state of archive, at least just keep the tables.
+00:35:40 geraldgale 
+Do you have any questions with that? Yeah, I do. If you don't mind, real quick, if we can share my screen and just one more time, I have the list organized of the table in the Google Sheets. And then I just want to very quickly see if there's any possible thing that is marked maintain that needs to be archived or decommissioned that you know immediately. We don't need. Um, so this is the table of the tentative action. So, I updated archive pending for everything we reviewed with Scott and Lindsay. And, then the decommission stayed the same with BPT and you and Scott's POR report and monthly metrics. So, I am just wondering if t here is anything here. T here is about sixty item, sixty percent of the items remaining that are maintained. Yes, or no, i just.
+00:36:37 geraldgale 
+I am just wondering if high level, you know they actually should be pending after the last two weeks. Cause then, once we confirm this, Then we can move into shutting this, you know, closing this up, and then I can start getting ready to actually archive these.
+00:36:50 Speaker 2 
+Right right, but if for example, if it's not have been increased, is not saying anything right,
+00:36:55 geraldgale 
+Yeah, then I am aware of that.
+00:36:57 Speaker 2 
+Yeah I mean I don't. I don't understand. We can leave it for now. What's the deal with that? But yeah, I mean.
+00:37:06 Speaker 2 
+The problem is that I don't know how accurate that is. For example, all these efemto stuff, yeah, I don't know. I don't know what because that stuff is actually being swapped out. All of these efemtos are efemto two s. All of that efemto stuff was i run that project to disable all of them, so now we're done. So I don't even know what the efemto monitoring tool is. It's going to maybe monitor the new ones. Do we even need to monitor the new ones? Like, I don't even know because Airway allows me to do that. But, but not in this fashion. This is more like a sport type of thing. So, I would say, I would like I said like just maintain it. There's no response. You could just say that no response and just make sure that the stakeholder name shows it's not Jack and Chris or you know Vinny or Nick or like the the like. I said, if there's no response, there's no response. You need to move on, right? We need to move on because we don't have we don't want to come back later to come back to this. Oh, we.
+00:38:05 Speaker 2 
+We need to get over this and be done with it, right? If it's going to be maintenance and you know, only then it's going to stay there as is. That's it. And you're not dealing with that. The only thing is we just need to see what the data source is, what tables. We just need to document what that is because the stuff that we need decommissioned is not just the screens, right? We need to decommission all these data pulling all these scrapes that are just basically slowing down the server for whatever reason, right? Because a lot of these schedulers are probably. 
+00:38:36 Speaker 2 
+Waiting, right? You have I don't know that they're scheduled to run in parallel.
+00:38:40 geraldgale 
+Yeah, that's true. I mean, um, I did think about you know what you had said about how even if it's in the background archiving, it is still consuming a resource that holds up something else in the scheduler. So That's what I am saying like this all of these,
+00:38:54 Speaker 2 
+But that needs to come from you because i don't I don't have access to any of that. I wouldn't even know how to do it if i even If i had access. So You need to figure that out. And because remember, we need to we need to pivot. Is to do better things like the idea that you have, like what I've been saying, That we need to get to all these other ideas of maybe turning this into a you know, a data content admin, You know, not administrator, but provider or something right um for the lack of a better term, but more focused into building stuff, and then that gives people what they need quickly.
+00:39:32 Speaker 2 
+Right, and now if everybody wants to have a dashboard and it has to be, you know, then that's a different story. That's, that's a different story because that should go then to that request format that we have. Right? But but data itself, Not data itself should be something, people could just go and pull it and use it rather without you. And me getting involved. And now again, like I said if they want a dashboard hosted in the website, then that's a different story.
+00:40:00 geraldgale 
+Well then, um. Well then, what I'm thinking then is um. Why don't if we can decide today. Um, What I can do is this is so the archive and decommission, this is twenty rows. This makes up forty percent of the V P T navigation bar as it is, which is a lot as it is. Uh for the maintain or or um. Or uh, no response for now. I can at least get ready to shut these down. And. And then archive these, and then I can starting next week. I can get well actually this afternoon. I can get start getting prepared. I can start documenting all of the data uh pipelines, for all of this, and then I can start organizing, The um information that you need for um the schedules for the automated jobs for data coming in that are that are slowing the servers down, and I can move pretty quickly in getting re.
+00:40:55 geraldgale 
+These archived and then getting the data pipelines for these to free up the service so that the rest of them maintains just speed up a little bit. And then I can get ready to clean up the navigation bar, literally, within two weeks. Like two weeks from today, I could have this navigation bar cleaned up. So, I mean, if if you think. 
+00:41:18 Speaker 2 
+Could you could like the stuff that we said that we can. Archive, could you just hide it from the navigation? Just remove it from the navigation.
+00:41:26 geraldgale 
+Yeah, I can very quickly. 
+00:41:28 Speaker 2 
+Remove them from the menus. And then at the bottom,
+00:41:31 geraldgale 
+You also have that's right undefined pending Doria stuff. Yeah,
+00:41:38 Speaker 2 
+That's you know project status C and deployment track just Just hide it. Just hide it. And if they ever need them, we'll come back to it. But right now let's put let's put tentative to, To archive, okay, And thenum have you know? And thenum okay,
+00:41:58 geraldgale 
+So you want these ones as archive also,
+00:42:00 Speaker 2 
+Yeah, put archive and put action, no response. And then we'll we'll we'll you know we'll have to manage it accordingly.
+00:42:08 geraldgale 
+I mean that's true because I mean if they go back and complain about it, I can just undo it for that specific resource, right?
+00:42:14 Speaker 2 
+Right, right, but at least we can at least start getting rid of that stuff. Right, I know the stuff in red is likeum. 
+00:42:33 geraldgale 
+Cause Yeah. Once we know we're correct and accurate, you know, I like moving quickly if we can because you know it's no point. Okay,
+00:42:42 Speaker 2 
+So the no, I am with you. Okay, so the stuff that says" p r" go back to the red. Alright, so all these monthly stuff like that can be decommissioned. Like the thing is, the VPT even though it's in red, I think it'sum. 
+00:42:54 geraldgale 
+So this one has to be March. Terry's team needs a little bit of help because they are taking it over. They are Yeah yeah, yeah.
+00:43:02 Speaker 2 
+That's that's gonna be decommissioned, but that's not. You know that's gonna take time. So that's I think I think maybe you can color code these differently, like this maybe pink or something not as red The stuff is ready is like that stuff can go Nobody cares.
+00:43:16 geraldgale 
+As Of like this week, basically or next week,
+00:43:19 Speaker 2 
+Yeah, yeah. I can sign off on the P O P stuff and the metric stuff. Like we could just hide it and then start decommissioning completely this thing. Like we don't even need those now. The thing is that none of these links; these are just links to dashboards, So that's not a problem. Now the The monthly metric like five G volume and then five G setup failures. Like the only thing about that is, like I mentioned the other day, there are some emails that we sent. Okay, So there's some automation where I know, because I received this this Excel sheets or CSV files. Yeah, no, They're Excel sheets and they they process like information about airports and things like that. So, we can probably stop sending those out and see if if anybody complains without disabling the whole thing.
+00:44:10 Speaker 2 
+Right, so we'll have to move on into these monthly metrics in phases. Basically, just just disable the link to the website, disable the email. Yeah, you need to you need to look for those emails that are sending those those and I can send you some I think I sent you some examples. I'll send them to you again that way, you know what the server is doing, because I know we're sending emails because I received them every every. Beginning of the month, I had received those emails, and sometimes even more. I see. Send you. I think I sent you it's like you know KPI utilization. So network utilization will send you this one actually, but that's now that i that i'm looking at this You may have already stopped this.
+00:45:08 Speaker 2 
+Oh, maybe the thing already stopped doing it.
+00:45:12 geraldgale 
+Yeah, Maybe that orum there could be something tied to Sanjay's account that's hanging it up because his account got removed.
+00:45:21 Speaker 2 
+Yeah, this but this is more this is not Sanjay. This was more Jing, but this is a this is different. Um, This is more of actually I found that it's just that I was looking at twenty twenty five. And now he's sending in twenty twenty six. Which is good. Oh, this is slightly different. Okay, let me just send you how it looks now. Just change the name. So look at this one. I'll send it to you just in email, whatever it takes to get to your side. But, that's the KPI. So you notice that this is when you get it You notice that this is an Excel sheet It's formatted in colors and all of that stuff.
+00:46:09 Speaker 2 
+So there must be a script that's creating this CSV before sending it out. Okay, so we just need to stop sending this out. Let's not stop the script; let the script keep doing what he's doing, I think, except sending the email. And then because I don't want, because if someone complains, they're saying they're still using it for whatever reason, then we will probably need to understand better why they're using it for right. 
+00:46:40 Speaker 2 
+Let me see. Do you get the email? Let's check here. Not yet. What happened with the speed of light?
+00:46:53 Speaker 3 
+Right. There we go.
+00:47:04 Speaker 2 
+I said, Check that one. So you see open that and see like that's the one I'm thinking, like.
+00:47:10 Speaker 2 
+I still get it. Now I am trying to find the other ones.
+00:47:14 geraldgale 
+It's zero. What was that? It's still running and all the data is zero. That's funny.
+00:47:20 Speaker 2 
+I know, I know, but that's what I am saying like, what do we even need this for? That's why I am like, I am confident that if we turn this off, nobody is going to complain. And whoever complains, I want to understand okay what the hell are you using it for?
+00:47:33 geraldgale 
+Why are you using it zero every month for two years?
+00:47:36 Speaker 2 
+How check check the other one i sent you i sent you another one, But that one is more aboutum setup failures. But I didn't send it just now. Okay, I sent it back on June, not on June uh on November twelfth. I sent you a sample of the setup failures.
+00:47:57 geraldgale 
+Oh yeah, you sure did You sure did Yeah, right here.
+00:48:01 Speaker 2 
+Right so there's another one now The other one isum. 
+00:48:11 Speaker 2 
+There's another one for drop rate, right? So it seems like a lot of these. So on the same month, on the i mean on the same day, I believe I sent you something called drop rates. Yeah, You'll see like all of these things are zero. Yeah,
+00:48:30 geraldgale 
+These should really get turned off right away.
+00:48:34 Speaker 2 
+So. So because of that, i'm I'm thinking, i mean, nobody's looking at this. Okay. And. Why we even wasting resources trying to process these and send them over, blah. So that's what I am saying. Like to make sure that we don't, that we disable the email for all of these. So I hope you understand like that you have multiple tasks and I don't think we can just simply shut down something. We got to do it in phases. So I need you to be organized there, right? So at least for this case, for this particular one, disable the email.
+00:49:10 Speaker 2 
+Okay, disable the website link and then we wait. Okay, maybe a week. If anybody complains, If I hear anything or if anybody needs to do something,
+00:49:23 geraldgale 
+Right, the monthly metrics, so you can disable those. 
+00:49:29 Speaker 2 
+For The PR report that's easy because there's a dashboard that I created. You could just remove them and that's it. There is really nothing that's all of these.
+00:49:36 geraldgale 
+So all of PR can go yeah,
+00:49:38 Speaker 2 
+All of that. Menu, get rid.
+00:49:41 geraldgale 
+You don't need POR there anymore.
+00:49:43 Speaker 3 
+All right.
+00:49:44 Speaker 2 
+Um, and then but then for monthly metrics, just get rid of them. Where is the monthly metrics? Go back to the website.
+00:49:50 geraldgale 
+That's already taking up two whole big tabs. This POR here can go away and then so can this one, monthly metrics.
+00:49:58 Speaker 2 
+Let me see, uh, yeah, just hide this whole thing because we already know that airports and wheels. Uh I think Doria said, you know we're not using it. So we can we can disable that right completely, and then go back to the tracker. What did we have for airports and meals and sponsor venues? I think. Um, scroll down. I think that's the one that we get. We got nothing from from Doria right? Scroll down to the bottom. So views airports and sponsors yeah so if she says something. 
+00:50:36 Speaker 2 
+We can bring it back, but ignore that. We're just going to archive it, disable it from the remove the dropdowns on playlist. That way, if we ever need to go, we have the links here. Okay, and we're going to archive it and let it run for now. So we'll clean this up. Okay. Okay. And, then the only thing is like for the. The metrics, remember just disable the email that sends that those spreadsheets.
+00:51:07 geraldgale 
+Right, okay.
+00:51:08 Speaker 2 
+And then hopefully if nobody complains after a week or so, then we can go and disable the script that generates the script. I mean the the this Excel sheet. And, we could even potentiallyum at some point, we'll be able to stop the process of pulling the data. But I think I think that's that. Those uh, I think those spreadsheets come from from the data that source. By BPT, so that data probably have to stay until BPT is done. Okay,
+00:51:37 geraldgale 
+Okay. Um, so okay, I mean uh that's fine with me. By this time next week, Um I can ensure thatum POR will not be visible, and neither will the monthly metrics and these emails will stop.
+00:51:54 Speaker 2 
+And then the budget go back to the link. So remember that for budget we can. 
+00:52:02 Speaker 2 
+I am trying to remember. Yeah, in the budget, you should go to your budget menu. Yeah, so you see all of this stuff. Yeah, you see how we have archive. So I am wondering if we need to do a menu for archive. These. 
+00:52:18 geraldgale 
+These ones can go right?
+00:52:20 Speaker 2 
+Right like you could use all of that can go We.
+00:52:23 geraldgale 
+Don't we don't need the only thing that needed to stay for budget I believe, wasum twenty twenty four.
+00:52:32 geraldgale 
+Twenty twenty four, okay, and then that would be.
+00:52:38 Speaker 2 
+The budget summary because the yeah they didn't do, they didn't update twenty twenty five. So whatever is here is twenty twenty four, which. Again. Why, right? If if we only had we need to do twenty twenty five, it means nobody's using these other than just to go back and look. So to me, this, these are the ones that need to be updated I mean archived the BBG one. For example, If you go back to budget and go into the summary forum UEG budget summary, Like even Ellen says, we never use it because it's never really worked the way we wanted it. So yeah, to me,
+00:53:14 geraldgale 
+Everything that stays is the funding request. Everything else I think goes archived.
+00:53:20 Speaker 2 
+Right right. But then within the archive, we could get rid of all that older stuff. But for now, we could put everything in archive. So go back to budget. So budget, the way budget should look like is. You, could you got to put the BBG success based capital funding request on the very top, okay? Yeah. Uh and then everything else put it under archive budget. So you should only see two two instructions.
+00:53:42 geraldgale 
+Oh interesting. So this one archive budget will have everything, except yeah success based capital funding. Okay,
+00:53:48 Speaker 2 
+Exactly. And then. And then that's going to give us uh a discussion point that we can just get rid of all the archive budget. Okay.
+00:53:56 geraldgale 
+And then PRR POR and monthly metrics will just be removed.
+00:54:01 Speaker 2 
+Exactly, PR report, yep. And then monthly metrics can go eventually. BPT, all these other stuff like ephemtos butter cloud calculators I mean, all of that stuff is is for your team really.
+00:54:20 Speaker 2 
+Okay, Okay. Because that's whole strategy like this was all strategy now with trackers clicking trackers for a second. So. All of these trackers, These are the ones that were also created by this strategy group to work with the other groups. So, for example, the BBG floors and the PLE floors like they're using this one. Well,
+00:54:45 geraldgale 
+Actually Richard was saying he uses this every day. Okay,
+00:54:50 Speaker 2 
+So if they're using it then we keep it. But I every time I ask yeah, But because this is good for an engineer, because then you could see the whole assembly line, right? So there's a value here. It's just that you know this I don't know how much of this is connected. Because you see at the bottom everything is zero. I don't know what broke, right? Everything on the bottom of your screen.
+00:55:18 geraldgale 
+Yeah, I know exactly what broke. The data is not coming in because it's running on Sanjay's credentials. That's, what some of these emails were about this week was getting mine approved and replacing it. Then the data should reboot. So,
+00:55:31 Speaker 2 
+Okay, yeah, that makes sense. So yeah, Because that's that's the thing is like, okay. Um you know, for example, uh, you know where he says, finance review. So my team needs the figures that comes out of finance review, but I don't know that these tools have. Properly, so I know I can pull it quickly. Okay, anyways, your battery saver is on.
+00:55:57 geraldgale 
+Yeah, I am trying to get my power cable into the computer before we do.
+00:56:02 Speaker 2 
+I think we have a plan. I think you have a lot of work that you can schedule throughout the week next week. You could just ping me or call me or whatever like throughout the week, if not, then we'll meet again on Friday. But just. We just need to have a way to report to Navjot. Okay, this is what we're doing. This is how we're going to proceed. All this stuff is going to stay archived, or this stuff is going to stay as maintenance, but this is the kind of feedback that we got from the stakeholders. And then a lot of the stakeholder stuff is Navjot itself.
+00:56:34 Speaker 3 
+He's your boss, so he's going to tell you," Yeah, that's fine." Then that's it.
+00:56:38 geraldgale 
+Okay. Well then what I'll do is I'll get I'll clean up the navigation bar by Wednesday next week. So that it's delivered. And then that way, when you guys come here, you can confirm it and see if you like it. And then that cause we I'm meeting with Navjot on Thursday. So then I can tell the team, hey, We've you know, Milton and I reviewed this, and we started removing things already that are not necessary. So that way they know oh these guys are moving. Andum then we have something to look at next week Friday for the big meeting. So Cause. 
+00:57:11 Speaker 2 
+Scott might just stop by then or whatever Yep Yep Yep Sounds good man. Alright, have a nice weekend. Thanks, man. You too. Yeah. Take good care, stay warm.
+00:57:21 geraldgale 
+I do, I do in New York, so it will be chilly this weekend and I think that's gonna be snow. Yeah, yeah yeah.
+00:57:27 Speaker 2 
+It's the end of the world.
+00:57:29 geraldgale 
+Yeah Uh, oh, Sorry me See ya. 
+00:57:32 Speaker 2 
+Where, where am at? I'm in Berlin We get snow every year It just we don't get as much Yeah. Somehow this weekend is like like Costco is is deployed I'm like what's going on? I mean it's just, Just like half a foot. What is going on? Why why do you have to, why do you have to buy all the toilet paper and the eggs? That doesn't make sense.
+00:57:55 geraldgale 
+I know I know can you wait three days? For whatever it is. It's crazy. It is kind of crazy. Yeah Oh wow All right Good take care man See ya Thanks I'll see ya Bye Mhm Bye.
