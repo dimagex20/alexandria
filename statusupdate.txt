@@ -1,0 +1,353 @@
+
+00:00:26 Speaker 1 
+Okay.
+00:01:59 Speaker 2 
+Okay. No problem.
+00:02:05 Speaker 2 
+Um. Actually, I guess starting with the next one, we should switch it to Google Meet. Um.
+00:02:21 Speaker 2 
+It's Like we're starting my laptop and record. I don't know if you noticed Noah Calendars now Google Meet is the default conference room.
+00:02:29 Speaker 1 
+Yeah, we can use thank youum that change happened already.
+00:02:50 Speaker 3 
+I had not noticed that it is the default now. Yep,
+00:02:58 Speaker 1 
+It's the default. Trying.
+00:03:19 Speaker 2 
+To figure out how. Um, I use my laptop and the room system here. Okay, um, Chris, Erica, we Charles. Okay, so we have everyone. Um. So, there was um you talked about last week. There was a some kind of summit in Dallas last week. So we didn't have a staff meeting um and there was one.
+00:03:49 Speaker 2 
+This week, where Rob went to, so we haven't had our staff meeting yet. It's later today actually. So if I pick up any points, I'll put in a Slack message. But I don't have anything from him yet. So these were the so there was gas media and then two summits, I guess Verizon only summits in a row right two weeks, Um, there is another set of RF summits coming up in a couple of weeks, which I pumped up earlier today. Um, So last week, it was the planning and the centralized engineering team on the seventeenth of March. So that week I think it's going to go for two three days. It's going to be with the markets senior directors and above, so AVPs and senior directors.
+00:04:45 Speaker 2 
+It's going to be RFSV summit, and then there is going to be engineering. So, ads are not going from Rob's team at least. So we had a meeting earlier. It's going to be Rob presenting stuff, But he's gonna basically use the material that we used in the past summits and ask EDA basically right? So from the in building side, he's gonna drive that D-RAN strategy. Um, I'll join remotely. He may ask me question on the on the bridge, but he's going to present. Um, he's going to talk about the Wi Fi. Um, How we are trying to reduce the Wi Fi stadiums. Basically, if you have C band turned up, um, we remove Wi Fi if the contract allows um and then he's going to talk about the enterprise stuff, right? So uh I think he's going to touch on Moken. So it's at least it's not.
+00:05:43 Speaker 2 
+In the slide deck right now, we'll see. So we have a couple of weeks to go, I guess. Um, So this is where you know planning like Middleton's team, they were like all good with what we were saying. There was some discussion, But I am sure with the markets we may, you may get questions and pushback. You know I want to do this now, basically right, so everyone's going to may ask for that. So, we'll see how that goes so um yeah I'll capture notes and share with you guys what comes up. What else I have? Oh, um, training. Um, I think uh well, it's still the beginning of the month, but there's some trainings that are coming up. Um, Some of them are due I think by end of the quarter, which is end of this month I guess. So take a.
+00:06:38 Speaker 2 
+Take a look at it and see if there's anything any in your queue.
+00:06:43 Speaker 3 
+Hey, do any of you get like email notifications," Hey, you have training due"? And then you go into Workday and you look it up, and it like it disappeared. Like it says no, it's not required. Wait a minute, You just told me it was required and I go and look in there and it's not required. Is am I the only one?
+00:07:06 Speaker 2 
+Um, what I have I've noticed two things. Not exactly what you said, but I've seen where. Yeah, it shows that I have a training due, but when I go there, It shows that it was completed like in September last year, and it's not due for another right. So if it's there. Um happened to me a couple of times. And then happened to me, there was a training that was like two and a half or long. Um, I took at the end, And you know, This is one where a new window pops up and you go through the answer question. And then I was supposed to like after you complete it, go back and mark completed. It did not mark completed. I took it again and then happened same thing. So so basically I put a ticket. And, the other one, too, where it said, I completed in September is still showing as due. Um, I think there's like a help like button somewhere. You click on it, then goes to some mailbox.
+00:08:02 Speaker 2 
+And then you say," Hey, I completed this," and they take it out of your queue. I don't know if you if you tried that, and they're pretty responsive.
+00:08:12 Speaker 3 
+Okay, I'll have to look for that next time. i I got an email that said," Hey, your RFP training is due." So I went i took it and Well, First, I opened it, and it didn't say when the last time I had completed, it was but It didn't say that it was in my queue either. Like well, I don't want to get on the naughty list so i'll just, Whatever, I'll just do it. Yeah,
+00:08:36 Speaker 2 
+That's what I do a couple of times, but then it wouldn't go with you. Um, yeah, So right now, actually not so it said is showing that something is pending for you. Um, It didn't show me what this says require learning assigned. Um There is a bunch.
+00:08:56 Speaker 4 
+Of form like uh I have to take. I saw the email. There's like a bunch of email that came in at the same time. It was like five or six courses that I have to complete. So,
+00:09:12 Speaker 2 
+Code of conduct is there, I think everyone has to do that, right? So yeah, I see that in your queue now. It's a code of conduct for everyone.
+00:09:26 Speaker 2 
+Okay, so and for Chris, for you, it's showing. And these are the older ones. Maybe maybe these are the ones that you saw. There's a there's a thrive and work forward sensible thrive and work forward. I don't know why they're still there even though they were assigned last year. So maybe you just need to take, oh, really It's not showing me that it's due. But. In the table, and this is not a. The reporting is not great for like when when I have to search for, like which training is due for who it's like it's showing in the table by showing nothing in the due date column for you, But then why are they being up in that right? So um but like for Kodo context, showing that it's required for Eric, said I'm showing you, showing it for you Chris so maybe you completed that.
+00:10:25 Speaker 2 
+Yeah, take a look at your own queue, I guess. So, um see if there's anything in there. And then Abby, John and Jarl have noticed it in the past that um the dashboard basically the VP team central right? So it's supposed to show me everything that's required of me or my team. I've noticed that it doesn't show trainings for the contractors. But then I get an ASC email when you missed a due date, like, oh, your team members haven't completed that. So. I can only ask you to see if you see anything in your queue and complete that.
+00:10:59 geraldgale 
+Yeah, is that so? I have Workday. Are there additional ones? Because I my understanding is i I do the ones in my learning that are in Workday or My Workdays or another portal. No,
+00:11:11 Speaker 2 
+No, that's the same one. Learning Home it opens up in Workday. Yeah, It'll show you like these are the training that do for you. Okay. Um if there's nothing there, you'll be fine. Um, but yeah, what I was saying was I don't see your trainings. I see employees training like if they do, but not yours. But then I get notified when you don't do it so. Um okay,
+00:11:32 geraldgale 
+I am getting the email saying I'm past due, so I am at least seeing that on my end. Um what's connecting my uh ID numbers to your ability to see that? I don't know. Yeah, i'm i'm sure it'd be a problem around Verizon right not just us.
+00:11:51 Speaker 2 
+Yeah, if I'll find that the mailbox like to you, like if something is showing you it's due but you don't see that training, maybe just email it to them. Like at this course they'll take it off. And then now I am starting to get those custodian trainings, so I may need your help with this Gerald. So okay, new custodians.
+00:12:16 geraldgale 
+That's fine and I did download the FAQ on custodianship. So, I have some. I spent time reading it and researching it, so uh, I have some notes to help you out there because I found it.
+00:12:31 Speaker 1 
+That's great. Um,
+00:12:37 Speaker 2 
+Yeah, that's uh all we had for housekeeping items. Umum So t here is going to be SAP meetings later. Like you said, It's been kind of quiet from from Rob'side;. He's been attending these meetings and summits. So I am sure t here is. There will be a lot of stuff that come out of that, um, that he'll share. Um, and then then we'll discuss in the team. Um, So and then um just one other thing I don't know Chris I know. You wanted to talk about it in this meeting, and we can touch on that right, the the comms meetings that we're going to start next week next week, right with the with the markets. Um. You guys have more experience than I do in in that case. Uh I don't know if.
+00:13:17 Speaker 2 
+Seth and Eric, you guys used to join those calls. I am sure Chris was there. I don't know if you guys used to attend those, so we can discuss like what we should talk about. I am not saying that all of you should present, But let's talk about it right— like what makes sense to talk about in those kind of meetings.
+00:13:38 Speaker 3 
+So, they've been kind of reconfigured to— it used to be a single national call once a month. Daphne hosts.
+00:13:48 Speaker 3 
+They were.
+00:13:53 geraldgale 
+It's okay. They, were they definitely used to keep a like running list of speakers and topics, how much time they would need. I think that's kind of I don't know if she's still maintaining that or not. Um, I haven't checked with her. Um, but the agenda that I saw was each team our team, the other IBV teams.
+00:14:18 Speaker 3 
+Get an order in which to present materials or whatever material we want to present. There is six of us, we have an hour. I assume that means ten minutes each, provided that we start on time and announcements are very short. So I don't know how this first one is going to go, how the structure is going to look exactly. So, I'll be a little interested myself to see how it goes. But to tell you how they were, there used to be two national calls that were held monthly. There was the strategy call, which was Sean's team, and that was mostly focused on engineers you know technical stuff. It wasn't well attended above the AD level.
+00:15:15 Speaker 3 
+Um, so engineers felt comfortable to be able to ask questions. It was a little less formal, and then there was Daphne's call, um, which was more formal. And, you had, you know all the way up to like Ed's level um in attendance, sometimes bigger audience. Um not as much participation in Q and A because, you know you don't want to be the guy that, you know asks the dumb question. So people were kind of shy to speak up sometimes. Um.
+00:15:45 Speaker 3 
+So, between those two, sometimes I would present materials on both. Sometimes one or just the other. It kind of depends on what audience you were after. So, I would have to talk to Daphne again, and maybe I should just, you know, slack her really quick. And ask her like, you know, "I see the agenda. How's the structure going to go as far as what material to present?" You know, Najat, you and I talked about the design review template. Put together a few slides and I guess sent it to the team yesterday. That is my intent to take some time, you know, I'll go first for this month and say when you need a design reviewed, this the template that I use. This the methodology I follow. I try to keep it as objective as possible.
+00:16:42 Speaker 3 
+Um, and just you know look at the design by the numbers on its merits. Um, and like you know, You and I talked about give the submarkets the opportunity to do their own analysis using the same template. Be prepared to defend your design. So, if you come to me with a design that you know, maybe the calculator says, you need twenty sectors and you want one hundred twenty sectors. With all bands, well, show me the reasoning behind that. I mean, Because I right off the right on the surface like it, it doesn't add up. So anyway, the slides I sent out yesterday. Um think I need to yeah um build a little bit of a talk track around it. But I think it really just kind of speaks for itself. It's something I could fit in ten minutes, provided t here is no other material that we want to present as a team or if anybody wants to, you know, i don't know if Abby you are dying to get up. And.
+00:17:43 Speaker 3 
+Tell everybody something. I don't know. I don't want to steal the limelight if anybody else has something they want to present.
+00:17:51 Speaker 2 
+How about in your piece, Chris? We also include you talk about the design review and stuff and how they should be presenting data to you and justifying and defending. How about we also share the new vision, the new strategy? Right? We asked people that hey, If you are working on something that's going to come up in twenty thirty onwards. You know, make it C- band only, right? If you're working on something now, which will come up in twenty twenty seven, skip the low band, right? Use D- band. Just like what we've been talking about the last three weeks, right? So their their leaders that the senior directors going to hear from Rob in a couple of weeks anyway. So I think I think we can start talking about that with them.
+00:18:35 Speaker 3 
+Okay. Um Let me talk to Daphne. Um, just really quick to see like how's the structure going to go. The slides that I have, if I rush through it, it'll it I can make it less than ten minutes, but then it's really rushed. Um yeah let me let me ask her. I agree that we should we should bring that up where to fit it um because that's.
+00:19:11 Speaker 3 
+Equally important to, hey, don't just send me a design and say, review this and tell me what you think. You know. Yeah.
+00:19:18 Speaker 2 
+Yeah yeah I think I think they should know like what we we should, we will be looking for right? Yeah, yeah, you're telling me how to present data to us. But then when you said justify right, like like we don't think that you should include low band at this time in in a design at all. Yeah, if they still include it, that's fine come to us and justify, but they should know like this. We're gonna. We're gonna come from like no low band at all. They should know our expectations.
+00:19:42 Speaker 3 
+Yeah, that's fair.
+00:19:43 Speaker 2 
+And then deal then, right? This is where the big push is. I rather they hear from us over and over and start complaining and start pushing back. It doesn't work for my stadium. And then we have those conversations, okay? Let's look at it why wouldn't work, right? I rather that happen than six months down the line. They're like, oh, you never told me yeah, you mentioned it, but i didn't know that it's a hard requirement, right? So i thought it's a choice, right? So i'd rather they take it like we're. Making this hard pivot towards the D line, and they complain now. They ask," Wait, you know, do whatever they want to say." Right? Soum and then a few months everyone's kind of in line. And you know there's going to be exceptions. So yeah, I think we should mention it. And then we can say, like, hey, you know, reach out if you want to have some detailed discussion. Okay Yeah I would touch on it a little bit.
+00:20:32 Speaker 3 
+Let me put one slide together for itum and then.
+00:20:38 Speaker 3 
+Yeah, see what you think. It'll just be really brief. Um, yeah, because this will be enough to jar people. What do you mean low no low band? What do you mean C- band only? You know that kind of thing.
+00:20:52 Speaker 2 
+Yep, we canum yeah we can talk about it later. I mean, we can borrow a slide from the Aspegia deck, or you know use some some data that again put together. I'm sure you have similar data. So yeah, we can talk about it offline. Okay, all right. So, what else should we include in that? I mean, she's allocating what fifteen minutes for us.
+00:21:13 Speaker 3 
+Um, well the where is it? Yeah, I am looking at the Tuesday call; it's one hour. Um, there are six lines: BBG program is Nick', then airports and venues real estate that's Doria. Budget is Scott Global Supply Chain Lisa, and then Sourcing, and we are last. It says strategy which. We should change the name. So if we go last.
+00:22:01 Speaker 3 
+And everybody only takes their ten minutes. We'll have ten minutes, butum, I don't know if you've ever spoken last before, butum.
+00:22:12 Speaker 2 
+It's not going to be fifteen minutes.
+00:22:15 Speaker 4 
+I don't think we're going to get there ten minutes. Yeah. Do we know do we know what submarkets are under each region? Because I don't have that breakdown. I don't know like what's under west, what's under east, what's. She still haven't asked yesterday.
+00:22:31 Speaker 3 
+Let me send you this screenshot that I got from Vinny, uh, yesterday where it lists out which markets are under which area.
+00:22:40 Speaker 4 
+Yeah, okay. Yeah, that helps so we know the audience right? Right. Um.
+00:22:59 Speaker 3 
+It's gonna drop it in our Slack channel.
+00:23:03 Speaker 2 
+Yeah, there is so many maps and organization charts. It's crazy. Because, it's also included in the org chart that we created for the pro team, basically. So for like Winnie, Nick, and Elguro, it shows like these are the markets each of them support basically. But yeah, this information is so many different places.
+00:23:36 Speaker 1 
+Alright. Okay,
+00:23:48 Speaker 4 
+So uh now just to answer your question earlier, so yeah I. I did attend few of these right? And I did present I think at one point when Kush was we, went over like the coordinate WRCC process. Um. One fiber, I think Amanda also presented. Chris is right, this is not just strategy, right? It's also talk like one fiber conversions. Like hey, what we expect the market to do. It's like one fiber. I've got a bunch of projects, we can walk them through like the steps or process, right? You can share the process with them, and it's also an opportunity to meet with them. And if we have stuff that you need done, right? We can just bring it up on that call too, right? So.
+00:24:34 Speaker 3 
+Um, yeah, Sid your your work is as relevant as any for this kind of call. So, yeah, I mean by all means if you haveum if you have messaging that you need to get out, you know at a national level this is a good avenue to do it.
+00:24:53 Speaker 2 
+Yeah, I think time's going to be our enemy. Like how are we going to manage this?
+00:24:58 Speaker 3 
+We're about to talk about it seems like. Yeah so the calls used to be two hoursum once a month, And or was it ninety minutes? I forget. Um, and I mean, it was it kind of cut both ways. Either there they were really short, and it would be only like thirty minutes or something, or like you know, It ran twenty minutes long because you know somebody was given twenty five minutes, and they talked for forty five things like that. So.
+00:25:32 Speaker 2 
+Yeah, I am realizing that maybe for us, right, Maybe it was better to have one longer call national call than having these three. And these three came from basically Nick Minnie and Elber, right? So they each kind of focus on, like for them, like only one of them to join each of this, right? So and they don't want this big national. All like, but for us, I think it's the same thing apply to everyone. So we don't need yeah so repetitive,
+00:26:06 Speaker 6 
+Right? I got that's my two cents. Same message three times or not going to Yeah, Exactly. Best use of our limited time. My two sentences.
+00:26:16 Speaker 2 
+Mhm And, we don't have enough time to say all that, and we're going to say this little thing over and over instead of saying what we want to say to everyone. So. Yeah, this format is not great. Okay. Yeah, let's so keep that in mind. Um, so said yeah, let's at least put together some bullet points, and then depending on the amount of time we have. And then after this fourth set of meetings, And we we can regroup, and you know propose that, that we want to make any changes, right Maybe carve out our call separate, right. So.
+00:26:55 Speaker 2 
+Maybe there's like four calls, you know, three. Each of the regions, right And then we have one call separate from them. And then we talk to everyone. Um. Cause then it'll still be like for for markets, it'll be two calls, right, so each market will attend two calls. And then we can all we can. We can stagger it because. We're gonna do this every two months is that's the plan I believe right. So we can like have these three. Reg ion calls in one week and then a certain whatever we're gonna call it right our call, a following week, so. Um, but we'll be talk to everyone. We we can make that a. I don't know a one hour call, um, and you may we may not need one hour every time, but what do you think about that.
+00:27:49 Speaker 4 
+Yeah You're saying we'll have our own call like just one hour.
+00:27:55 Speaker 4 
+Just to talk about.
+00:27:58 Speaker 2 
+Yeah, I'm asking you, Would that be better than than having three calls where we're supposed to talk about same stuff three times? Or do we have like a longer call where we talk more stuff, but then not just just one time.
+00:28:14 Speaker 3 
+Okay, Yaffe just replied the ads created this new regional format with all the teams. No way will they do it in an hour. It sounds like Daphne doesn't have confidence that this is going to work. I think, honestly, Before we schedule our own call and I am not for or against it yet, let's kind of see how this first one goes. And if it's a mess, then yeah, If we have information to convey that gives more merit to having our own call, but if it goes okay maybe not.
+00:28:53 Speaker 3 
+Um, it's just I worry about filling calendars. Um, especially if like we don't have any material to present per se. Um, I mean,
+00:29:08 Speaker 2 
+It's once for two months. So once every two months in the year right It's, not that many, but okay I am with you. I mean since it's also happening like next week, you should not disrupt this, maybe go through this.
+00:29:23 Speaker 2 
+And see how that goes. Yeah,
+00:29:26 Speaker 4 
+I think we should just keep it simple, simple, and then we'll see how that one goes. And, then we'll the next.
+00:29:35 Speaker 3 
+Ones right We'll figure out, you know, better. So better for our next team call is after the third one next week. So we'll know by then whether this works or not. And if it doesn't, then you know show of hands or something yeah.
+00:29:53 Speaker 2 
+Okay, yeah, sounds good. Um, Eric, should we include something from your side? Um. Think of anything? I mean you don't have to right, don't feel like any of you like feel like we should.
+00:30:09 Speaker 6 
+No I mean I think we probably should maybe not at this one, but I think maybe at the next one, we'll try to have you know, two or three minute blurb about W i- Fi. And then. A lot of our topics, just a quick kind of hey high level. This is currently the strategy. We're still driving towards with you know, exiting venues where we have C - band, trying to find efficiencies where we can. And, then we could also touch on the enterprise project just to kind of make them aware that something's going on because it will start impacting their markets pretty quickly, I would think. Right there was an email that floated around.
+00:30:52 Speaker 6 
+Yesterday, it said that for American Bandwidth Company, they have seventy customers lined up knocking on the door. And figure each one of those seventy customers is going to have multiple facilities, Multiple locations because they're a qualification right two hundred, fifty million in revenue plus, you know a certain number of lines. That's a lot of lot of send count, I imagine. So definitely give them a heads up that, hey, this will be coming to your market. I think would probably be a good thing as well.
+00:31:24 Speaker 6 
+But yeah, maybe not for this one. Maybe try the next step. I think would probably be the best just so we can get a solidified plan from them.
+00:31:32 Speaker 2 
+Next one's in two months, so bear in mind too. So uh, I know it's killing me unless we change the format of like oh no, we got to have another one in a month right? And then that's how we staggered it right? So there is like for each market there is one meeting every monthum, Anyways, I mean, think about it. And we may not have enough time anyway. So. But but if you want to like at least, you know have a couple of bullet points ready, just what you said. I think that's more than enough. Like stadium, we're trying to, you know, get out of Wi Fi, where where it doesn't make sense to be FC band and enterprise is what's happening right? You may start seeing these Wi Fi um yeah um although I think that may not, they may not see that right. So like we have we have stadiums where.
+00:32:20 Speaker 2 
+Marketers don't know they have a Wi Fi in the stadium. It happens in an enterprise;. It's possible that marketers may not know that you have a Wi Fi system. Yes,
+00:32:30 Speaker 6 
+I mean, I still think it's important for them to know that it's coming because if they start seeing, you know, Potentially on sites that are currently served by macro, right? They're going to start seeing a lot less usage on that macro, if everyone's on Wi Fi. So just something to plant the seed almost. In the back of your mind, just keep this in mind that this will be getting turned off, and that could be why. Yeah,
+00:32:59 Speaker 2 
+I just I don't maybe it's just me, but I don't think anyone looks at it if if the traffic goes down. It's always like, oh, my site is triggering like,
+00:33:07 Speaker 6 
+Yeah, yeah, yeah. No,
+00:33:08 Speaker 2 
+It pops up in the plot, like, oh, it's starting going up. What happened when it goes down, you know, like we don't have any audits or any kind of dashboards kind of tracking that right?
+00:33:18 Speaker 6 
+It's just a, Yeah, it's actually a I want to mark when I wrote.
+00:33:23 Speaker 2 
+Okay, all right, Soum I will go ahead and change the the name, they put my name in there, because you know, hey, I am the newbie. So when they said eighty s planned this, it's the other eighties. So it's not me. They said you are going to do this. I mean, just imagine I wouldn't sign up for three meetings in a week, but like you got to do it three times. Okay, all right. Um.
+00:33:44 Speaker 2 
+I'll put your names in place of mine, and then I don't know what we call it a strategy. What do we want to call it in place of strategy, right So let me know what we should do. But okay, And then you have the deck. So we can start drafting the bullet points there.
+00:34:05 Speaker 6 
+Yeah, maybe I'll add a couple just for Wi Fi.
+00:34:08 Speaker 1 
+Got it. Okay, could be easy.
+00:34:14 Speaker 2 
+Um, yeah, okay. What else? Anything cool you are working on? Anything concerning anything you want to share?
+00:34:33 geraldgale 
+Um, I do have a quick note. Um, I can kind of just jump in. Um, i I think the biggest thing uh for me and hi everyoneum is that. Um, So I've been reviewing with Milton um the servers and the applications for IBV PMO. And um there is a lot of things about IBV PMO that I think is very valuable because it seems to me. And you guys can give me some feedback, Like maybe there is some uncertainty about what in building teams can provide as intelligence or like value to the company that I think.
+00:35:10 geraldgale 
+At least to me, in the data side, it's really obvious. So I think like we have an opportunity to make the IVV PMO team really valuable across Verizon. This is one of the things that I spoke with Milton about. And I think the first thing that I notice is that we have a plethora of data available for in building and data ingestion. I just think it's maybe underutilized. So I kind of want to, Help everyone like be aware of like the software tools that are available, which are very very powerful now, To kind of rebuild our website and make the uptime and the reliability there and make it easy for many people to see the data they need to, while also reducing the um. The friction that people have described about losing time trying to especially Milton has mentioned that you know, there is a lot of time when someone asks Milton for something.
+00:36:05 geraldgale 
+Ah, he has to kind of make a custom table or has to do this. I think there is some automation there that we can work on. But, one of the achievements I was going to mention is that, like, for example, Keith had Keith and Richard had some problems with the factory floor, and I realized that our Google Cloud ingestion was broken for like eighty days. Ah, since Christmas. And like the improvements that that, I put in um it's now running every day with zero errors. So I think um, I wanna like help. Bolster confidence for everyone that like Milton and I are working on actual infrastructure that we see. Maybe it was maybe in the past, Gene or or Sanjay didn't have all of the tools that they needed, But now the tools like with Copilot and I'm reading in the Slack channel that they're letting us use Claude Code, right? We just have to approve for those keys. That will unlock a huge amount of.
+00:37:03 geraldgale 
+Opportunities for us to make great tools that people like to use that don't break across, not like the the entire company for this type of data, and it's available to us. So, That's kind of like what I found with uh I. Just want to give you guys an example on the data ingestion side, because if you noticed Keith and uh Richard and I am trying to remember the other gentleman um he reached out um recently.
+00:37:34 geraldgale 
+They stopped complaining about problems and they started asking for features. So that's that's the tell, right? That's when you know the data is working. Like oh this is cool. So they're like, oh, actually this is reliable, which kind of that's kind of our slogan when I see the TV advertisements, you know, in the evening after dinner. So most.
+00:37:59 Speaker 2 
+Reliable software toolshuh?
+00:38:01 geraldgale 
+Yeah we can maybe get a slogan now.
+00:38:05 Speaker 2 
+So, um, this yeah, I also started seeing this Claude recently, right So is it yeah and Claude same thing.
+00:38:14 geraldgale 
+Yes. Yeah. So it's the same. So I think Anthropic is kind of like the big, uh like hyperscaler entity, and Claude is like the tool, And then like Claude Claude is like what you see on the browser for the chat interface. And then uh Claude code is like for someone like me that's working in in the terminal, you know with the command lines, and they're letting us uh, I think I have to put in a request, But I can I can get a budget for a token API key that allows me to actually consume tokens for coding now, which allows us to offload some of the, you know, Some of the egghead work that you have to do to get just to know how to write the code at a technical level. We can offload that compute right onto the servers, which will allow us to write stuff that's more reliable, safer, better quality. You know.
+00:39:03 geraldgale 
+So they're they're making that available. I'm trying to chase those tickets to get that access.
+00:39:10 Speaker 2 
+They haveum this channel right? I'm looking at it so and and yeah,
+00:39:15 Speaker 6 
+They added that.
+00:39:17 Speaker 2 
+Yeah, I think that's when I started noticing, right? So and so they have bookmarked these requestum forms. Um if you want to try that, put your name there, play play with it. I don't know what else, It does, right? So, does it make sense for other team members to also. I kind of start playing around with Notebook LM, right? So it looks like it does a lot too for what I need to do. I just put data together and do some analysis. Not sure if this is similar or has other features that could be beneficial. So yeah, if anyone else want to play around with it, go ahead put in the request.
+00:39:55 geraldgale 
+I mean, for me personally as a coder, I would recommend anyone that's. Has doesn't have a background on software trying it because it does. It's able to read your files locally, so it might you might be able to ask questions intelligently like, Can you help me find where I put this? Can you help me do that? So it does. It can work on files that aren't just software files. You know what level are you comfortable with using it? You know everyone's different, so but yeah, yeah,
+00:40:23 Speaker 2 
+Well go ahead, start using it, and we'll at least get an access now and then and then let us know here, right. So sure. Do and if it's useful for other people. On that note, actually this came to mind. So, John and Abby, have you played around with the NotebookLM? Because I think it could help a lot with like project management. It does other things.
+00:40:52 geraldgale 
+Oh great, someone wants to say hi.
+00:40:54 Speaker 2 
+Oh okay sure, we're not seeing him.
+00:41:01 Speaker 7 
+Yeah, definitely. I'll try to play with that, but I haven't touched anything.
+00:41:08 Speaker 2 
+You said you hadn't tried it, or you said you want to?
+00:41:11 Speaker 7 
+No, I haven't. No,
+00:41:12 Speaker 8 
+I haven't. But I haven't either. So i will make it a point to do that. But, the reason I was also listening about Claude, and because of the anthropics right in the government thing that came out.
+00:41:29 Speaker 1 
+Yeah, yeah. Yeah.
+00:41:30 Speaker 8 
+Yeah, it's quite a tool, right? Because, they're saying there is certain things that we really don't want you guys to be using it for.
+00:41:39 Speaker 2 
+Right, I think I think they're fighting against it. Right, like like we need some checks and balances. And but government's like no get away with this moral stuff. Right, so yeah,
+00:41:48 Speaker 8 
+It's uh and they're back talking to them, even though they told them. Hey, we you know, were putting you on the blacklist. I read heard that after a week, They're back talking to them. That's how much they want that tool.
+00:42:02 Speaker 2 
+Yeah, okay. Yeah, I mean, yeah, I don't know anything about Claude. I just got added to the channel, but Notebook LM there's a there's a channel for that too. I'm sure you got added, But let me know if you're not like if you're not seeing it, i'll I'll add you to that channel, and then it has instruction how to how to ask for access and stuff like this. I play around with it a little bit. Um yeah To me. It seems like yeah You can.
+00:42:28 Speaker 2 
+If you're there,
+00:42:30 Speaker 8 
+You know. And.
+00:42:31 Speaker 2 
+And and there's like there's like kickoff training, like few minutes training. They can just like start you off, and then after that you just play around. Soum yeah, you can add like a bunch of data to it, and and you can link like Google sheet links to it. And then it it can basically create a search engine for you. Like from your data, are like okay know how many projects I have for HCA? So I'll tell you that right so simple, so pull all the data together. So. I think it'll be pretty useful for like project management, other things too. But what you do, I'll add you to the channel if you are not there. Yeah, we're going to be AI first company. So t here is a.
+00:43:11 Speaker 6 
+Data guy that can do that. Yeah, I got access yesterday and know what I did was the Wi Fi stuff. I linked all of the RFCs and underlying standards into a single notebook.
+00:43:24 Speaker 6 
+And then I loaded our requirements onto there and was like, okay, where is our deltas? Where are we not following standards? Where are we following standards? It spit out some stuff. I mean, you still have to know what you are looking at to a certain degree, right? You have to be somewhat of a subject matter expert, But it still gets you ninety nine percent, ninety five percent of the way there from what I found. So I am definitely going to be using it a lot more now. I am curious to see about the analysis portions. I'll probably link it this some, She ets that I have for like some of the usage data that we have from AWS, from vendor usage for stadiums, right? And kind of say, what's my trend if it's trending up down things like that versus just manually doing it by hand. You know, Doing all the calculations just having to spit out graphs is a lot faster than doing it myself.
+00:44:10 Speaker 2 
+Well there you go. Started using yesterday already found so many featureshuh? Helpful.
+00:44:18 Speaker 2 
+I like the the audio, So you basically can have it create a podcast for you from your data, and then just read it to you. That's good. I could be doing other things and just let it talk to me. That's cool. I um, one thing I um, I forgot to mention earlier is important is we were talking about the, the three um meetings, right. But then we have this bi weekly. Meeting with Rob next week, as well. And that's every two weeks. The markets are every once every two months. Eric, you missed the last one. Chris and Sted, I believe both of you had in there, right? Let's just look into that too and what we should include next week.
+00:45:15 Speaker 2 
+Yeah, that one. Um.
+00:45:19 Speaker 4 
+Yeah, so, yeah, I'll cover like I'll just update the slides right. I'll just add basically the latest updates. Um, for the Apple partnership and then also the Moken project. Umum I'll provide the update for Solona too, because I'm working with Tom on that one. Um, yeah that one That one is easy actually hold on.
+00:45:44 Speaker 2 
+Yeah, I'll make it to ninety minutes now. It was one hour and then Rob took thirty minutes out of it. I think so, I extended to ninety minutes now, so I guess we'll have a little bit more time. And Chris, we didn't talk about. sorry Eric, we didn't talk about Wi Fi last time. So I think it would be good. And because you know, Rob asked you to kind of look into the off floor and stuff, right? It'd be good to kind of. You sent the summary in the email, but I think it would be good to kind of talk about that, like. I've done this so far, and now it's going. I don't know if you want to include that to price thing in there.
+00:46:21 Speaker 6 
+Do we want to have like a twenty twenty six in our new stadium? Our twenty twenty five in review, like to kind of show how many users we offloaded, number of facilities. Total tonnage offloaded to Wi Fi is that of any interest or not? The almost. Done with Q one, and that's just not relevant anymore.
+00:46:42 Speaker 2 
+Um, I think if we can include like how many stadiums, how many locations we we can play from. Um, Because, again, the audience, right like for Rob and Rob's going to talk about it. They're going to look at the opex saving, you know. And yeah, I don't think they care about this. I mean, we have done it because we have already looked at the performance, right? So, We have covered that part. So um But I think one of the slides that he's gonna uh present on in the um. The market of some couple of weeks is, um, Like he's trying to bring Wi Fi stadiums from like fifty one to twenty seven. Don't quote me on the number; I'll get you the exact number, right? So So, that's the target he's showing in the market. So So. So that's why we're going to talk about it. We'll feed into that, right? So, we're here number of state of now and and and we already have a plan to reduce it to this number, and we're working on it further basically. Yeah,
+00:47:37 Speaker 6 
+If you can give me those numbers yeah confirm that would be great.
+00:47:45 Speaker 2 
+Okay. Chris, I forgot what you talked about last time, so if you need to write any updates.
+00:47:53 Speaker 3 
+Last time I talked about the Moken the day zero day one Moken join flowchart that we put together, and then I went and created a new view of it. For the not daspedia, the RF summit, I think it was in the slides for that one. Um, anyway i I talked about that something else too. What was the other thing?
+00:48:27 Speaker 2 
+Got it. So sinceum so so so I guess it's going to pick up from there, right? And talk about I think you're planning to talk about like Salona and that stuff, right? So I think it's a good kind of update after that.
+00:48:39 Speaker 3 
+Oh, I talked about. Uh, JMA and day two support. Um, and tried to hint at Rob," Hey, it would be great if you found another team that could take these over." Which I know it's not going to happen, but you don't ask the answer is always no.
+00:49:02 Speaker 2 
+No, I think we should ask. I asked him and he's like yeah We shouldn't be doing it." I told you right? Like oh as a product team and. And then we'll be like," Yeah, we need help there," then right? Our organization believe that I shouldn't be with us, then yeah, we got to do something.
+00:49:18 Speaker 3 
+I agree. There was a call earlier today with the product team that is was is still leading the Solona Moken lead project, and they tried to take it through the front door; didn't make it. So we pivoted to join only, which is what I got through the front, which is where Sid's taking over now. Anyway, so they had a follow up call today and said, "Okay, well now what? How do we get lead going again? " And I mentioned the day two support process that hey, the product team would be a really good fit for this because reasons. And there was a lot of huh.
+00:50:07 Speaker 3 
+Yeah, that's an interesting topic that you bring up there. So, I mean, it'll be you know pushing uphill.
+00:50:20 Speaker 6 
+Yeah, I guess before we go. Yeah is for Wi Fi for enterprise Wi Fi be punted that. A product and product is now actually chasing that down for gate to support. And meeting with the various stakeholders, so on our side there, you know, You could probably lean on the fact that hey, we're doing this for enterprise Wi Fi products, taking the lead on this. So it's okay for that type, you know. For those web products that are looking into web whatever. That, you can kind of lean into that and say, hey, we're doing it. They're practically doing it for enterprise Wi Fi. Why can't you do it for okay as well.
+00:51:07 Speaker 3 
+They're doing a two support for enterprise Wi Fi. Yeah, really. Who's who on the product team is leading that? Jackie Saint Martin.
+00:51:21 Speaker 6 
+Jackie Saint Martin, and she went under Elb or I don't know. She.
+00:51:30 Speaker 8 
+Yeah, she reports to Green is it?
+00:51:36 Speaker 8 
+She goes to.
+00:51:42 Speaker 6 
+Angel Torres. She's under Angel. She's under what was Angel Torres? Okay,
+00:51:53 Speaker 2 
+I am assuming it's that they're getting revenue out of that, Right now that we're going to do the revenue sharing with the American Bandits and stuff. So so but then Salona lead, right? Yes, for lead, and then we can apply the same process.
+00:52:10 Speaker 6 
+Yeah, I mean, exactly. I mean, there may be some slight differences in the fact that our infrastructure is.
+00:52:17 Speaker 3 
+Those slight differences are a great thing for the lead person to figure out.
+00:52:22 Speaker 6 
+Okay, that's fine. That's fine. I won't even get into them. But, yes, yeah yeah. Yeah, that's the direction that they chose was to do. Well, We pushed really hard;. We're like listen like you need to figure out how to support this," you know we, Have identified the way we currently support venues isn't sustainable or scalable. We're talking about building out a product. That's you know fifty times bigger than what we currently support for venues, so you have to figure that out: how do you support it day two? So we put the ball in their court.
+00:52:52 Speaker 2 
+Yeah, and I don't think I don't know how much it means anything, but like Highway Nine, you know they have. Michael, what's his name, right? He has called me so many times about so many things. But you know, I told him like one of the things, hey, you know, one of the constraints we have is data export. And he's like oh we can solve that for you right? So we can do that for you. So I don't know what that's going to look like. But I'm like if American Bandwidth can do it for W i- Fi should we consider kind of having a vendor figure out a data process for MOCON?
+00:53:33 Speaker 2 
+Is that even an option to consider, or do we need to figure out ourselves? I don't know what it looks like. Like, how would you vendor get involved?
+00:53:43 Speaker 6 
+Yeah, be curious of like vendor- agnostic though, right? So they just support they'll do day two support for their highway nine deployments, but they won't do it for like Solomo or something like that. That would be my question because I know for American Bandwidth, it's just going to be American Bandwidth. If you have enterprises or customers that are connecting outside of that American bandwidthumbrella, then American bandwidth is not going to support them, right? So you know, and that's just I don't know, But it's interesting to see what vendors potentially can provide to kind of front end a lot of the day, two stuff.
+00:54:23 Speaker 2 
+Okay. Yeah, but whenever we get a chance Grace we should mention that to Rob. He knows but.
+00:54:28 Speaker 3 
+Yeah, yeah, I know. It's, just it's the um it's the where is it? Uh It's, the three, the three scenarios that we need to solve for. How well this is showing up, But um customer calls, you know, six one customer care, hey, I have a problem neutral host operator reports. You know that S one between our core and their RAN is down. Or local SP team identifies some sort of mobility something. Or day two support like those are the big three, and these honestly, these are operator provider agnostic. You know the way a customer call gets handled on a MOCAN system should be the same, whether it's.
+00:55:25 Speaker 3 
+Highway Nine, Kajeet, Salona, whatever. Same with the other two. So yeah, Hearing that Jackie is leading this for a particular scenario in Wi Fi. To me that kind of sets a precedent like well product has an interest here. So I am going to chase that down. Najja, you mentioned a Michael also that you've talked to about this. Michael,
+00:55:59 Speaker 2 
+That's from Heavy Nine. Oh, okay. That's it's a vendor, right? Yeah. He was claiming claiming that they can have a day two process for us again. I I didn't can i ask further because then he don't want to hear my asking him. So yeah, but but yeah, not not heavy nine in particular, but i'm thinking like can someone else kind of provide that service to us. It could be.
+00:56:27 Speaker 3 
+Okay, Like a C squared or something.
+00:56:28 Speaker 2 
+Yeah, yeah, yeah. Okay. Anyways, three minute warning. I'm, sorry, I didn't manage the time again this timeumum i want to save at least a couple of minutes for any high priority item. Anyone want to discuss uh.
+00:56:53 Speaker 8 
+Just uh. Me, We did mention last week or the last meeting was about getting the TAC case opened. So Eric, we did have that meeting and Eric was able to work with us, Show us about getting that TAC case open for our work on the HCA and the CUI attribute issue. So thank you, Eric. Jumping in to help us on that,
+00:57:27 Speaker 6 
+Yeah, no problem. Did they ever uh figure out access, so we can get so you can make those? So it's not always coming back to me.
+00:57:35 Speaker 8 
+No, I am pushing them on that because I said, that's you know, essentially told him Eric did that as a favor, right? And we got it done. It's it's your to do. It's not Eric'. So okay. So that's the only thing I want to share.
+00:57:53 Speaker 2 
+High level, where are we at with HCA? There was that issue going on with did that get resolved?
+00:58:01 Speaker 8 
+We got off pause because we got a waiver. That's why we opened.
+00:58:06 Speaker 2 
+Up that waiver,
+00:58:08 Speaker 8 
+And that's why they opened up the attack case. So, we just have to follow that. Keep tracking it next. Follow up on that for the legal team would be in May. About the progressing and how it's going to get sorted out, whether it's a bug or a feature fix that's got to get done, so there is you know that's got to be just chased down. But essentially, when I spoke to Jackie about this, She's like that. It's important, but it's not a showstopper here because the competitors at and T and T Mobile. They're not doing this ;. We're ahead of them.
+00:58:47 Speaker 8 
+In chasing this down, so she said," you know we'll chase it, But it's not you know at the level that you know we're going to stop any kind of work." Right.
+00:59:05 Speaker 6 
+Well, I mean, granted legal signs off on that right That's a legal decision. Not Jackie.
+00:59:09 Speaker 8 
+Yeah, it's just legal. They gave us the waiver; we gave them, so essentially they gave us the waiver.
+00:59:15 Speaker 6 
+No no no I don't understand.
+00:59:17 Speaker 8 
+Yeah, but so that everybody understands, the comment to them was," it could be two years." And they said," even at that knowing it's two years," they still said okay. Why? As long as Verizon's showing effort to solve it, that's fine; that meets the requirements.
+00:59:39 Speaker 6 
+No, no, I get it. I am just saying like it is be careful there drone because Jackie likes to use a lot of false equivalences. Especially when it comes to the other carriers, other carriers have not implemented the same way we have. We have our systems are not set up the way their systems are, right? So we have different sets of requirements. So her saying, "Oh, eighteen T and T Mobile doesn't do this, " doesn't really matter because the way we're doing it is not the way they're doing it. Right? We're doing something a little bit different, which is unfortunate but that's just the nature of spending.
+01:00:14 Speaker 6 
+Stupid amount of money to make changes on our side. I think that's where we got to kind of be careful. The products keep pushing us to do these things, but at the end of the day, we're working with existing infrastructure that was designed and it operates a certain way. And if they want to make changes, then they can start putting the bill to make those changes come up.
+01:00:32 Speaker 8 
+Yep, yep.
+01:00:35 Speaker 8 
+But I am tracking it with her because I just don't want us to get stuck, right? Hey, I want Lee; I asked her specifically. Hey, stay in touch with legal. If there is anything you need from us, I am tracking it. I am going to continue to mark the dates that we speak about it so that they know we're doing what we need to do to keep record and keep pushing. That's it for me, Naja. Thanks,
+01:01:07 Speaker 2 
+Sean. I think I put Sid and Abby to sleep. Um, you guys good? Anything anything to bring up? I know we're all work. Otherwise, we can wrap up.
+01:01:21 Speaker 7 
+I'm good. I have some issues with the Meta Mocon sites, so I'm just talking to them carefully. Crypto runs. So Quadra needs to go on site again for the email. And this thing. Um, hopefully this month I can bring up three sites and hopefully everything goes well. Andum, I'm just uh trying to follow up with the, One of the conditions, with the NAs, Most of them are not aware of it and trying to figure out the track for these days of the team and bring it down into the project. So we're working on that. Only one of the conversion projects and out of five Apple sites that were down, like I was able to bring up all the four sites. One site was still pending. So, New NA took in charge of that site. So I'm still working with him. So hopefully, we can bring that site also online.
+01:02:10 Speaker 2 
+The threeum, Meta size as I think it should be good to include that in our update next week, right? With the team like it's coming up.
+01:02:18 Speaker 7 
+Yeah, I I hope it can come on that uh this month. Yeah.
+01:02:22 Speaker 4 
+Yeah, we have a slide uh for meta. Okay yeah So Abhi usually she updates that slide like so she updates the snap one of conversion. And then the the meta slides right kind of yes, And. Then and then yeah, you can add those. You can add a note in in the slide. I'll be. Yeah, okay. All right, thank you. Is that you, Henry? I'm good. I have to actually jump on another call. Soum all right,
+01:02:55 Speaker 2 
+Well, yep we can. We can wrap up here. Thank you, everyone, thanks, yep.
+01:03:01 Speaker 7 
+Thank you, Thanks.
