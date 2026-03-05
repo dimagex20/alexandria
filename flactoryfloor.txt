@@ -1,0 +1,261 @@
+Factory floor 
+
+
+00:00:35 Speaker 1 
+Hello. 
+00:00:39 geraldgale 
+Hi, Richard.
+00:00:40 Speaker 3 
+How are you. 
+00:00:42 geraldgale 
+Pretty good.
+00:00:46 Speaker 3 
+Okay, so you need Canvas.
+00:00:50 geraldgale 
+Yeah, I think there's a couple things going on here. Um... Okay, so... So, yeah, first things first, I have the access, and now I'm going through the tables. It looks like, so the jobs that are running is updating four database tables, and three of them look like they're working except for one. I think the one that's not working is the one that's affecting you. The problem is I really don't know a lot about, well, I don't know anything about Canvas, to be honest.
+00:01:25 geraldgale 
+This is the first week I've heard of it. The second thing is I don't, yeah, and keep in mind, like, so here's the history about my background. So I was hired as a software engineer to develop VPT in the IBV PMO tools. The budget for that got scrapped, but I did a really good job, and so when Jing got laid off, I had his position. So I kind of developed more and more responsibilities. Now that Sanjay's gone, I'm now taking the place of both him and Jing. So the issue here is that I can work and fix these issues. I just don't understand the business side as well as most people here.
+00:02:13 geraldgale 
+So I don't understand the data flows. I don't understand the different divisions within Verizon that you were working with Sanjay for moving data or how it affects what you and your team are doing. It looks like there's a lot of people that are dependent on this. So it needs to be fixed correctly and quickly. So I'm very aware of that. The problem is there's just a knowledge gap. Hopefully we can correct that right here.
+00:02:45 geraldgale 
+So I don't know what Canvas is. A, B, I don't know, I guess I don't really understand the data you're trying to see in the factory floor. I know you showed it to me, but now that I have some context and I at least was aware to see how all this is going in the last week, maybe I can see it again so we can kind of understand. I'm trying to understand the source of this. Okay, so we have Canvas.
+00:03:16 geraldgale 
+All right.
+00:03:18 Speaker 3 
+Okay, so this is Canvas. Okay. And what I have is right here, INBLD2. This is where I pull from.
+00:03:31 geraldgale 
+In Building 2, okay.
+00:03:33 Speaker 3 
+Correct. Now, when I pull this, all I do is I type the in-building number. And it comes up with what I need in terms of the site being there. It'll tell me what step it's in. So if I want to see in that, let's say, the order and install bubble on the factory floor, I'll type in the search bar here, order and install.
+00:04:06 Speaker 3 
+And it'll pull up all sites that are in order and install step. And that is what I did today. And I exported it. I filtered through it. And just went from the date of, it gives you a crap ton more information. I just limited it down. But I went from the creation date of 11-4.
+00:04:43 Speaker 3 
+Because it went down on 11.21, so from 11.21 until today's date, we had no idea that these sites moved into order install unless one of the sales people told us. But I just scrubbed mine. I had five sites that didn't go anywhere for up to a month.
+00:05:12 Speaker 1 
+Yeah.
+00:05:12 Speaker 3 
+And then the other PMs, there's two more PMs, and this is what we heavily rely on, to notify us that, hey, these are moving. They're going to be scrubbing their sites to see if they ever got moved.
+00:05:30 Speaker 1 
+Okay. Sure.
+00:05:35 Speaker 3 
+That's how I pull that information out, but I can go to, I know that there's another bubble that, let me go to the factory floor, maybe this can give you some insight.
+00:05:50 geraldgale 
+Yes, this would be very helpful, because I see updated 11-21-25, which would have been when it failed. If you click refresh on the factory floor, what happens, because I saw it say it was updated. So, if you're on the, so what happens here, so it says it's updated, but then I did check and I see that the history date didn't change, and then I don't know what's failing afterwards.
+00:06:18 Speaker 3 
+So, you click refresh, it says it updated 11-21-25, and 12 OPs the last time.
+00:06:26 geraldgale 
+Yeah, hold on, I appreciate it. So, can you hit control shift R, because that's not the behavior I'm seeing. When I hit refresh, I get 1, 29, 20, 26.
+00:06:41 Speaker 3 
+Okay, I think I might have an idea.
+00:06:44 geraldgale 
+Okay.
+00:06:45 Speaker 3 
+And this is also what I wanted to explain. See this address up here. 
+00:06:48 geraldgale 
+Yes, it's on the third one, the third server, 3.
+00:06:52 Speaker 3 
+Right, but if you go to 2, this one says it updated.
+00:07:00 geraldgale 
+Correct. So that's unfortunate because you have two different applications on two different servers you have to maintain.
+00:07:07 Speaker 3 
+Which is very weird, but if I actually go into any of these bubbles, it's not updated.
+00:07:17 geraldgale 
+Okay, so that's interesting. That's a huge, well, this is a huge help. I was wondering about that because there were two different databases getting populated. One was the 3 and one was the other one. The funny thing is this 2, that 2 server, is not where the data is located. It's actually located at 1. 2 is just the application layer that lets you see it. And it looks like this 3V might have been an old one. So this is some of the history I don't understand.
+00:07:49 geraldgale 
+Regardless. Okay, so the server 2...
+00:07:53 Speaker 3 
+Give me one second. I'm sorry. Sorry. Hold on.
+00:07:55 geraldgale 
+Okay.
+00:08:06 Speaker 1 
+Sorry about that.
+00:08:07 geraldgale 
+No, it's fine.
+00:08:17 Speaker 3 
+There's some black. Wow. Okay. We're good.
+00:08:23 geraldgale 
+Okay, so we're at server 2. So I'll just reference them as server 2 versus server 3. So when Gene was here, do you, maybe you didn't even notice, but do you remember if you were using exclusively server 2 or server 3? I know that's hard to remember.
+00:08:37 Speaker 3 
+3.
+00:08:38 geraldgale 
+Okay, so you've always been using server 3.
+00:08:41 Speaker 3 
+I've always been using server 3.
+00:08:44 geraldgale 
+Do you know why? Was it just because that was the link you saved and it was just in your resets. 
+00:08:50 Speaker 3 
+It's what was given to me.
+00:08:51 geraldgale 
+Okay, and so you never really used server 2 then. 
+00:08:56 Speaker 3 
+Nope.
+00:08:57 geraldgale 
+Okay, and then, but you're, so right now I see server 2 says it's updated, but what's the problem with server 2. 
+00:09:07 Speaker 3 
+Okay, let me go, okay, if this is server 2, if I go into, let's say, order install, yeah? Yeah. All these jobs, see how it's been sitting in 49 days. 
+00:09:26 geraldgale 
+Yeah.
+00:09:28 Speaker 3 
+Okay. Now, I did that poll from Canvas. Here's Kaiser. This is where it stopped. All these should have been populated in there.
+00:09:39 Speaker 1 
+Sure.
+00:09:42 Speaker 3 
+So even though it says it's updated, it ain't.
+00:09:44 geraldgale 
+It's not. Yeah. No, I get it. So, yeah. Okay. Well, so I'll just keep listening and keep learning. Now, there's a lot of bubbles here. I'll just call them bubbles. Sure. Do you use all of them? Do you use a specific one? Are some of them working? Are some of them not working. 
+00:10:06 Speaker 3 
+So let's say, for example, existing solutions check.
+00:10:10 Speaker 1 
+Okay, yeah.
+00:10:10 Speaker 3 
+Third bubble. Yeah. Right there. If you go into Canvas and you just type existing solution. Mm-hmm. This is how many sites are in there right now.
+00:10:24 geraldgale 
+And the dates are correct here. 
+00:10:29 Speaker 3 
+In terms of what dates.
+00:10:32 geraldgale 
+So sites that are past 11-20. So you had that Excel sheet that had sites that you weren't aware of.
+00:10:42 Speaker 3 
+This existing solution is different. So if we go, we're server 2. Okay, so this says it's updated. If we go into existing solution, it shows 7.
+00:10:59 geraldgale 
+Yeah.
+00:11:01 Speaker 3 
+And if we cross-reference it.
+00:11:06 geraldgale 
+That's wrong because the date's all crap. It stops at 11-20.
+00:11:10 Speaker 3 
+Right, right. So nothing.
+00:11:14 geraldgale 
+Okay.
+00:11:14 Speaker 3 
+All right, hold on one second. Hold on. Alright, so yes, all these have a very specific place, so order and install pulls from the order and install sort.
+00:11:44 Speaker 3 
+This project plan, I'm not sure exactly where that pulls from. I know it pulls from Canvas, so this one's 51 days past. So, it's hard to say where, but I mostly use the order and install tab and the project plan tab.
+00:12:16 geraldgale 
+Okay, so that makes sense. So, my understanding is, is Canvas the source of truth? Like, is Canvas the originator of the data. 
+00:12:30 Speaker 3 
+As far as I know, yes.
+00:12:34 geraldgale 
+Okay. So then my question is, so you said yesterday that, I'm just trying to hear what you mentioned about what Sanjay was saying. So I asked, I'm reviewing this, do you know what team was feeding data into the Google Cloud? And then you were saying it used to be Sanjay. So my concern is, was Sanjay grabbing data from Canvas to load it into Google Cloud to load it into here?
+00:13:06 geraldgale 
+Do you know if he said anything about that. 
+00:13:08 Speaker 3 
+No, we have no idea how it worked. Sanjay built it, and he was supposed to teach, what's his name, how to do it. Now, I don't know if Sanjay...
+00:13:25 geraldgale 
+Oh, he's very gone. I don't know who he is. Yeah, he's very gone, unfortunately. I liked him. I worked with him. He texted me November 23rd. He got laid off. He was quickly laid off. It was unfortunate. So that's why this is.
+00:13:42 Speaker 3 
+Was he a contractor. 
+00:13:44 geraldgale 
+No, he was salaried. I think he worked here for like close to 10 years.
+00:13:47 Speaker 3 
+And they, well, so a lot of people are still on payroll.
+00:13:54 geraldgale 
+Well, he asked me for a recruiter personally because it seemed like he got hit pretty hard. So I wouldn't, based on what he communicated to me, I wouldn't assume he was still collecting a check. It looked like he really needed a job.
+00:14:12 Speaker 3 
+Wow.
+00:14:14 geraldgale 
+Which is unfortunate. It's a shame. You know.
+00:14:19 Speaker 3 
+Because he, yeah, he was supposed to show. The guy you work for, I forget his name.
+00:14:25 geraldgale 
+Jing.
+00:14:28 Speaker 3 
+He was supposed to show him how this gets updated.
+00:14:32 geraldgale 
+Okay. So that's what I've been pouring over the last three days. The issue is that the server is failing. And so the, now I can fix it, but the issue, so I was able to get access to the data. The problem is that the entire server, so when you see server two and server three, all of the applications were running on his user account on the server.
+00:14:58 Speaker 3 
+Oh, so.
+00:15:01 geraldgale 
+That's what I learned this week. So it wasn't just that he was grabbing the data from the Google Cloud. The applications were running from his server, his user account on the server. Like, it's supposed to be a general production user account, but it's not. The files were being written and stored under his user account, which I don't really have access to. So I have to slowly fix it and convert my account on the server to let these... Anyways, so it wasn't just this data source, it's also the permissioning of the server.
+00:15:34 geraldgale 
+So where this is going is, I'm quickly trying to work on this all day long, every day, until everything's fixed. My question is, if Canvas has the correct data, are you only using this because it's convenient compared to having to manually search through Canvas? Like, was this tool kind of... More of a dashboard that shows the flow state and is easy for everyone to read and understand and quickly go into the different bubbles versus using Canvas. 
+00:16:10 Speaker 3 
+Yes and no, because when we do these bubbles and pull the data, so if I go down here and see all in-building projects, when I click on that, it pulls up this whole spreadsheet, and it gives us the FUSE IDs as well. We cannot get those from Canvas, so this has to pull from FUSE too.
+00:16:42 geraldgale 
+Yeah, I see. That's okay. Because I'm looking at the script right now that literally does that, and it looks like it's getting FUSE data, which is partly what you need. So you're getting data from Canvas and Fuse and then joining them, which is giving you a good overview.
+00:17:05 Speaker 3 
+Correct, and this auto-populates who the project manager is, who the construction, and this gives us all the information. So when we award these jobs and we put in our forecast dates and everything like that, well, let me ask you this, since you're good at scripting and I have no idea. Right. This was made for me. Okay. I have no clue about it.
+00:17:32 geraldgale 
+Right.
+00:17:34 Speaker 3 
+All I have to do is take, let me, not this one, let me do this. I'll pull up this project plan, and if I see a site. Let's say this site right here just came in. I highlight all this. All I do is copy.
+00:18:05 Speaker 3 
+I will put it here. I will put it in my date calculator. I'll do this, come down, and bam, all my dates are automatically done.
+00:18:21 geraldgale 
+That's pretty handy. Now, was this an Excel sheet that he gave you to be able to do this, or did you work on this or build it for yourself. 
+00:18:29 Speaker 3 
+This was given to me. So how any of this works, I don't have a clue. But we also have another sheet that we use. When we do our order install stuff, every morning, anything that's in color down here,
+00:19:04 Speaker 3 
+I download from Canvas. There's links here. I'll download from Canvas and views, and it'll update all this so I can populate. All I do is I put the SPM number in here. Everything auto, all the dates auto adjust. Everything does that. When it comes to the factory floor, it's important because we are in here every morning.
+00:19:40 geraldgale 
+Yeah, you mentioned that last time.
+00:19:42 Speaker 3 
+In the project plan, into the order install bubble. We are in these bubbles. We are pulling data. This is how we get our sites. Yep.
+00:19:55 geraldgale 
+Okay. And then, so a quick question. Do you ever use FUSE for that FUSE information, or have you ever. 
+00:20:03 Speaker 3 
+Oh, yeah.
+00:20:04 geraldgale 
+Okay, so technically speaking, okay, so you're in it constantly, good. Okay. Because my question is, if you're in that table from a bubble in the factory floor, you said that you use data from Canvas, and it auto-joins data from FUSE. Let's say, worst case for today, if you have to use Canvas and FUSE at the same time, and not use the factory floor, do you have all the data you need? If we remove the factory...
+00:20:38 Speaker 3 
+This morning, yes. I now have a way to pull the information as to where before we didn't. So I can do it manually. Right. But as you say, it just takes, I mean, I've spent probably two hours pulling stuff, updating stuff, manually entering dates, all this I had to enter this morning.
+00:21:07 geraldgale 
+I see. Okay. Well, I understand that. So I would say this, for right now, because money has to be moved and projects have to get going, people have things that they need to get done, as of right now, you cannot be dependent on this for our application. Right. There's a linchpin somewhere in the code that I'm trying to find, and there may be two or three of them where it's broken, and I'm trying to pull those linchpins and get it to work. I got two or three pulled, but it looks like there's, obviously it's still a problem, so.
+00:21:41 geraldgale 
+that means there's a couple more. So for next week, I know it might be painful and it will cost you hours, but if you can ... Use Canvas and Fuse only for all of next week. That would be helpful for me. And I will work as hard as I can so that hopefully by this time on Friday, next week, I get it fixed. Do you? So.
+00:22:06 Speaker 3 
+Understood.
+00:22:07 geraldgale 
+And then the other thing I was...
+00:22:08 Speaker 3 
+I appreciate your help.
+00:22:09 geraldgale 
+Yeah, no problem. The other thing I would say is, longer term, going forward, I would rather... So when it comes to the script that you showed on Excel, I'd rather build that feature into the floor, factory floor user interface, which I can do. Because I can't be aware of someone else's Excel spreadsheet locked down on their computer.
+00:22:35 Speaker 3 
+Right.
+00:22:36 geraldgale 
+So if there's a manual process of any kind that's on someone's Excel sheet on a laptop anywhere in the country, obviously I'll never know it exists. I'll never... So it looks like the Excel tool and the Google Sheets tool was helpful at the time that he helped you. For me going forward, I'll only be using the Factory Floor user interface on the website for everything. So I'll never be able to help you on the Google Sheets,
+00:23:06 geraldgale 
+and I'll actually defer making changes to it because it's a manual process that I don't have access to.
+00:23:15 Speaker 3 
+Which is fine. We're more worried about getting this updated so we know that jobs come in, what step they're at. And this gives us a good idea as it's project management stages. Like, hey, this is 36 days past with 54 sites. What the hell's going on? We're only supposed to get 15 days tops.
+00:23:42 Speaker 1 
+Right.
+00:23:44 Speaker 3 
+But I do have a question. You said a term. You said the term squared away. Were you in the military. 
+00:23:52 geraldgale 
+No, I have a buzzed head. I probably should have been. No, I guess the only thing is that I did get my pilot's license at the Albuquerque Kirkland Air Force Base. So that's my only, that's the only, so I looked into becoming a pilot before I got into software when I was in my early 20s. So that's the only thing that I can say where I would have picked that up. I'm a civilian though.
+00:24:19 Speaker 3 
+No, I, a lot of people don't use the term squared away. I heard it and I go, whoa, flashbacks.
+00:24:27 geraldgale 
+So you're, which branch. 
+00:24:30 Speaker 3 
+I was in the Army.
+00:24:32 geraldgale 
+Oh, cool. Cool. So was my uncle. That's great.
+00:24:36 Speaker 3 
+Yeah, I did four years.
+00:24:40 geraldgale 
+Wow. Wow. Great.
+00:24:43 Speaker 3 
+Excellent, but yeah, all right, so hopefully that helps of what we specifically do and need.
+00:24:53 geraldgale 
+But this is tremendously helpful Richard. Thank you so much. Yeah, I didn't I know about any of this stuff.
+00:25:01 Speaker 3 
+Yeah, I don't have it. I can build a computer, but when it comes to software I give you props man.
+00:25:09 geraldgale 
+Good for you. Well, thanks. I you know, it's something that I like, You know everyone has their own interests and ability for me, Software is funny because it is very real but it is also very it's all virtual So you don't you don't get your hands dirty. You can't physically touch it. It's all a memory It's just a little computer chip and it's all virtual. So. Gotcha. Yeah, that's anyways.
+00:25:39 Speaker 3 
+All right. Thank you very much. Appreciate it.
+00:26:11 geraldgale 
+Thank you. I just don't know.
+00:26:33 Speaker 3 
+Good luck, man. I appreciate it.
+00:26:35 geraldgale 
+Okay. Well, great. Have a good weekend. I'll stay in touch.
+00:26:38 Speaker 3 
+You too.
+00:26:38 geraldgale 
+Okay. Bye.
+00:28:27 Speaker 1 
+Thank you.
